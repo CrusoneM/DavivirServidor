@@ -1,0 +1,267 @@
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    @media only screen and (min-width : 576px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        
+    }
+    @media only screen and (min-width : 1750px) {
+
+    }
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 2000px) {
+
+    }
+    @media only screen and (max-width : 1600px) {
+        #header-text {
+            margin: 53vh 1vw 0 0;
+        }
+    }
+    @media only screen and (max-width : 1300px) {
+
+    }
+    @media only screen and (max-width : 1200px) {
+
+    }
+    @media only screen and (max-width : 1080px) {
+        #header-info {
+            min-height: 77vh;
+        }
+        #header-text {
+            margin: 35vh 0vw 0 0;
+        }
+
+        #models-section > .swiper-container > .swiper-wrapper > .swiper-slide {
+            width: 32vw !important;
+            min-height: 71vh;
+        }
+
+        #catalogo-section > div > #nuevo-desarrollo > .btn-custom {
+            margin: 13vh 1vw 1vh;
+        }
+
+        #otros-section > div > div > div#otros-text {
+            margin: 10vh 0vw 0 0;
+        }
+
+    }
+    @media only screen and (max-width : 1024px) {
+        nav ul a {
+            font-size: 1.2vw;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+
+    }
+    @media only screen and (max-width : 576px) {
+        /*== header ==*/
+        #header-info {
+            min-height: 27vh;
+        }
+        #header-text{
+            display: none;
+        }
+        #header-text-mobile{
+            display: inherit;
+        }
+        /*== /header ==*/
+        /*== Main ==*/
+        .swiper-container{
+            display: none;
+        }
+        .swiper-container-mobile{
+            display: inherit;
+        }
+
+        #catalogo-section > div > #nuevo-desarrollo {
+            text-align: center;
+            padding: 1vh 8vw;
+            height: inherit;
+            min-height: 95vh;
+        }
+        #catalogo-section > div > #nuevo-desarrollo > p {
+            font-size: 3.3vw;
+        }
+        #catalogo-section > div > #nuevo-desarrollo > .btn-custom {
+            margin: 5vh auto 1vh;
+            width: 40vw;
+            display: block;
+        }
+        #catalogo-section > div > #catalogo-form > h4 {
+            font-size: 5vw;
+        }
+        #catalogo-section > div > #catalogo-form {
+            padding: 1vh 10vw;
+            height: 86vh;
+        }
+        #catalogo-section > div > #catalogo-form > form > textarea, #catalogo-section > div > #catalogo-form > form > input {
+            width: 97%;
+            height: 7vh;
+            font-size: 3vw;
+            margin: 1vh 0;
+        }
+        #catalogo-section > div > #catalogo-form > form > textarea#comment {
+            width: 100%;
+        }
+        #catalogo-section > div > #catalogo-form > form > button {
+            font-size: 3vw;
+            width: 45vw;
+        }
+        #beneficios-section > p {
+            font-size: 4vw;
+        }
+        .beneficio-text{
+            width: 65vw;
+        }
+
+        #equipo-section > h4 {
+             margin-bottom: 0; 
+        }
+        #equipo-section > div > div > div.description-equipo{
+            text-align: center;
+        }
+        #equipo-section > div > div > div.imagen-equipo{
+            margin-top: 10vh;
+        }
+        #equipo-section > div > div > div.imagen-equipo > img {
+            width: 60vw;
+        }
+        #equipo-section > div > div > div.description-equipo > h6 {
+            font-size: 5vw;
+        }
+        #equipo-section > div > div > div.description-equipo > p{
+            font-size: 4vw;
+        }
+        #equipo-section > div > div > div.description-equipo > p.equipo-horario {
+            font-size: 4vw;
+        }
+        #equipo-section > div > div > div.description-equipo > .equipo-iconos > img {
+            width: 11vw;
+        }
+
+        #map-section > p {
+            font-size: 3.5vw;
+        }
+        #map-section > a.btn-custom {
+            margin: 4vh auto;
+            display: block;
+            width: 62vw;
+            font-size: 3vw;
+        }
+        #map-section > a.btn-custom > i {
+            font-size: 4vw;
+        }
+
+        .otros-section{
+            display: none;
+        }
+        .otros-section-mobile{
+            display: inherit;
+        }
+
+        #catalogo-footer {
+            min-height: 83vh;
+            text-align: center;
+            padding: 1vh 5vw;
+        }
+        #catalogo-footer > div > #catalogo-form-footer > h4 {
+            font-size: 5vw;
+        }
+        #catalogo-footer > div > #catalogo-form-footer > form > textarea, #catalogo-footer > div > #catalogo-form-footer > form > input{
+            width: 97%;
+            height: 7vh;
+            font-size: 3vw;
+            margin: 1vh 0;
+        }
+        #catalogo-footer > div > #catalogo-form-footer > form > textarea#comment {
+            width: 100%;
+        }
+        #catalogo-footer > div > #catalogo-form-footer > form > button {
+            font-size: 3vw;
+            width: 45vw;
+        }
+        /*== /Main ==*/
+        /*== Footer ==*/
+        footer{
+            line-height: 6vh;
+        }
+        footer > div > p {
+            font-size: 2.5vw;
+        }
+        footer > div > a > img {
+            right: 51vw;
+        }
+        /*== /Footer ==*/
+
+        /*== Models ==*/
+        .carousel .carousel-item {
+            width: 80vw;
+        }
+        #models-divider {
+            height: 0.3vh;
+            margin: 6vh auto 13vh;
+        }
+        #models-section-models > h3 {
+            font-size: 8vw;
+            margin-bottom: 6vh;
+        }
+        #models-section-models > p {
+            font-size: 4vw;
+            padding: 0 11vw;
+        }
+        #models-section-models > div.row {
+            width: 100%;
+            margin-top: 5vh;
+        }
+        #models-section-models > div.row p {
+            font-size: 6vw;
+        }
+
+        #mas-section > .mas-modelo {
+            width: 81vw !important;
+            min-height: 74vh;
+        }
+        #mas-section > .mas-modelo > div.models-slide-text {
+            padding: 0 3vw 4vh;
+        }
+        /*== /Models ==*/
+    }
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+
