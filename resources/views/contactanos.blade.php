@@ -215,7 +215,17 @@
     					<div class="col-md-12" style="padding: 10px 15px">
       						<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Mensaje"></textarea>
     					</div>
-				
+						
+
+						<div class="col-md-12  text-right nopadding" >
+							<div class="form-check nopadding">
+								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
+									<strong >Acepto</strong> 
+									<a href="aviso"> <strong class="text-yellow">términos y condiciones</strong> </a>
+								</label>
+								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
+							</div>
+						</div>
 						<div class="col-md-12  text-center text-md-right" style="padding-top: 30px" >
 							<a href="#" style="color: red;padding: 0% 80px" class="button button-3d button-rounded  button-yellow button-light"><p class="weight-bold">Enviar</p></a>
 						</div>
@@ -239,7 +249,7 @@
 					<div class="col-lg-7 text-center row text-fb" style="">
 						<div class="col-1 offset-4" style="padding-left: 25px;">
 							
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px; float: right; background-color: #255393!important;z-index: 5">
+									<a href="https://www.facebook.com/davivir" target="_blank" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px; float: right; background-color: #255393!important;z-index: 5">
 										<i class="icon-facebook"></i>
 										<i class="icon-facebook"></i>
 									</a>

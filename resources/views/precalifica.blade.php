@@ -14,7 +14,7 @@
 								
 							</div>
 							<div class="text-center" style="bottom: 20px; position: absolute; width: 100%;">
-							<h1 class="nomargin" style="color: white; ">CONTÁCTANOS</h1>
+							<h1 class="nomargin" style="color: white; ">PRECALIFICA</h1>
 							</div>
 						</div>
 					</div>
@@ -27,7 +27,7 @@
 			<div id="header-mobil" class="header-mobil-precalificate">			
 				<div class="col-12  text-center porque-mobil">	
 					<div class="col-10 offset-1  ">
-						<h1 class="nomargin" style="color: white; ">CONTÁCTANOS</h1>
+						<h1 class="nomargin" style="color: white; ">PRECALIFICA</h1>
 					</div>
 				</div>
 			</div>
@@ -138,7 +138,7 @@ http://www.shf.gob.mx/buscocredito/Paginas/home.aspx" target="_blank"><img src="
 									<h4 class="nomargin weight-light">Construcción desde: 51.49 m2</h4>
 									<h4 class="weight-light bottommargin-sm">Precio desde: $453,000.00</h4>
 								<div class="col-12 text-center btn-residence">
-									<a href="/davivir-desarrollo-sanpatricio">
+									<a href="desarrollo/montecarlo">
 										<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
 									</a>
 								</div>
@@ -161,7 +161,9 @@ http://www.shf.gob.mx/buscocredito/Paginas/home.aspx" target="_blank"><img src="
 									<h4 class="nomargin weight-light">Construcción desde: 81.47 m2</h4>
 									<h4 class="weight-light bottommargin-sm">Precio desde: $723.160.00</h4>
 								<div class="col-12 text-center btn-residence">
-									<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
+									<a href="desarrollo/montecarlo">
+										<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
+									</a>
 								</div>
 
 								</div>
@@ -175,7 +177,7 @@ http://www.shf.gob.mx/buscocredito/Paginas/home.aspx" target="_blank"><img src="
 								</div>
 								<div class="col-12 text-left topmargin-sm">
 									<h3 class="text-red">JARDINES DE MONTEBELLO</h3>
-									<h4 class="nomargin weight-light">Aguascalientes  – Aguascalientes</h4>
+									<h4 class="nomargin weight-light">Aguascalientes – Aguascalientes</h4>
 									<h4 class="nomargin weight-light">Ubicado en: El norte de la ciudad</h4>
 									<h4 class="nomargin weight-light">Modelos: 2</h4>
 									<h4 class="nomargin weight-light">Terreno desde: 67.50 m2</h4>
@@ -183,7 +185,7 @@ http://www.shf.gob.mx/buscocredito/Paginas/home.aspx" target="_blank"><img src="
 									<h4 class="weight-light bottommargin-sm">Precio desde: $585.000.00</h4>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="/davivir-desarrollo-sanpatricio">
+									<a href="desarrollo/montecarlo">
 										<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
 									</a>
 								</div>
@@ -222,7 +224,7 @@ http://www.shf.gob.mx/buscocredito/Paginas/home.aspx" target="_blank"><img src="
 							<div class="form-check nopadding">
 								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
 									<strong >Acepto</strong> 
-									<a href=""> <strong class="text-yellow">términos y condiciones</strong> </a>
+									<a href="aviso"> <strong class="text-yellow">términos y condiciones</strong> </a>
 								</label>
 								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
 							</div>

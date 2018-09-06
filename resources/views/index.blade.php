@@ -176,7 +176,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-							<a href="davivir-desarrollo-sanpatricio.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo/montecarlo"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -249,7 +249,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-right	 btn-desarrollo">
-							<a href="davivir-desarrollo-sanpatricio.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo/montecarlo"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -321,13 +321,13 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-						<a href="davivir-desarrollo-sanpatricio.html">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+						<a href="desarrollo/montecarlo">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
 
 				<div class="col-12 text-center" style="padding-top: 25px;">
-					<a href="davivir-desarrollo-sanpatricio.html" style="color: red;padding:5px 3%;; height: 50px" class="button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
+					<a href="desarrollo/montecarlo" style="color: red;padding:5px 3%;; height: 50px" class="button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
 				</div>
 		</div>
 
@@ -357,7 +357,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
+									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -379,7 +379,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
+									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -400,7 +400,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button>
+									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -636,7 +636,7 @@
 							<div class="form-check nopadding">
 								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
 									<strong >Acepto</strong> 
-									<a href="davivir-aviso.html" target="_blank"> <strong class="text-yellow">AVISO PRIVACIDAD</strong> </a>
+									<a href="aviso" target="_blank"> <strong class="text-yellow">AVISO PRIVACIDAD</strong> </a>
 								</label>
 								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
 							</div>

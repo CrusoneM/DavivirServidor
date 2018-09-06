@@ -24,7 +24,7 @@
 						<i class="icon-facebook" style="color: #ed3529!important"></i>
 						<i class="icon-facebook" style="color: #ed3529!important"></i>
 					</a>
-								<p style="min-width: 360px; margin-top: 3px"><a class="color-white" href="davivir-aviso.html">	|  Aviso de privacidad </a>| DAVIVIR 2018 México</p></a>
+								<p style="min-width: 360px; margin-top: 3px"><a class="color-white" href="aviso">	|  Aviso de privacidad </a>| DAVIVIR 2018 México</p></a>
 				</div>
 
 

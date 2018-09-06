@@ -144,7 +144,7 @@
 
 		
 			<div class=" text-center" style="min-height: 225; background-color: #ed3529; padding: 25px 0px">
-					<a href="davivir-porque.html"  style="color: red; padding: 0px 50px" class="button button-3d button-rounded  button-yellow button-light">¿POR QUÉ DAVIVIR?</a>
+					<a href="porque"  style="color: red; padding: 0px 50px" class="button button-3d button-rounded  button-yellow button-light">¿POR QUÉ DAVIVIR?</a>
 			</div>
 
 
@@ -226,7 +226,7 @@
 							<div class="form-check nopadding">
 								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
 									<strong >Acepto</strong> 
-									<a href=""> <strong class="text-yellow">términos y condiciones</strong> </a>
+									<a href="aviso"> <strong class="text-yellow">términos y condiciones</strong> </a>
 								</label>
 								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
 							</div>

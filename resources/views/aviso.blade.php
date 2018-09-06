@@ -506,13 +506,13 @@
 							<div class="form-check nopadding">
 								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
 									<strong >Acepto</strong> 
-									<a href=""> <strong class="text-yellow">términos y condiciones</strong> </a>
+									<a href="" class="gotoTop"> <strong class="text-yellow">términos y condiciones</strong> </a>
 								</label>
-								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
+								<input type="checkbox" required="" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
 							</div>
 						</div>
 						<div class="col-md-12  text-center" style="padding-top: 30px" >
-							<button type="button" class="btn button-yellow weight-bold text-red" style="padding: 15px 80px;">ENVIAR</button>
+							<button type="submit" class="btn button-yellow weight-bold text-red" style="padding: 15px 80px;">ENVIAR</button>
 						</div>
 				</div>
 			</div>

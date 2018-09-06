@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Nuestra Empresa')
+@section('title', '¿Por qué? DAVIVIR')
 @section('content')
 
 
@@ -149,7 +149,7 @@
 				</div>
 				<div class="col-lg-4 row testimonial-davivir">
 					<div class="col-4 bg-gray text-center" style="padding: 5%">
-						<img style="max-width: 75px" src="images/Jesús-Parra.png">
+						<img style="max-width: 75px" src="images/Jesus-Parra.png">
 					</div>
 					<div class="col-8 bg-gray" style="padding: 5%">
 						<p>“Lo mejor de Davivir no son solamente sus desarrollos, sino el capital humano con el que cuentan para acompañarte durante todo el proceso de una decisión tan importante, como lo es la compra de tu vivienda.”
@@ -161,7 +161,7 @@
 
 				<div class="col-lg-4 row testimonial-davivir">
 					<div class="col-4 bg-gray text-center" style="padding: 5%">
-						<img style="max-width: 75px" src="images/Mirlenis-Martínez.png">
+						<img style="max-width: 75px" src="images/Mirlenis-Martinez.png">
 					</div>
 					<div class="col-8 bg-gray" style="padding: 5%">
 						<p>“Los desarrollos de Davivir están realmente pensados para las familias, ya que cubren las necesidades específicas de cada caso.”
@@ -214,7 +214,7 @@
 							<div class="form-check nopadding">
 								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
 									<strong >Acepto</strong> 
-									<a href=""> <strong class="text-yellow">términos y condiciones</strong> </a>
+									<a href="aviso"> <strong class="text-yellow">términos y condiciones</strong> </a>
 								</label>
 								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
 							</div>
