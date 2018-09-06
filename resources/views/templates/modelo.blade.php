@@ -27,11 +27,11 @@
 			<div class="nav-wrapper">
 				<a href="/" class="brand-logo"><img src="/images/logo.png" alt="Logo"></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#">DESARROLLOS</a></li>
-					<li><a href="#">NUESTRA EMPRESA</a></li>
-					<li><a href="#">CONTÁCTANOS</a></li>
-					<li><a href="#">BLOG</a></li>
-					<li><a href="#" id="cotizaYa">COTIZA YA</a></li>
+					<li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+					<li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
+					<li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
+					<li><a href="{{ url('/blog') }}">BLOG</a></li>
+					<li><a href="{{ url('/contactanos') }}" id="cotizaYa">COTIZA YA</a></li>
 					<li><a href="#"><i class="fas fa-bars"></i></a></li>
 				</ul>
 			</div>

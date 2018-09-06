@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollo-sanpatricio/DSC_0152.jpg')
+@section('header-img', '/images/desarrollo-sanpatricio/DSC_0152.JPG')
 
 @section('header-title-img', '/images/Montecarlo.png')
 @section('header-title', 'MONTECARLO')
@@ -18,17 +18,17 @@
 {{-- Models Section --}}
 @section('models-slide')
 <div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/ESTADO-DE-MÉXICO---TECÁMAC-Montecarlo.jpg" alt="slide"></div>
+			      	<div><img src="/images/Slide-Montecarlo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: FORTEZZA</b></h5>
 			      		<p>Terreno desde:N/A m2</p>
 			      		<p>Construcción de:40.31 hasta 52.27 m2</p>
 			      		<p>Precio:$495.850.00</p>
 			      	</div>
-		      		<a href="#" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER DESARROLLO</a>
 			      </div>
 			      <div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/ESTADO-DE-MÉXICO---TECÁMAC-Montecarlo.jpg" alt="slide"></div>
+			      	<div><img src="/images/Slide-Montecarlo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO(PROXIMAMENTE)</b></h5>
 			      		<p>Terreno desde:N/A m2</p>

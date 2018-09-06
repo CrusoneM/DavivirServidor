@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/home.jpg')
+@section('header-img', '/images/Home.jpg')
 
 @section('header-title-img', '/images/Montecarlo.png')
 @section('header-title', 'MONTECARLO')
@@ -20,11 +20,11 @@ Desde <b>$467,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/modelos/fortezza/galeria-1.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/modelos/fortezza/galeria-2.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#four!"><img src="/images/modelos/fortezza/galeria-4.jpg"></a>
-			    <a class="carousel-item" href="#five!"><img src="/images/modelos/fortezza/galeria-5.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="/images/modelos/Fortezza/galeria-1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/Fortezza/galeria-2.jpg"></a>
+			    <a class="carousel-item" href="#three!"><img src="/images/modelos/Fortezza/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/Fortezza/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/Fortezza/galeria-5.jpg"></a>
 @endsection
 @section('models-descuento', '$45,000.00')
 @section('models-p1', 'Elegir un nuevo hogar nunca había sido tan sencillo! Con el modelo Fortezza tendrás cercanía a servicios, excelente ubicación con respecto a la ciudad de México y un precio muy accesible.')
@@ -47,13 +47,13 @@ Desde <b>$467,000.00*</b>
 {{-- /Catalogo Section --}}
 
 {{-- Plano Section --}}
-@section('plano', '/images/modelos/fortezza/PLANO-ARQUITECTÓNICO.jpg')
+@section('plano', '/images/modelos/Fortezza/plano.jpg')
 {{-- /Plano Section --}}
 
 {{-- Más Section --}}
 @section('video', 'https://www.youtube.com/embed/P-Rf1I9htJk')
 @section('mas-model')
-<div><img src="/images/ESTADO-DE-MÉXICO---TECÁMAC-Montecarlo.jpg" alt="slide"></div>
+<div><img src="/images/Slide-Montecarlo.jpg" alt="slide"></div>
 		      	<div class="models-slide-text">
 		      		<h5><b>MODELO: DAMASCO(PRÓXIMAMENTE)</b></h5>
 		      		<p>Terreno desde: 47.52 M2</p>
