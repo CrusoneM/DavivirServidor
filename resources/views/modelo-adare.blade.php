@@ -1,83 +1,6 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Davivir | Empresas</title>
-
-</head>
-
-<body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="full-header static-sticky">
-
-			<div id="header-wrap" style="background-color: #ed3529  ">
-
-				<div class="clearfix">
-
-					
-
-					<!-- Logo
-					============================================= -->
-					<div id="logo" style="height: 65px; margin: 0%30px">
-						<a href="davivir-home.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img style="max-width: : 45px;" src="images/logo.png" alt="Davivir Logo"></a>
-						<a href="davivir-home.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img style="max-width: : 45px;;" src="images/logo.png" alt="Davivir Logo"></a>
-					</div><!-- #logo end -->
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-
-						<ul>
-							<li><a class="weight-light" href="davivir-desarrollo-sanpatricio.html"><div>DESARROLLO</div></a></li>
-							<li><a class="weight-light" href="davivir-empresa.html"><div>NUESTRA EMPRESA</div></a></li>
-							<li><a class="weight-light" href="davivir-contactanos.html"><div>CONTÁCTANOS</div></a></li>
-							<li><a class="weight-light" href="davivir-blog.html"><div>BLOG</div></a></li>
-							<li><a style="border:1px solid" class="weight-light" href="davivir-contactanos.html"><div>COTIZA YA</div></a></li>
-					
-							
-						</ul>
-
-						<!-- Top Cart
-						============================================= -->
-
-
-						<!-- Top Search
-						============================================= -->
-
-					</nav><!-- #primary-menu end -->
-				</div>
-
-			</div>
-
-		</header><!-- #header end -->
-
+@extends('layouts.app')
+@section('title', 'Modelo-Adare')
+@section('content')
 		<section id="slider" class="full-screen clearfix slider-escritorio" style="height: 0px">
 
 			<div class="">
@@ -231,7 +154,7 @@
 
 					</div>
 					<div class="col-md-6 text-md-right text-center">
-						<a href="davivir-modelo-adare.html">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELOS</button></a>
+						<a href="modelo-adare">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELOS</button></a>
 					</div>	
 					<div class="col-md-6 text-md-left text-center">
 							<a href="davivir-contactanos.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">AGENDA TU VISITA</button></a>
@@ -427,7 +350,7 @@
 								<h6 class="nomargin">Construcción:  71.75 M2</h6>
 								<h6 class="nomargin">Precio: $574,500.00 *</h6>
 								<div class="col-12 text-center" style="position: absolute; top: 30">
-												<a href="davivir-modelo-adare.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
+												<a href="modelo-adare"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
 								</div>
 							</div>
 
@@ -447,7 +370,7 @@
 								<h6 class="nomargin">Construcción: 51.49 M2</h6>
 								<h6 class="nomargin">Precio: $490,000.00 *</h6>
 								<div class="col-12 text-center" style="position: absolute; top: 30">
-												<a href="davivir-modelo-adare.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
+												<a href="modelo-adare"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
 								</div>
 							</div>
 
@@ -467,7 +390,7 @@
 								<h6 class="nomargin">Construcción: 65.53 M2</h6>
 								<h6 class="nomargin">Precio: $545,000.00 *</h6>
 								<div class="col-12 text-center" style="position: absolute; top: 30">
-												<a href="davivir-modelo-adare.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
+												<a href="modelo-adare"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER MODELO</button></a>
 								</div>
 							</div>
 
@@ -492,7 +415,7 @@
 				<div class="col-lg-12 nomargin-mobile row  ">
 					<div class="col-lg-6 norightmargin nomargin-mobile topmargin-lg row">
 						<div class="col-lg-6 text-center">
-							<img style="max-width: 220px" src="images/RECEPCION.JPG">
+							<img style="max-width: 220px" src="images/RECEPCION.jpg">
 						</div>
 						<div class="col-lg-6 topmargin-lg-mobile text-center text-lg-left" style="position: relative;">
 							<div class="col-md-4 offset-md-4 col-lg-12 offset-lg-0 noleftpadding">
@@ -512,7 +435,7 @@
 
 					<div class="col-lg-6 norightmargin topmargin-lg nomargin-mobile row">
 						<div class="col-lg-6 text-center">
-							<img style="max-width: 220px" src="images/CALL-CENTER.JPG">
+							<img style="max-width: 220px" src="images/CALL-CENTER.jpg">
 						</div>
 						<div class="col-lg-6 topmargin-lg-mobile text-center text-lg-left" style="position: relative;">
 							<div class="col-md-4 offset-md-4 col-lg-12 offset-lg-0 noleftpadding">
@@ -606,7 +529,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-								<a href="davivir-desarrollo-sanpatricio.html"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+								<a href="desarrollo-sanpatricio"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -650,61 +573,4 @@
 			</div>
 		</section><!-- #content end -->
 
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" style="background-color: #ed3529; padding: 5px 30px 10px ">
-			
-
-			<div class="clearfix row" style="position: relative; padding: 10px 0px;">
-
-					<!-- Logo
-					============================================= -->
-				<div class="col-lg-2 text-center">
-						<a href="davivir-home.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img style="max-width: : 45px;" src="images/logo.png" alt="Davivir Logo"></a>
-				</div><!-- #logo end -->
-
-					
-				<div class="text-footer " style="color: white;padding-top: 13px; position: absolute; right: 25px; min-width: : 380px!important" >
-					<a href="https://www.facebook.com/davivir" target="_blank" class="social-icon si-yellow si-rounded si-facebook" style="margin: -5px 9px 2px 0;">
-						<i class="icon-facebook" style="color: #ed3529!important"></i>
-						<i class="icon-facebook" style="color: #ed3529!important"></i>
-					</a>
-								<p style="min-width: 360px; margin-top: 3px"><a class="color-white" href="aviso">	|  Aviso de privacidad </a>| DAVIVIR 2018 México</p></a>
-				</div>
-
-
-				<div class="col-lg-5 text-footer-movil" style="color: white; margin-top: 10px" >
-						<div class="col-12 text-center" style="padding-bottom: 10px">
-							<a href="#" class="text-center  si-yellow si-rounded logo-face si-facebook">
-								<i class="icon-facebook logo-face-i" style="color: #ed3529!important"></i>
-
-							</a>
-						</div>
-						<a href="aviso">
-						<div class="col-12 text-center" style="padding-bottom: 10px" >
-							|  Aviso de privacidad 
-						</div></a>
-						<div class="col-12 text-center">
-							| DAVIVIR 2018 México
-						</div>							
-				</div>
-			</div>
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- External JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-</body>
-</html>
+@endsection

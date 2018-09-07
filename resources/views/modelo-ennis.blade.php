@@ -480,7 +480,7 @@
 				<div class="col-lg-12 nomargin-mobile row  ">
 					<div class="col-lg-6 norightmargin nomargin-mobile topmargin-lg row">
 						<div class="col-lg-6 text-center">
-							<img style="max-width: 220px" src="images/RECEPCION.JPG">
+							<img style="max-width: 220px" src="images/RECEPCION.jpg">
 						</div>
 						<div class="col-lg-6 topmargin-lg-mobile text-center text-lg-left" style="position: relative;">
 							<div class="col-md-4 offset-md-4 col-lg-12 offset-lg-0 noleftpadding">
@@ -500,7 +500,7 @@
 
 					<div class="col-lg-6 norightmargin topmargin-lg nomargin-mobile row">
 						<div class="col-lg-6 text-center">
-							<img style="max-width: 220px" src="images/CALL-CENTER.JPG">
+							<img style="max-width: 220px" src="images/CALL-CENTER.jpg">
 						</div>
 						<div class="col-lg-6 topmargin-lg-mobile text-center text-lg-left" style="position: relative;">
 							<div class="col-md-4 offset-md-4 col-lg-12 offset-lg-0 noleftpadding">

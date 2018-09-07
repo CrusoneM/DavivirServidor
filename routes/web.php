@@ -71,42 +71,23 @@ Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
 Route::post('/busqueda',function(Request $request){
-
-    if (!empty($request->input('ciudad'))) {
-        $ciudad=$request->input('ciudad');
-    }
-    if (!empty($request->input('recamaras'))) {
-        $recamaras=$request->input('recamaras');
-    }
-
-    if (!empty($request->input('precios'))) {
-        $precios=explode("-",$request->input('precios'));
-    }
-     if (!empty($request->input('ingresos'))) {
-        $ingresos=explode("-",$request->input('ingresos'));
-    }
+    $ciudad=$request->input('ciudad');
+    $recamaras=$request->input('recamaras');
+    $precios=explode("-",$request->input('precios'));
+    $ingresos=explode("-",$request->input('ingresos'));
     
+
         $complejos = DB::table('complejos')
         ->select('complejos.precio','modelos.nombre as modelo')
-        ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo');
-        if(isset($ciudad)) {
-                $complejos = $complejos->where('id_ciudad','=',$ciudad);
-        };
-         if(isset($recamaras)) {
-                $complejos = $complejos->where('recamaras','=',$recamaras);
-        };
-        if(isset($precios)) {
-                $complejos = $complejos->where('precio','>=',$precios[0]);
-                $complejos = $complejos->where('precio','<=',$precios[1]);
-        };
-        if(isset($ingresos)) {
-                $complejos = $complejos->where('maximo','>=',$ingresos[0]);
-                $complejos = $complejos ->where('maximo','<=',$ingresos[1]);
-        };
-
-        $complejos = $complejos->orderBy('precio');
-        $complejos = $complejos->get();
-
+        ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo')
+        ->where('id_ciudad','=',$ciudad)
+        ->where('recamaras','=',$recamaras)
+        ->where('precio','>=',$precios[0])
+        ->where('precio','<=',$precios[1])
+        ->where('maximo','>=',$ingresos[0])
+        ->where('maximo','<=',$ingresos[1])
+        ->orderBy('precio')
+        ->get();
 
     return Response::json($complejos);
 });

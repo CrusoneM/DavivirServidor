@@ -211,7 +211,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-							<a href="desarrollo/montecarlo"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo-sanpatricio"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-right	 btn-desarrollo">
-							<a href="desarrollo/montecarlo"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo-sanpatricio"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -356,13 +356,13 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-						<a href="desarrollo/montecarlo">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+						<a href="desarrollo-sanpatricio">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
 
 				<div class="col-12 text-center" style="padding-top: 25px;">
-					<a href="desarrollo/montecarlo" style="color: red;padding:5px 3%;; height: 50px" class="button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
+					<a href="desarrollo-sanpatricio" style="color: red;padding:5px 3%;; height: 50px" class="button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
 				</div>
 		</div>
 
@@ -392,7 +392,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -414,7 +414,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -435,7 +435,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -784,7 +784,7 @@
 
 				var btn = document.createElement("div");
 				btn.setAttribute("class","col-12 text-center");
-				btn.innerHTML = "<a href='davivir-modelo-adare.html'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
+				btn.innerHTML = "<a href='modelo-adare' target='_blank'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
 				shadow.appendChild(btn);
 		       	}
 
