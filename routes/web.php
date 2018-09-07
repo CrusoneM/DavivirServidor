@@ -78,9 +78,10 @@ Route::post('/busqueda',function(Request $request){
     
 
         $complejos = DB::table('complejos')
-        ->select('*')
+        ->select('complejos.precio','modelos.nombre as modelo')
+        ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo')
         ->where('id_ciudad','=',$ciudad)
-        ->where('id_ciudad','=',$recamaras)
+        ->where('recamaras','=',$recamaras)
         ->where('precio','>=',$precios[0])
         ->where('precio','<=',$precios[1])
         ->where('maximo','>=',$ingresos[0])

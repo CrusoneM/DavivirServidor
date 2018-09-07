@@ -671,7 +671,7 @@
 
 <!---------------------------- BUSCADOR----------------------------------- -->
 
-					<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="padding-left: 19px!important">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -685,7 +685,7 @@
 								   
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Volver</button>
 								</div>
 							</div>
 					  	</div>
@@ -737,7 +737,7 @@
 				shadow.appendChild(contImagen);
 				var titulo = document.createElement("div");
 				titulo.setAttribute("class","margin-side-xs");
-				titulo.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>MODELO:"+ data[j].id_modelo+"</h4>"
+				titulo.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>MODELO:"+ data[j].modelo+"</h4>"
 				shadow.appendChild(titulo);
 
 				var info = document.createElement("div");
@@ -756,7 +756,7 @@
 
 				var descripcion3 = document.createElement("h6");
 				descripcion3.setAttribute("class","nomargin");
-				descripcion3.innerHTML = "Precio: $574,500.00 *"
+				descripcion3.innerHTML = "Precio: $"+data[j].precio+"*"
 				info.appendChild(descripcion3);
 
 				var btn = document.createElement("div");
