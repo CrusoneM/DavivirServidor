@@ -11,7 +11,7 @@
 									<h1 class="nobottommargin topmargin-sm" style="color: white; ">NUNCA FUE TAN FÁCIL ESTRENAR</h1>
 									<h1 class="" style="color: white; ">TU NUEVO HOGAR</h1>
 								</div>
-									<form method="POST" id="busqueda-form">
+									<form method="POST" id="desktop-form">
 										<div class="text-center col-md-10 offset-1 row norightpadding" style="background-color: #f7f7f7; opacity: 1">
 												<div class="col-lg-10 row norightpadding noleftpadding nomargin" style="padding: 2%0%;" >
 								      	
@@ -21,7 +21,7 @@
 													<div class="form-group col-md-3 text-left">
 														<label for="ciudad">Ciudad</label>
 														<select id="ciudad" name="ciudad" class="form-control">
-		                                  					<option value="0">Seleccione ciudad</option>
+		                                  					<option value="">Seleccione ciudad</option>
 														@foreach ($ciudades as $ciudad)
 		                                  					<option value="{{ $ciudad->id_ciudad }}">{{ $ciudad->ciudad }}</option>
 		                              					@endforeach
@@ -31,7 +31,7 @@
 													<div class="form-group col-md-3 text-left">
 														<label for="recamaras">Recámaras</label>
 														<select id="recamaras" name="recamaras" class="form-control">
-															<option value="0">Seleccione recamaras</option>
+															<option value="">Seleccione recamaras</option>
 															<option value="2">2</option>
 															<option value="3">3</option>
 
@@ -40,7 +40,7 @@
 													<div class="form-group col-md-3 text-left">
 														<label for="precios">Precios desde</label>
 														<select id="precios" name="precios" class="form-control">
-															
+															<option value="">Seleccione precio</option>
 															<option value="0-399000"> Menos de $400.000 </option>
 															<option value="400000-799000">$400.000 - $800.000</option>
 															<option value="800000-999999">$800.000 - $1.000.000</option>
@@ -52,6 +52,7 @@
 													<div class="form-group col-md-3 text-left">
 														<label for="ingresos">ingresos</label>
 														<select id="ingresos" name="ingresos" class="form-control">
+															<option value="">Seleccione ingreso</option>
 															<option value="0-4999">Menos de $5.000</option>
 															<option value="5000-7999">$5.000 - $8.000</option>
 															<option value="8000-9999">$8.000 - $10.000</option>
@@ -62,7 +63,7 @@
 												<div class="col-lg-2 norightpadding">
 													<div class="d-flex h-100">
 													    <div class="row justify-content-center align-self-center text-center col-12" style="padding-bottom: 2%;">
-															<button id="enviar" type="button" class="btn btn-danger" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
+															<button id="enviar" type="button" class="btn btn-danger enviar-form buscar-desktop" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
 													    </div>
 													</div>
 												</div>
@@ -84,35 +85,49 @@
 				<div class="col-12 text-center bg-red" style="padding: 50px 25px;" >	
 					<h1 class=" weight-bold " style="color: white; ">NUNCA FUE TAN FÁCIL ESTRENAR TU NUEVO HOGAR</h1>
 					<div class="text-center col-md-10 row nomargin" style="background-color: #f7f7f7; opacity: 1; padding: 8%">
+						<form method="POST" id="mobile-form">
 						<div class="col-lg-10 row norightpadding noleftpadding nomargin" style="" >
+							
+							<input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
 							<div class="form-group col-md-3 text-left">
 								<label for="ciudad weight-light">Ciudad</label>
-								<select id="ciudad" class="form-control">
+								<select id="ciudad" name="ciudad" class="form-control">
+									<option value="0">Seleccione ciudad</option>
+									@foreach ($ciudades as $ciudad)
+		                                <option value="{{ $ciudad->id_ciudad }}">{{ $ciudad->ciudad }}</option>
+		                             @endforeach
 
 								</select>
 							</div>
 
 							<div class="form-group col-md-3 text-left">
 								<label for="recamaras weight-light">Recámaras</label>
-								<select id="recamaras" class="form-control">
-
+								<select id="recamaras" name="recamaras" class="form-control">
+									<option value="0">Seleccione recamaras</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
 								</select>
 							</div>
 
 							<div class="form-group col-md-3 text-left">
 								<label for="ingresos weight-light">ingresos</label>
-								<select id="ingresos" class="form-control">
-
+								<select id="ingresos" name="ingresos" class="form-control">
+									<option value="">Seleccione ingreso</option>
+									<option value="0-4999">Menos de $5.000</option>
+									<option value="5000-7999">$5.000 - $8.000</option>
+									<option value="8000-9999">$8.000 - $10.000</option>
+									<option value="10000-50000">Mas de $10.000</option>
 								</select>
 							</div>
 						</div>
 						<div class="col-lg-2 norightpadding">
 							<div class="d-flex h-100">
 								<div class="row justify-content-center align-self-center text-center col-12">
-									<button type="button" class="btn btn-danger" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
+									<button type="button" class="btn btn-danger enviar-form buscar-mobile" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
 								</div>
 							</div>
 						</div>
+					</form>
 					</div>
 				</div>
 		</div>
@@ -701,9 +716,17 @@
 
  	$(document).ready(function() {
 
-    $('#enviar').click(function(){
+    $('.enviar-form').click(function(){
 
-        var dataString = $('#busqueda-form').serialize();
+    	if ($(this).hasClass("buscar-desktop")) {
+        	var dataString = $('#desktop-form').serialize();
+        	console.log('escritorio')
+    	}
+
+    	if ($(this).hasClass("buscar-mobile")) {
+        	var dataString = $('#mobile-form	').serialize();
+        	console.log('mobile')
+    	}
 
         console.log('Datos serializados: '+dataString);
         $.ajax({
