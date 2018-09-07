@@ -14,6 +14,9 @@ return [
     */
 
     'default' => env('DB_CONNECTION', 'mysql'),
+    //user:davivir
+    //db:complejos
+    //pass:Eh5U0Rd9
 
     /*
     |--------------------------------------------------------------------------

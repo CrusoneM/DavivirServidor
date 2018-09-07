@@ -422,6 +422,14 @@ span.middot {
 }
 
 
+.padding-buscador{
+padding: 0px 0px 30px 0px;
+}
+
+.margin-side-xs{
+	margin: 0px 15px;
+}
+
 .nopadding { padding: 0 !important; }
 
 .noleftpadding { padding-left: 0 !important; }

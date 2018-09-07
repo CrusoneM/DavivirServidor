@@ -11,43 +11,63 @@
 									<h1 class="nobottommargin topmargin-sm" style="color: white; ">NUNCA FUE TAN FÁCIL ESTRENAR</h1>
 									<h1 class="" style="color: white; ">TU NUEVO HOGAR</h1>
 								</div>
-								<div class="text-center col-md-10 offset-1 row norightpadding" style="background-color: #f7f7f7; opacity: 1">
+									<form method="POST" id="busqueda-form">
+										<div class="text-center col-md-10 offset-1 row norightpadding" style="background-color: #f7f7f7; opacity: 1">
+												<div class="col-lg-10 row norightpadding noleftpadding nomargin" style="padding: 2%0%;" >
+								      	
 
-										<div class="col-lg-10 row norightpadding noleftpadding nomargin" style="padding: 2%0%;" >
-											<div class="form-group col-md-3 text-left">
-												<label for="ciudad">Ciudad</label>
-												<select id="ciudad" class="form-control">
+												<input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
+													
+													<div class="form-group col-md-3 text-left">
+														<label for="ciudad">Ciudad</label>
+														<select id="ciudad" name="ciudad" class="form-control">
+		                                  					<option value="0">Seleccione ciudad</option>
+														@foreach ($ciudades as $ciudad)
+		                                  					<option value="{{ $ciudad->id_ciudad }}">{{ $ciudad->ciudad }}</option>
+		                              					@endforeach
 
-												</select>
-											</div>
-											<div class="form-group col-md-3 text-left">
-												<label for="recamaras">Recámaras</label>
-												<select id="recamaras" class="form-control">
+														</select>
+													</div>
+													<div class="form-group col-md-3 text-left">
+														<label for="recamaras">Recámaras</label>
+														<select id="recamaras" name="recamaras" class="form-control">
+															<option value="0">Seleccione recamaras</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
 
-												</select>
-											</div>
-											<div class="form-group col-md-3 text-left">
-												<label for="preciosDesde">Precios desde</label>
-												<select id="preciosDesde" class="form-control">
+														</select>
+													</div>
+													<div class="form-group col-md-3 text-left">
+														<label for="precios">Precios desde</label>
+														<select id="precios" name="precios" class="form-control">
+															
+															<option value="0-399000"> Menos de $400.000 </option>
+															<option value="400000-799000">$400.000 - $800.000</option>
+															<option value="800000-999999">$800.000 - $1.000.000</option>
+															<option value="1000000-50000000"> Mas de $1.000.000 </option>
 
-												</select>
-											</div>
+														</select>
+													</div>
 
-											<div class="form-group col-md-3 text-left">
-												<label for="ingresos">ingresos</label>
-												<select id="ingresos" class="form-control">
-
-												</select>
-											</div>
+													<div class="form-group col-md-3 text-left">
+														<label for="ingresos">ingresos</label>
+														<select id="ingresos" name="ingresos" class="form-control">
+															<option value="0-4999">Menos de $5.000</option>
+															<option value="5000-7999">$5.000 - $8.000</option>
+															<option value="8000-9999">$8.000 - $10.000</option>
+															<option value="10000-50000">Mas de $10.000</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-2 norightpadding">
+													<div class="d-flex h-100">
+													    <div class="row justify-content-center align-self-center text-center col-12" style="padding-bottom: 2%;">
+															<button id="enviar" type="button" class="btn btn-danger" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
+													    </div>
+													</div>
+												</div>
 										</div>
-										<div class="col-lg-2 norightpadding">
-											<div class="d-flex h-100">
-											    <div class="row justify-content-center align-self-center text-center col-12" style="padding-bottom: 2%;">
-													<button type="button" class="btn btn-danger" style="margin-top: 12px; padding: 6px 40px;">Buscar</button>
-											    </div>
-											</div>
-										</div>
-								</div>
+									</form>
 							</div>
 						</div>
 					</div>
@@ -648,5 +668,110 @@
 				</div>
 			</div>
 
+
+<!---------------------------- BUSCADOR----------------------------------- -->
+
+					<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+								    <h5 class="modal-title" id="exampleModalLabel"></h5>
+								    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								    <span aria-hidden="true">&times;</span>
+								    </button>
+								</div>
+								<div class="modal-body row" id="modal-body">
+
+								   
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+					  	</div>
+					</div>
+
+
 		</section><!-- #content end -->
+@endsection
+
+@section('scripts')
+<script type="text/javascript">
+ $(document).ready(function(){   	
+
+ 	$(document).ready(function() {
+
+    $('#enviar').click(function(){
+
+        var dataString = $('#busqueda-form').serialize();
+
+        console.log('Datos serializados: '+dataString);
+        $.ajax({
+            type: "POST",
+            url: "busqueda",
+            async: false,
+            data: dataString,
+            success: function(data) {
+            	$('#exampleModal').modal('show')
+
+            	$(".busqueda").remove();
+            	  for (j in data) {
+            	console.log(data[j].id_modelo)
+       	
+            	var contenedor = document.createElement("div");
+				contenedor.setAttribute("class","col-md-6 col-lg-3 col-sm-6 col-xs-12 busqueda");
+				document.getElementById('modal-body').appendChild(contenedor);
+
+				var shadow = document.createElement("div");
+				shadow.setAttribute("class","shadow mb-5 bg-white rounded padding-buscador");
+				contenedor.appendChild(shadow);
+
+				var contImagen = document.createElement("div");
+				shadow.appendChild(contImagen);
+
+				var imagen = document.createElement("img");
+				imagen.setAttribute("src","images/desarrollo-sanpatricio/Adare/fachada.jpg");
+				imagen.setAttribute("style","width: 100%");
+				contImagen.appendChild(imagen);
+
+				shadow.appendChild(contImagen);
+				var titulo = document.createElement("div");
+				titulo.setAttribute("class","margin-side-xs");
+				titulo.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>MODELO:"+ data[j].id_modelo+"</h4>"
+				shadow.appendChild(titulo);
+
+				var info = document.createElement("div");
+				info.setAttribute("class","margin-side-xs");
+				shadow.appendChild(info);
+
+				var descripcion1 = document.createElement("h6");
+				descripcion1.setAttribute("class","nomargin");
+				descripcion1.innerHTML = "Terreno desde: 75.00 M2"
+				info.appendChild(descripcion1);
+
+				var descripcion2 = document.createElement("h6");
+				descripcion2.setAttribute("class","nomargin");
+				descripcion2.innerHTML = "Construcción:  71.75 M2"
+				info.appendChild(descripcion2);
+
+				var descripcion3 = document.createElement("h6");
+				descripcion3.setAttribute("class","nomargin");
+				descripcion3.innerHTML = "Precio: $574,500.00 *"
+				info.appendChild(descripcion3);
+
+				var btn = document.createElement("div");
+				btn.setAttribute("class","col-12 text-center");
+				btn.innerHTML = "<a href='davivir-modelo-adare.html'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
+				shadow.appendChild(btn);
+		       	}
+
+            }
+        });
+
+    });
+});
+ });
+
+</script>
+
 @endsection

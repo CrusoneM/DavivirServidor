@@ -1,5 +1,9 @@
 <?php
 
+
+
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,8 +16,15 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+        $ciudades = DB::table('ciudades')
+        ->select('*')
+        ->orderBy('ciudad')
+        ->get();
+    return view('index')->with(compact('ciudades'));   
+
 });
+
+
 Route::get('/aviso', function () {
     return view('aviso');
 });
@@ -59,3 +70,31 @@ Route::get('/desarrollo/montecarlo', function () {
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
+Route::post('/busqueda',function(Request $request){
+    $ciudad=$request->input('ciudad');
+    $recamaras=$request->input('recamaras');
+    $precios=explode("-",$request->input('precios'));
+    $ingresos=explode("-",$request->input('ingresos'));
+    
+
+        $complejos = DB::table('complejos')
+        ->select('*')
+        ->where('id_ciudad','=',$ciudad)
+        ->where('id_ciudad','=',$recamaras)
+        ->where('precio','>=',$precios[0])
+        ->where('precio','<=',$precios[1])
+        ->where('maximo','>=',$ingresos[0])
+        ->where('maximo','<=',$ingresos[1])
+        ->orderBy('precio')
+        ->get();
+
+    return Response::json($complejos);
+});
+
+
+
+
+
+
+
+
