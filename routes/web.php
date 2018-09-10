@@ -61,15 +61,29 @@ Route::get('/modelo-nuevo', function () {
     return view('modelo-nuevo');
 });
 
-// Desarrollos
+// ============================================
+//                 Desarrollos
+// ============================================
 Route::get('/desarrollo/montecarlo', function () {
     return view('desarrollos/montecarlo');
 });
+Route::get('/desarrollo/sanpatricio', function () {
+    return view('desarrollos/sanpatricio');
+});
 
-// Modelos
+// ============================================
+//                 Modelos
+// ============================================
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
+Route::get('/modelo/adare', function () {
+    return view('modelos/adare');
+});
+
+// ============================================
+//                 Cosas
+// ============================================
 Route::post('/busqueda',function(Request $request){
     $ciudad=$request->input('ciudad');
     $recamaras=$request->input('recamaras');

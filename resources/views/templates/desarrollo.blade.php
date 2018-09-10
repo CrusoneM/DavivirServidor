@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Custom css  -->
     <link href="/css/style-dym.css" rel="stylesheet">
     <!-- Medias css  -->
@@ -26,6 +27,20 @@
 		<nav>
 			<div class="nav-wrapper">
 				<a href="/" class="brand-logo"><img src="/images/logo.png" alt="Logo"></a>
+				<ul class="collapsible right">
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">menu</i></div>
+				      <div class="collapsible-body">
+				      	<ul>
+				      	    <li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+				      	    <li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
+				      	    <li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
+				      	    <li><a href="{{ url('/blog') }}">BLOG</a></li>
+				      	    <li><a href="{{ url('/contactanos') }}">COTIZA YA</a></li>
+				      	</ul>
+				      </div>
+				    </li>
+			  	</ul>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
 					<li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
@@ -64,19 +79,15 @@
 		<section id="models-section">
 			<h4>CONOCE LOS <b>MODELOS</b> @yield('header-title')</h4>
 			<div class="swiper-container">
-			    <div class="swiper-wrapper">
 
-			      @yield('models-slide')
+		      	@yield('models-slide')
 
-			    </div>
 		  	</div>
 		  	<!-- Swiper mobile -->
 		  	<div class="swiper-container-mobile">
-			    <div class="swiper-wrapper">
 
-			      @yield('models-slide')
+		      	@yield('models-slide')
 
-			    </div>
 		  	</div>
 		  	<!-- /Swiper mobile -->
 		</section>
@@ -111,91 +122,7 @@
 		<section id="beneficios-section">
 			<h4>CONOCE LOS BENEFICIOS DEVIVIR EN <b>@yield('header-title')</b></h4>
 			<p><b>Detalles únicos que te harán disfrutar de<br>cada momento de tu vida.</b></p>
-			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ESCUELA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/calle.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>CALLE PRIVADA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/verde.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ÁREAS VERDES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/comercial.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ZONA COMERCIAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/deporte.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ÁREA DEPORTIVA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/regimen.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>REGIMEN CONDOMINAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/parque.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>PARQUES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/vias.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>VÍAS DE ACCESO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/control.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ACCESO CONTROLADO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-			</div>
+			@yield('beneficios')
 		</section>
 
 		<section id="equipo-section">
@@ -207,12 +134,12 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>RECEPCIÓN</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>En nuestras oficinas conseguirás la atención personalizada que necesitas, directamente con nuestros asesores.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<img src="/images/Telefono.png" alt="Telefono">
-							<img src="/images/Mensaje.png" alt="mensajes">
-							<img src="/images/Whatsapp.png" alt="Whatsapp">
+							<a href="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							<a href="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -222,12 +149,12 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>CALL CENTER</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>¿Sin tiempo para acercarte a nuestras oficinas? Obtén una atención con respuesta rápida y oportuna desde el Call Center de DAVIVIR.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<img src="/images/Telefono.png" alt="Telefono">
-							<img src="/images/Mensaje.png" alt="mensajes">
-							<img src="/images/Whatsapp.png" alt="Whatsapp">
+							<a href="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							<a href="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -239,7 +166,7 @@
 			<img src="@yield('map')" alt="mapa">
 			<p><b>LLEGA A @yield('header-title') CON UN SOLO CLIC</b></p>
 			<a href="#" class="btn-custom">WAZE</a>
-			<a href="#" class="btn-custom">DESCARGAR PDF</a>
+			<a href="@yield('map')" class="btn-custom" download>DESCARGAR PDF</a>
 			<a href="#" class="btn-custom"><i class="fas fa-map-marker-alt"></i> ¿CÓMO LLEGAR A @yield('header-title')?</a>
 			<a href="#" class="btn-custom">AGENDA TU VISITA</a>
 		</section>
@@ -357,6 +284,11 @@
 		    clickable: true,
 		  },
 		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $('.collapsible').collapsible();
+	  	});
 	</script>
 </body>
 </html>

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Custom css  -->
     <link href="/css/style-dym.css" rel="stylesheet">
     <!-- Medias css  -->
@@ -26,6 +27,20 @@
 		<nav>
 			<div class="nav-wrapper">
 				<a href="/" class="brand-logo"><img src="/images/logo.png" alt="Logo"></a>
+				<ul class="collapsible right">
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">menu</i></div>
+				      <div class="collapsible-body">
+				      	<ul>
+				      	    <li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+				      	    <li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
+				      	    <li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
+				      	    <li><a href="{{ url('/blog') }}">BLOG</a></li>
+				      	    <li><a href="{{ url('/contactanos') }}">COTIZA YA</a></li>
+				      	</ul>
+				      </div>
+				    </li>
+			  	</ul>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
 					<li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
@@ -69,10 +84,9 @@
 			    @yield('models-slide')
 	 	 	</div>
 	 	 	<div id="models-divider"></div>
-	 	 	<h3>¡CON <b>BONO DE DESCUENTO</b> DE HASTA <b>@yield('models-descuento') PESOS!</b></h3>
-	 	 	<p>@yield('models-p1')</p>
-	 	 	<p>@yield('models-p2')</p>
-	 	 	<p>@yield('models-p3')</p>
+
+	 	 	@yield('models-info')
+
 	 	 	<div class="row">
 	 	 		<div class="col s6">
 	 	 			<p>TERRENO<br><b>@yield('models-terreno') M<sup>2</sup></b></p>
@@ -114,91 +128,7 @@
 		<section id="beneficios-section">
 			<h4>CONOCE <b>LAS CARACTERÍSTICAS</b> DEL MODELO <b>@yield('header-title') @yield('header-h4')</b></h4>
 			<p><b>Detalles únicos que te harán disfrutar de<br>cada momento de tu vida.</b></p>
-			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ESCUELA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/calle.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>CALLE PRIVADA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/verde.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ÁREAS VERDES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/comercial.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ZONA COMERCIAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/deporte.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ÁREA DEPORTIVA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/regimen.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>REGIMEN CONDOMINAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/parque.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>PARQUES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/vias.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>VÍAS DE ACCESO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/control.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ACCESO CONTROLADO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-			</div>
+			@yield('beneficios')
 		</section>
 
 		<section id="plano-section">
@@ -210,10 +140,19 @@
 			<h4><b>VISITA</b>VIRTUAL</h4>
 			<iframe width="1349" height="500" src="@yield('video')" frameborder="0" allowfullscreen></iframe>
 			<div id="mas-divider"></div>
-			<h4>CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title') @yield('header-h4')</h4>
-			<div class="mas-modelo z-depth-2">
+			<h4>CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title')</h4>
+	      	<div class="swiper-container-mas">
+
 		      	@yield('mas-model')
-	      	</div>
+
+		  	</div>
+		  	<!-- Swiper mobile -->
+		  	<div class="swiper-container-mas-mobile">
+
+		      	@yield('mas-model')
+
+		  	</div>
+		  	<!-- /Swiper mobile -->
 		</section>
 
 		<section id="equipo-section">
@@ -225,12 +164,12 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>RECEPCIÓN</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>En nuestras oficinas conseguirás la atención personalizada que necesitas, directamente con nuestros asesores.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<img src="/images/Telefono.png" alt="Telefono">
-							<img src="/images/Mensaje.png" alt="mensajes">
-							<img src="/images/Whatsapp.png" alt="Whatsapp">
+							<a href="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							<a href="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -240,26 +179,16 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>CALL CENTER</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>¿Sin tiempo para acercarte a nuestras oficinas? Obtén una atención con respuesta rápida y oportuna desde el Call Center de DAVIVIR.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<img src="/images/Telefono.png" alt="Telefono">
-							<img src="/images/Mensaje.png" alt="mensajes">
-							<img src="/images/Whatsapp.png" alt="Whatsapp">
+							<a href="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							<a href="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="map-section" class="center-align">
-			<h4>VISITA TU <b>PRÓXIMO HOGAR</b></h4>
-			<img src="@yield('map')" alt="mapa">
-			<p><b>LLEGA A @yield('header-title') CON UN SOLO CLIC</b></p>
-			<a href="#" class="btn-custom">WAZE</a>
-			<a href="#" class="btn-custom">DESCARGAR PDF</a>
-			<a href="#" class="btn-custom"><i class="fas fa-map-marker-alt"></i> ¿CÓMO LLEGAR A @yield('header-title')?</a>
-			<a href="#" class="btn-custom">AGENDA TU VISITA</a>
 		</section>
 
 		<section id="otros-section">
@@ -358,11 +287,34 @@
     <!-- Swiper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
+    <script>
+		var swiper = new Swiper('.swiper-container-mas', {
+		  slidesPerView: 2,
+		  spaceBetween: 30,
+		  pagination: {
+		    el: '.swiper-pagination',
+		    clickable: true,
+		  },
+		});
+		var swiper = new Swiper('.swiper-container-mas-mobile', {
+		  slidesPerView: 1,
+		  spaceBetween: 30,
+		  pagination: {
+		    el: '.swiper-pagination',
+		    clickable: true,
+		  },
+		});
+	</script>
 	<script>
 	  	$(document).ready(function(){
 	    	$('.carousel').carousel({
 	    		dist:0
 	    	});
+	  	});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $('.collapsible').collapsible();
 	  	});
 	</script>
 </body>

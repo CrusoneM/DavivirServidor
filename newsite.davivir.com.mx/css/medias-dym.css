@@ -85,14 +85,23 @@
     }
     @media only screen and (max-width : 576px) {
         /*== header ==*/
+        nav > div > .collapsible{
+            display: inherit;
+        }
+        .brand-logo{
+            left: 20% !important;
+        }
         #header-info {
-            min-height: 27vh;
+            min-height: 26vh;
         }
         #header-text{
             display: none;
         }
         #header-text-mobile{
             display: inherit;
+        }
+        #header-text-mobile > div > h2 {
+            font-size: 5vw;
         }
         /*== /header ==*/
         /*== Main ==*/
@@ -102,6 +111,12 @@
         .swiper-container-mobile{
             display: inherit;
         }
+        #models-section > .swiper-container-mobile > .swiper-wrapper > .swiper-slide {
+            min-height: 61vh;
+        }
+        #models-section > .swiper-container-mobile > .swiper-wrapper > .swiper-slide > div.models-slide-text > p {
+            font-size: 5vw;
+        }
 
         #catalogo-section > div > #nuevo-desarrollo {
             text-align: center;
@@ -110,7 +125,7 @@
             min-height: 95vh;
         }
         #catalogo-section > div > #nuevo-desarrollo > p {
-            font-size: 3.3vw;
+            font-size: 5vw;
         }
         #catalogo-section > div > #nuevo-desarrollo > .btn-custom {
             margin: 5vh auto 1vh;
@@ -165,7 +180,7 @@
         #equipo-section > div > div > div.description-equipo > p.equipo-horario {
             font-size: 4vw;
         }
-        #equipo-section > div > div > div.description-equipo > .equipo-iconos > img {
+        #equipo-section > div > div > div.description-equipo > .equipo-iconos > a > img {
             width: 11vw;
         }
 
@@ -187,6 +202,9 @@
         }
         .otros-section-mobile{
             display: inherit;
+        }
+        .otro-text-section-mobile > p {
+            font-size: 4vw;
         }
 
         #catalogo-footer {
@@ -253,6 +271,16 @@
         }
         #mas-section > .mas-modelo > div.models-slide-text {
             padding: 0 3vw 4vh;
+        }
+        #mas-section > .mas-modelo > div.models-slide-text > p {
+            font-size: 5vw;
+        }
+
+        .swiper-container-mas {
+            display: none;
+        }
+        .swiper-container-mas-mobile {
+            display: inherit;
         }
         /*== /Models ==*/
     }
