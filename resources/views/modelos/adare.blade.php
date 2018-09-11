@@ -161,7 +161,7 @@ Desde <b>$574,500.00*</b>
 			      		<p>Construcción de: 51.49 M2</p>
 			      		<p>Precio:$490.000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/desarrollos/sanpatricio/ennis.jpg" alt="slide"></div>
@@ -171,7 +171,7 @@ Desde <b>$574,500.00*</b>
 			      		<p>Construcción de: 65.53 M2</p>
 			      		<p>Precio:$545.000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/ennis') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection

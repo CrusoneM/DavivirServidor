@@ -77,8 +77,15 @@ Route::get('/desarrollo/sanpatricio', function () {
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
+// San patricio
 Route::get('/modelo/adare', function () {
     return view('modelos/adare');
+});
+Route::get('/modelo/bray', function () {
+    return view('modelos/bray');
+});
+Route::get('/modelo/ennis', function () {
+    return view('modelos/ennis');
 });
 
 // ============================================
