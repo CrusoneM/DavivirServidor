@@ -79,6 +79,9 @@ Route::get('/desarrollo/montebello', function () {
 Route::get('/desarrollo/puntapalermo', function () {
     return view('desarrollos/puntapalermo');
 });
+Route::get('/desarrollo/ibiza', function () {
+    return view('desarrollos/ibiza');
+});
 
 
 // ============================================
