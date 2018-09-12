@@ -183,7 +183,7 @@ Desde <b>$604,000.00*</b>
 @section('otros-info-recamaras', '2')
 @section('otros-info-baños', '1')
 
-@section('otros-btn-url', '/desarrollo/villafuentes')
+@section('otros-btn-url', '../desarrollo/villafuentes')
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}
