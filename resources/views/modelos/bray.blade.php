@@ -176,7 +176,7 @@ Desde <b>$490,000.00*</b>
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/desarrollos/villas-de-las-fuentes/DSC_1360-2.jpg')
+@section('otros-img', '/images/desarrollos/villafuentes/DSC_1360-2.jpg')
 @section('otros-title', 'VILLAS DE LAS FUENTES')
 @section('otros-p', 'Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
