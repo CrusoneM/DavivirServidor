@@ -63,16 +63,7 @@
 
 {{-- Beneficio Section --}}
 @section('beneficios')
-			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ESCUELA</b></h5>
-						<p>En cualquiera de nuestros desarrollos podrás estar tranquilo al saber que tus hijos estudiarán en excelentes escuelas, a pocos kilómetros de tu nuevo hogar.</p>
-					</div>
-				</div>
+		<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/calle.png" alt="icono">
@@ -91,8 +82,6 @@
 						<p>En cada uno de nuestros desarrollos hemos diseñado exclusivas áreas verdes, donde las mascotas de la familia podrán ejercitarse al aire libre.</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/comercial.png" alt="icono">
@@ -102,6 +91,8 @@
 						<p>Nuestros complejos están ubicados cercanos a centros comerciales, por lo que contarás con una amplia gama de servicios a pocos pasos de tu nuevo hogar.</p>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/deporte.png" alt="icono">
@@ -120,8 +111,6 @@
 						<p>El mantenimiento y la administración de nuestros desarrollos está a cargo de un estricto régimen de condominio, que tiene como objetivo asegurar el buen vivir.</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/parque.png" alt="icono">
@@ -131,6 +120,8 @@
 						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/vias.png" alt="icono">
@@ -159,18 +150,18 @@
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/hidalgo.jpg')
-@section('otros-title', 'HIDALGO - TIZAYUCA')
-@section('otros-p', 'Un nuevo desarrollo ubicado en Técamac, Estado de México pensado en gente exigente que aprecia los detalles de vivir bien.')
+@section('otros-img', '/images/villafuentes.jpg')
+@section('otros-title', 'AGUASCALIENTES')
+@section('otros-p', 'Ubicado en una de las mejores zonas del oriente de la ciudad, Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
-@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
-@section('otros-info-title', 'BOSQUES DE IBIZA')
-@section('otros-info-avivienda', '105')
-@section('otros-info-alote', '2')
-@section('otros-info-recamaras', '4')
-@section('otros-info-baños', '3')
+@section('otros-info-img', '/images/desarrollos/villafuentes/logo.jpg')
+@section('otros-info-title', 'VILLAS DE LAS FUENTES')
+@section('otros-info-avivienda', '42.07')
+@section('otros-info-alote', '75')
+@section('otros-info-recamaras', '2')
+@section('otros-info-baños', '1')
 
-@section('otros-btn-url', '#')
+@section('otros-btn-url', 'villafuentes')
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

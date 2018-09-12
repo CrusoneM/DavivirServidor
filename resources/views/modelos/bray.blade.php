@@ -130,7 +130,7 @@ Desde <b>$490,000.00*</b>
 {{-- Más Section --}}
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536619721141!6m8!1m7!1sCAoSLEFGMVFpcE1XMTZuZklZUHJsVmd5YTJqVXA4QURtOTRiekJYNVMyandyMlda!2m2!1d21.88426025001!2d-102.24261647206!3f292.04!4f-14.799999999999997!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
+			<div class="swiper-wrapper swiper-wrapper-dos">
 				<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/desarrollos/sanpatricio/adare.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
@@ -140,16 +140,6 @@ Desde <b>$490,000.00*</b>
 			      		<p>Precio:$574.500.00 *</p>
 	      			</div>
 		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/bray.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: BRAY</b></h5>
-			      		<p>Terreno desde: 75.00 M2</p>
-			      		<p>Construcción de: 51.49 M2</p>
-			      		<p>Precio:$490.000.00 *</p>
-			      	</div>
-		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/desarrollos/sanpatricio/ennis.jpg" alt="slide"></div>
@@ -176,11 +166,11 @@ Desde <b>$490,000.00*</b>
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/desarrollos/villafuentes/DSC_1360-2.jpg')
+@section('otros-img', '/images/villafuentes.jpg')
 @section('otros-title', 'VILLAS DE LAS FUENTES')
 @section('otros-p', 'Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
-@section('otros-info-img', '/images/sample-img.jpg')
+@section('otros-info-img', '/images/desarrollos/villafuentes/logo.jpg')
 @section('otros-info-title', 'VILLAS DE LAS FUENTES')
 @section('otros-info-avivienda', '42.07')
 @section('otros-info-alote', '75')

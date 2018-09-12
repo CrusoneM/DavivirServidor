@@ -128,17 +128,7 @@ Desde <b>$574,500.00*</b>
 {{-- Más Section --}}
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
-				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/adare.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: ADARE</b></h5>
-			      		<p>Terreno desde: 75.00 M2</p>
-			      		<p>Construcción de: 71.75 M2</p>
-			      		<p>Precio:$574.500.00 *</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
+			<div class="swiper-wrapper swiper-wrapper-dos">
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/desarrollos/sanpatricio/bray.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
@@ -174,11 +164,11 @@ Desde <b>$574,500.00*</b>
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/desarrollos/villafuentes/DSC_1360-2.jpg')
+@section('otros-img', '/images/villafuentes.jpg')
 @section('otros-title', 'VILLAS DE LAS FUENTES')
 @section('otros-p', 'Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
-@section('otros-info-img', '/images/sample-img.jpg')
+@section('otros-info-img', '/images/desarrollos/villafuentes/logo.jpg')
 @section('otros-info-title', 'VILLAS DE LAS FUENTES')
 @section('otros-info-avivienda', '42.07')
 @section('otros-info-alote', '75')

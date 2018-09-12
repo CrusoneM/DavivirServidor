@@ -130,7 +130,7 @@ Desde <b>$545,000.00*</b>
 {{-- Más Section --}}
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536621159222!6m8!1m7!1sCAoSLEFGMVFpcE5sdVR5V2NUbENSelJod3l4ejRSSnhnQVRLYndXZDNMdlpOYUtm!2m2!1d21.8841757!2d-102.2425267!3f216.1!4f-23.810000000000002!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
+			<div class="swiper-wrapper swiper-wrapper-dos">
 				<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/desarrollos/sanpatricio/adare.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
@@ -151,16 +151,6 @@ Desde <b>$545,000.00*</b>
 			      	</div>
 		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/ennis.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: ENNIS</b></h5>
-			      		<p>Terreno desde: 75.00 M2</p>
-			      		<p>Construcción de: 65.53 M2</p>
-			      		<p>Precio:$545.000.00 *</p>
-		      		</div>
-		      		<a href="{{ url('/modelo/ennis') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
 			</div>
 @endsection
 {{-- /Más Section --}}
@@ -176,11 +166,11 @@ Desde <b>$545,000.00*</b>
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/desarrollos/villafuentes/DSC_1360-2.jpg')
+@section('otros-img', '/images/villafuentes.jpg')
 @section('otros-title', 'VILLAS DE LAS FUENTES')
 @section('otros-p', 'Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
-@section('otros-info-img', '/images/sample-img.jpg')
+@section('otros-info-img', '/images/desarrollos/villafuentes/logo.jpg')
 @section('otros-info-title', 'VILLAS DE LAS FUENTES')
 @section('otros-info-avivienda', '42.07')
 @section('otros-info-alote', '75')
