@@ -172,7 +172,7 @@
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/desarrollos/villafuentes/head.jpg')
+@section('otros-img', '/images/villafuentes.jpg')
 @section('otros-title', 'VILLAS DE LAS FUENTES')
 @section('otros-p', 'Ubicado en una de las mejores zonas del oriente de la ciudad, Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
