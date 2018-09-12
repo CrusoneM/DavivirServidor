@@ -92,8 +92,8 @@ Route::get('/desarrollo/ibiza', function () {
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
-Route::get('/modelo/damasco', function () {
-    return view('modelos/damasco');
+Route::get('/modelo/montecarlo-damasco', function () {
+    return view('modelos/montecarlo-damasco');
 });
 // San patricio
 Route::get('/modelo/adare', function () {
