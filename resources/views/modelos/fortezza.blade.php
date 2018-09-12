@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/modelos/fortezza/DSC_0625.jpg')
+@section('header-img', '/images/modelos/fortezza/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/montecarlo/Montecarlo.png')
 @section('header-title', 'MONTECARLO')
