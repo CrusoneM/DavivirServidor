@@ -26,7 +26,7 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper">
-				<a href="/" class="brand-logo"><img src="/images/logo.png" alt="Logo"></a>
+				<a href="/" class="brand-logo"><img src="/images/logo_davivir.png" alt="Logo"></a>
 				<ul class="collapsible right">
 				    <li>
 				      <div class="collapsible-header"><i class="material-icons">menu</i></div>
@@ -224,7 +224,7 @@
 								<p><b>@yield('otros-info-baños')</b></p>
 							</div>
 						</div>
-						<a href="@yield('otros-btn-url')" class="btn-custom">VER DESARROLLO</a>
+						@yield('otros-btn-url')
 					</div>
 				</div>
 			</div>
@@ -241,7 +241,7 @@
 							Recamaras: @yield('otros-info-recamaras') <br>
 							Baños: @yield('otros-info-baños')
 						</p>
-						<a href="@yield('otros-btn-url')" class="btn-custom">VER DESARROLLO</a>
+						@yield('otros-btn-url')
 					</div>
 				</div>
 			</div>

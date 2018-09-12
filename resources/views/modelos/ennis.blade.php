@@ -41,22 +41,13 @@ Desde <b>$545,000.00*</b>
 <p>Colinas de San Patricio es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único! Al vivir en Colinas de San Patricio contarás con muchos servicios cómo escuelas, universidades, hospitales y tiendas de auto servicio, a sólo unos pasos de tu hogar. Adicionalmente, al estar ubicado frente a la Línea Verde, tendrás todos los espacios recreativos, deportivos y de convivencia familiar que este parque lineal ofrece.</p>
 <p>En Colinas de San Patricio contaremos con cuatro modelos distintos de vivienda, para que puedas escoger el que más se acomoda a tus necesidades y presupuesto. Adicionalmente, al adquirir tu vivienda en este desarrollo, contarás con viviendas ecológicas de una excelente distribución, calidad y diseño, además de tener parques dentro del desarrollo y accesos controlados en las calles, para que puedas vivir con tranquilidad.</p>
 @endsection
-@section('catalogo-btn1', '#')
+@section('catalogo-btn1', '#mas-section')
 @section('catalogo-btn2', '#')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
 @section('beneficios')
 			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ESCUELA</b></h5>
-						<p>En cualquiera de nuestros desarrollos podrás estar tranquilo al saber que tus hijos estudiarán en excelentes escuelas, a pocos kilómetros de tu nuevo hogar.</p>
-					</div>
-				</div>
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/calle.png" alt="icono">
@@ -75,8 +66,6 @@ Desde <b>$545,000.00*</b>
 						<p>En cada uno de nuestros desarrollos hemos diseñado exclusivas áreas verdes, donde las mascotas de la familia podrán ejercitarse al aire libre.</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/comercial.png" alt="icono">
@@ -86,6 +75,8 @@ Desde <b>$545,000.00*</b>
 						<p>Nuestros complejos están ubicados cercanos a centros comerciales, por lo que contarás con una amplia gama de servicios a pocos pasos de tu nuevo hogar.</p>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/deporte.png" alt="icono">
@@ -104,8 +95,6 @@ Desde <b>$545,000.00*</b>
 						<p>El mantenimiento y la administración de nuestros desarrollos está a cargo de un estricto régimen de condominio, que tiene como objetivo asegurar el buen vivir.</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/parque.png" alt="icono">
@@ -115,6 +104,8 @@ Desde <b>$545,000.00*</b>
 						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/vias.png" alt="icono">
@@ -175,28 +166,30 @@ Desde <b>$545,000.00*</b>
 {{-- /Más Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
+@section('equipo-recepcion-btn1', '996 11 11')
 @section('equipo-recepcion-btn2', '#')
 @section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
+@section('equipo-callcenter-btn1', '996 11 11')
 @section('equipo-callcenter-btn2', '#')
 @section('equipo-callcenter-btn3', '#')
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/hidalgo.jpg')
-@section('otros-title', 'HIDALGO - TIZAYUCA')
-@section('otros-p', 'Un nuevo desarrollo ubicado en Técamac, Estado de México pensado en gente exigente que aprecia los detalles de vivir bien.')
+@section('otros-img', '/images/desarrollos/villas-de-las-fuentes/DSC_1360-2.jpg')
+@section('otros-title', 'VILLAS DE LAS FUENTES')
+@section('otros-p', 'Villas de las Fuentes ofrece una ubicación privilegiada al estar cerca de servicios, escuelas, hospitales, farmacias, parques, etc.')
 
-@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
-@section('otros-info-title', 'BOSQUES DE IBIZA')
-@section('otros-info-avivienda', '105')
-@section('otros-info-alote', '2')
-@section('otros-info-recamaras', '4')
-@section('otros-info-baños', '3')
+@section('otros-info-img', '/images/sample-img.jpg')
+@section('otros-info-title', 'VILLAS DE LAS FUENTES')
+@section('otros-info-avivienda', '42.07')
+@section('otros-info-alote', '75')
+@section('otros-info-recamaras', '2')
+@section('otros-info-baños', '1')
 
-@section('otros-btn-url', '#')
+@section('otros-btn-url')
+	<a href="{{ url('/desarrollo/villas-de-las-fuentes') }}" class="btn-custom">VER DESARROLLO</a>
+@endsection
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollos/montecarlo/DSC_0625.jpg')
+@section('header-img', '/images/desarrollos/montecarlo/header.jpg')
 
 @section('header-title-img', '/images/desarrollos/montecarlo/Montecarlo.png')
 @section('header-title', 'MONTECARLO')

@@ -92,6 +92,28 @@ Route::get('/modelo/bray', function () {
 Route::get('/modelo/ennis', function () {
     return view('modelos/ennis');
 });
+// Bosques de Ibiza
+Route::get('/modelo/cantabria', function () {
+    return view('modelos/cantabria');
+});
+Route::get('/modelo/cartagena', function () {
+    return view('modelos/cartagena');
+});
+Route::get('/modelo/corcega', function () {
+    return view('modelos/corcega');
+});
+Route::get('/modelo/mykonos', function () {
+    return view('modelos/mykonos');
+});
+Route::get('/modelo/santorinipa', function () {
+    return view('modelos/santorinipa');
+});
+Route::get('/modelo/santorinipb', function () {
+    return view('modelos/santorinipb');
+});
+Route::get('/modelo/terranova-plus', function () {
+    return view('modelos/terranova-plus');
+});
 
 // ============================================
 //                 Cosas
