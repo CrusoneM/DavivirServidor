@@ -113,7 +113,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 @section('otros-info-recamaras', '2')
 @section('otros-info-baños', '1')
 
-@section('otros-btn-url', 'sanpatricio')
+@section('otros-btn-url', '../desarrollo/sanpatricio')
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}
