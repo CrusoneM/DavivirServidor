@@ -681,6 +681,13 @@ footer > div > a > img{
     width: 24vw !important;
     /*margin: 0 1vw;*/
 }
+.swiper-container-mas > .swiper-wrapper.swiper-wrapper-one{
+    width: 27.9vw !important;
+    margin: auto;
+}
+.swiper-container-mas > .swiper-wrapper.swiper-wrapper-one > .swiper-slide{
+    width: 27.9vw !important;
+}
 .swiper-container-mas > .swiper-wrapper > .swiper-slide > div > img{
 	width: 100%;
 	height: 50vh;

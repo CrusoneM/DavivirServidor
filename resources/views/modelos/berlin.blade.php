@@ -135,7 +135,7 @@ Desde <b>$604,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="plano-2">
+<div class="plano-dos">
 	<img src="/images/modelos/berlin/plano-pb.png" alt="Plano">
 	<img src="/images/modelos/berlin/plano-pa.png" alt="Plano">
 </div>
@@ -143,7 +143,9 @@ Desde <b>$604,000.00*</b>
 {{-- /Plano Section --}}
 
 {{-- Más Section --}}
+@section('mas-section', '')
 @section('visita-virtual', 'display:none;')
+@section('un-modelo', '')
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-one">
@@ -183,7 +185,9 @@ Desde <b>$604,000.00*</b>
 @section('otros-info-recamaras', '2')
 @section('otros-info-baños', '1')
 
-@section('otros-btn-url', '/desarrollo/villafuentes')
+@section('otros-btn-url')
+	<a href="{{ url('/desarrollo/villafuentes') }}" class="btn-custom">VER DESARROLLO</a>
+@endsection
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

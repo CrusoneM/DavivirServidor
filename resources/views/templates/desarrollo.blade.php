@@ -42,7 +42,16 @@
 				    </li>
 			  	</ul>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+					{{-- <li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li> --}}
+					<li><a href='#' class="dropdown-trigger" data-target='dropdownDesarrollos'>DESARROLLOS</a></li>
+		      	    <ul id='dropdownDesarrollos' class='dropdown-content'>
+					    <li><a href="#!">one</a></li>
+					    <li><a href="#!">two</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="#!">three</a></li>
+					    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+					    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+				  	</ul>
 					<li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
 					<li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
 					<li><a href="{{ url('/blog') }}">BLOG</a></li>
@@ -288,6 +297,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 		    $('.collapsible').collapsible();
+		    $('.dropdown-trigger').dropdown();
 	  	});
 	</script>
 </body>

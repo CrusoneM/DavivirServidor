@@ -8,7 +8,7 @@
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/minerva/head.jpg')
 
-@section('header-title-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
+@section('header-title-img', '/images/sample-img.jpg')
 @section('header-title', 'VILLAS DE LAS FUENTES')
 @section('header-h4', 'MINERVA')
 @section('header-price')
@@ -84,7 +84,9 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 {{-- /Plano Section --}}
 
 {{-- Más Section --}}
+@section('mas-section', 'display:none;')
 @section('visita-virtual', 'display:none;')
+@section('un-modelo', 'display:none;')
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
 
@@ -102,18 +104,20 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/hidalgo.jpg')
-@section('otros-title', 'AGUASCALIENTES')
+@section('otros-img', '/images/desarrollos/sanpatricio/head2.jpg')
+@section('otros-title', 'COLINAS DE SAN PATRICIO')
 @section('otros-p', 'Es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único!')
 
-@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
+@section('otros-info-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('otros-info-title', 'COLINAS DE SAN PATRICIO')
 @section('otros-info-avivienda', '51.35')
 @section('otros-info-alote', '75')
 @section('otros-info-recamaras', '2')
 @section('otros-info-baños', '1')
 
-@section('otros-btn-url', '../desarrollo/sanpatricio')
+@section('otros-btn-url')
+	<a href="{{ url('/desarrollo/sanpatricio') }}" class="btn-custom">VER DESARROLLO</a>
+@endsection
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

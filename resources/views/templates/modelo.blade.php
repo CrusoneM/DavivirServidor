@@ -136,18 +136,18 @@
 			@yield('plano')
 		</section>
 
-		<section id="mas-section">
+		<section style="@yield('mas-section')" id="mas-section">
 			<h4 style="@yield('visita-virtual')"><b>VISITA</b>VIRTUAL</h4>
 			<iframe style="@yield('visita-virtual')" width="1349" height="500" src="@yield('video')" frameborder="0" allowfullscreen></iframe>
 			<div style="@yield('visita-virtual')" id="mas-divider"></div>
-			<h4>CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title')</h4>
-	      	<div class="swiper-container-mas">
+			<h4 style="@yield('un-modelo')">CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title')</h4>
+	      	<div style="@yield('un-modelo')" class="swiper-container-mas">
 
 		      	@yield('mas-model')
 
 		  	</div>
 		  	<!-- Swiper mobile -->
-		  	<div class="swiper-container-mas-mobile">
+		  	<div style="@yield('un-modelo')" class="swiper-container-mas-mobile">
 
 		      	@yield('mas-model')
 

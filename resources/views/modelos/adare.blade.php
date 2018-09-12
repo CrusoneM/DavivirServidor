@@ -186,7 +186,7 @@ Desde <b>$574,500.00*</b>
 @section('otros-info-baños', '1')
 
 @section('otros-btn-url')
-	<a href="{{ url('/desarrollo/villas-de-las-fuentes') }}" class="btn-custom">VER DESARROLLO</a>
+	<a href="{{ url('/desarrollo/villafuentes') }}" class="btn-custom">VER DESARROLLO</a>
 @endsection
 {{-- /Otros Section --}}
 
