@@ -70,6 +70,10 @@ Route::get('/desarrollo/montecarlo', function () {
 Route::get('/desarrollo/sanpatricio', function () {
     return view('desarrollos/sanpatricio');
 });
+Route::get('/desarrollo/villafuentes', function () {
+    return view('desarrollos/villafuentes');
+});
+
 
 // ============================================
 //                 Modelos
@@ -91,6 +95,11 @@ Route::get('/modelo/bray', function () {
 });
 Route::get('/modelo/ennis', function () {
     return view('modelos/ennis');
+});
+
+// Villas de las fuentes
+Route::get('/modelo/minerva', function () {
+    return view('modelos/minerva');
 });
 
 // ============================================
