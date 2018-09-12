@@ -36,7 +36,7 @@
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$571,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection
@@ -168,7 +168,7 @@
 @section('otros-info-recamaras', '4')
 @section('otros-info-baños', '3')
 
-@section('otros-btn-url', '#')
+@section('otros-btn-url', 'ibiza')
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

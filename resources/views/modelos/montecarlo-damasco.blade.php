@@ -179,18 +179,18 @@ Desde <b>$571,000.00*</b>
 
 {{-- Otros Section --}}
 @section('otros-img', '/images/hidalgo.jpg')
-@section('otros-title', 'PUNTA PALERMO')
-@section('otros-p', 'Punta Palermo es un fraccionamiento que se distingue por estar estratégicamente ubicado cerca de centros comerciales, escuelas, supermercados, autopistas y múltiples rutas de transporte público.')
+@section('otros-title', 'HIDALGO - TIZAYUCA')
+@section('otros-p', 'Un nuevo desarrollo ubicado en Técamac, Estado de México pensado en gente exigente que aprecia los detalles de vivir bien.')
 
-@section('otros-info-img', '/images/desarrollos/puntapalermo/logo.png')
-@section('otros-info-title', 'PUNTA PALERMO')
-@section('otros-info-avivienda', '54')
-@section('otros-info-alote', '56.60')
-@section('otros-info-recamaras', '2')
-@section('otros-info-baños', '1 1/2')
+@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
+@section('otros-info-title', 'BOSQUES DE IBIZA')
+@section('otros-info-avivienda', '105')
+@section('otros-info-alote', '2')
+@section('otros-info-recamaras', '4')
+@section('otros-info-baños', '3')
 
 @section('otros-btn-url')
-	<a href="{{ url('/desarrollo/punta-palermo') }}" class="btn-custom">VER DESARROLLO</a>
+	<a href="{{ url('/desarrollo/ibiza') }}" class="btn-custom">VER DESARROLLO</a>
 @endsection
 {{-- /Otros Section --}}
 
