@@ -8,7 +8,7 @@
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/minerva/head.jpg')
 
-@section('header-title-img', '/images/sample-img.jpg')
+@section('header-title-img', '/images/desarrollos/villafuentes/logo.jpg')
 @section('header-title', 'VILLAS DE LAS FUENTES')
 @section('header-h4', 'MINERVA')
 @section('header-price')
@@ -105,7 +105,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 
 {{-- Otros Section --}}
 @section('otros-img', '/images/desarrollos/sanpatricio/head2.jpg')
-@section('otros-title', 'COLINAS DE SAN PATRICIO')
+@section('otros-title', 'AGUASCALIENTES')
 @section('otros-p', 'Es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único!')
 
 @section('otros-info-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')

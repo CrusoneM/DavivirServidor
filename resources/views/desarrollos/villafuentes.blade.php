@@ -83,11 +83,11 @@
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}
-@section('otros-img', '/images/hidalgo.jpg')
+@section('otros-img', '/images/desarrollos/sanpatricio/head2.jpg')
 @section('otros-title', 'AGUASCALIENTES')
 @section('otros-p', 'Es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único!')
 
-@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
+@section('otros-info-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('otros-info-title', 'COLINAS DE SAN PATRICIO')
 @section('otros-info-avivienda', '51.35')
 @section('otros-info-alote', '75')
