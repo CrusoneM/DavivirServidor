@@ -80,7 +80,71 @@
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+        nav > div > .collapsible{
+            display: inherit;
+        }
+        .brand-logo{
+            left: 15% !important;
+            width: 20vw !important;
+        }
 
+        .collapsible-header i {
+            font-size: 6vw !important;
+        }
+        .collapsible-body ul li a {
+            font-size: 3vw;
+        }
+
+        #header-text {
+            width: 63vw;
+        }
+        #header-text > div#header-titles {
+            width: 43vw;
+        }
+        #header-text > div > h2 {
+            font-size: 2vw;
+        }
+
+        #models-section > .swiper-container > .swiper-wrapper > .swiper-slide {
+            width: 38vw !important;
+        }
+
+        #catalogo-section > div > #nuevo-desarrollo {
+            height: 110vh;
+        }
+        #catalogo-section > div > #catalogo-form {
+            height: 110vh;
+        }
+        #catalogo-section > div > #nuevo-desarrollo > p {
+            font-size: 2.2vw;
+        }
+        #catalogo-section > div > #nuevo-desarrollo > .btn-custom {
+            margin: 0vh auto 1vh;
+            display: block;
+            width: 30vw;
+            text-align: center;
+        }
+        #catalogo-section > div > #catalogo-form > h4 {
+            font-size: 4vw;
+        }
+
+        #beneficios-section > p {
+            font-size: 2.5vw;
+        }
+
+        #equipo-section > div > div > div.description-equipo > h6 {
+            font-size: 3vw;
+        }
+
+        #map-section > a.btn-custom {
+            margin: 1vh auto;
+            display: block;
+            width: 50vw;
+        }
+
+        footer > div > a > img {
+            margin-top: 0vh;
+        }
 
     }
     @media only screen and (max-width : 576px) {
@@ -89,7 +153,8 @@
             display: inherit;
         }
         .brand-logo{
-            left: 20% !important;
+            width: 30vw !important;
+            left: 22% !important;
         }
         #header-info {
             min-height: 26vh;
@@ -129,15 +194,15 @@
         }
         #catalogo-section > div > #nuevo-desarrollo > .btn-custom {
             margin: 5vh auto 1vh;
-            width: 40vw;
-            display: block;
+            width: 56%;
+            display: inline-block;
         }
         #catalogo-section > div > #catalogo-form > h4 {
             font-size: 5vw;
         }
         #catalogo-section > div > #catalogo-form {
             padding: 1vh 10vw;
-            height: 86vh;
+            min-height: 86vh;
         }
         #catalogo-section > div > #catalogo-form > form > textarea, #catalogo-section > div > #catalogo-form > form > input {
             width: 97%;
@@ -152,8 +217,12 @@
             font-size: 3vw;
             width: 45vw;
         }
+
         #beneficios-section > p {
             font-size: 4vw;
+        }
+        .beneficio > .col.m3{
+            width: 23%;
         }
         .beneficio-text{
             width: 65vw;
@@ -231,13 +300,14 @@
         /*== /Main ==*/
         /*== Footer ==*/
         footer{
-            line-height: 6vh;
+            line-height: 8vh;
         }
         footer > div > p {
             font-size: 2.5vw;
         }
         footer > div > a > img {
             right: 51vw;
+            display: none;
         }
         /*== /Footer ==*/
 
@@ -292,4 +362,3 @@
     @media only screen and (max-width : 320px) {
 
     }
-

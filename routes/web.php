@@ -74,8 +74,13 @@ Route::get('/desarrollo/sanpatricio', function () {
 // ============================================
 //                 Modelos
 // ============================================
+
+// Montecarlo 
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
+});
+Route::get('/modelo/damasco', function () {
+    return view('modelos/damasco');
 });
 // San patricio
 Route::get('/modelo/adare', function () {

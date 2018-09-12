@@ -26,7 +26,7 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper">
-				<a href="/" class="brand-logo"><img src="/images/logo.png" alt="Logo"></a>
+				<a href="/" class="brand-logo"><img src="/images/logo_davivir.png" alt="Logo"></a>
 				<ul class="collapsible right">
 				    <li>
 				      <div class="collapsible-header"><i class="material-icons">menu</i></div>

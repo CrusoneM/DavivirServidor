@@ -133,13 +133,13 @@
 
 		<section id="plano-section">
 			<h4>PLANO <b>ARQUITECTÓNICO</b></h4>
-			<img src="@yield('plano')" alt="Plano">
+			@yield('plano')
 		</section>
 
 		<section id="mas-section">
-			<h4><b>VISITA</b>VIRTUAL</h4>
-			<iframe width="1349" height="500" src="@yield('video')" frameborder="0" allowfullscreen></iframe>
-			<div id="mas-divider"></div>
+			<h4 style="@yield('visita-virtual')"><b>VISITA</b>VIRTUAL</h4>
+			<iframe style="@yield('visita-virtual')" width="1349" height="500" src="@yield('video')" frameborder="0" allowfullscreen></iframe>
+			<div style="@yield('visita-virtual')" id="mas-divider"></div>
 			<h4>CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title')</h4>
 	      	<div class="swiper-container-mas">
 

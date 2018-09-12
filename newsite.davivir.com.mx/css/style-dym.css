@@ -60,6 +60,13 @@ nav > div > .collapsible{
 	-webkit-box-shadow: inherit;
 	box-shadow: inherit;
 }
+nav div a.brand-logo{
+	width: 11vw;
+    left: 2%;
+}
+nav div a.brand-logo img{
+	width: 100%;
+}
 nav > div > .collapsible > li{
 	width: 100%;
 }
@@ -83,6 +90,7 @@ nav ul li.active {
 }
 .collapsible-body ul li{
 	width: 100%;
+    border-bottom: 1px solid;
 }
 .collapsible-body ul li a{
 	width: 100%;
@@ -196,6 +204,13 @@ nav ul a i.fa-bars{
     width: 100% !important;
 }
 #models-section > .swiper-container > .swiper-wrapper.swiper-wrapper-tres > .swiper-slide{
+    width: 27.9vw !important;
+}
+#models-section > .swiper-container > .swiper-wrapper.swiper-wrapper-one{
+    width: 27.9vw !important;
+    margin: auto;
+}
+#models-section > .swiper-container > .swiper-wrapper.swiper-wrapper-one > .swiper-slide{
     width: 27.9vw !important;
 }
 #models-section > .swiper-container > .swiper-wrapper > .swiper-slide > div > img{
@@ -603,6 +618,11 @@ footer > div > a > img{
 #plano-section img{
 	margin-top: 2vh;
 	width: 74vw;
+}
+.plano-dos > img{
+	width: 30vw !important;
+    margin: 2vh 1vw 0;
+    display: inline-block;
 }
 
 #mas-section{

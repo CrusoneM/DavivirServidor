@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollos/sanpatricio/DSC_0152.JPG')
+@section('header-img', '/images/desarrollos/sanpatricio/head.JPG')
 
 @section('header-title-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('header-title', 'COLINAS DE SAN PATRICIO')
@@ -70,7 +70,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ESCUELA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>En cualquiera de nuestros desarrollos podrás estar tranquilo al saber que tus hijos estudiarán en excelentes escuelas, a pocos kilómetros de tu nuevo hogar.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -79,7 +79,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>CALLE PRIVADA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Nuestros complejos tienen para ti la opción de vivir en calle privada, una característica pensada para la sana convivencia y la seguridad de tu familia.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -88,7 +88,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ÁREAS VERDES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>En cada uno de nuestros desarrollos hemos diseñado exclusivas áreas verdes, donde las mascotas de la familia podrán ejercitarse al aire libre.</p>
 					</div>
 				</div>
 			</div>
@@ -99,7 +99,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ZONA COMERCIAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Nuestros complejos están ubicados cercanos a centros comerciales, por lo que contarás con una amplia gama de servicios a pocos pasos de tu nuevo hogar.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -108,7 +108,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ÁREA DEPORTIVA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Te ofrecemos áreas deportivas compuestas por amplias canchas, en las que tanto tú como tu familia podrán ejercitarse practicando sus deportes favoritos.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -117,7 +117,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>REGIMEN CONDOMINAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>El mantenimiento y la administración de nuestros desarrollos está a cargo de un estricto régimen de condominio, que tiene como objetivo asegurar el buen vivir.</p>
 					</div>
 				</div>
 			</div>
@@ -128,7 +128,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>PARQUES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -137,16 +137,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>VÍAS DE ACCESO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/control.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ACCESO CONTROLADO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Para brindarte el mejor acceso, nuestros desarrollos están ubicados dentro de rutas que facilitan tu desplazamiento y el de todo aquel que te visite.</p>
 					</div>
 				</div>
 			</div>
@@ -154,7 +145,7 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
+@section('equipo-recepcion-btn1', '996 11 11')
 @section('equipo-recepcion-btn2', '#')
 @section('equipo-recepcion-btn3', '#')
 
