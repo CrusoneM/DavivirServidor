@@ -76,6 +76,9 @@ Route::get('/desarrollo/villafuentes', function () {
 Route::get('/desarrollo/montebello', function () {
     return view('desarrollos/montebello');
 });
+Route::get('/desarrollo/puntapalermo', function () {
+    return view('desarrollos/puntapalermo');
+});
 
 
 // ============================================
