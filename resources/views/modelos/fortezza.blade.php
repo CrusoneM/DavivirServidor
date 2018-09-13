@@ -1,6 +1,5 @@
 {{--====== Head ============--}}
 @extends('templates.modelo')
-
 @section('keywords', '')
 @section('title', 'Fortezza')
 {{--====== /Head ============--}}
@@ -20,12 +19,11 @@ Desde <b>$467,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/modelos/fortezza/galeria-1.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/fortezza/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/fortezza/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-4.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-5.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-6.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/fortezza/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/fortezza/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -141,7 +139,7 @@ Desde <b>$467,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/fortezza/plano.png" alt="Plano">
 </div>
 @endsection
@@ -151,26 +149,16 @@ Desde <b>$467,000.00*</b>
 @section('visita-virtual', 'display:none;')
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper">
-				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/fortezza.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: FORTEZZA</b></h5>
-			      		<p>Terreno desde: N/A</p>
-			      		<p>Construcción de: Desde 40.31 hasta 52.27</p>
-			      		<p>Precio:$467,000.00*</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
+			<div class="swiper-wrapper swiper-wrapper-one">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/DSC_0720.JPG" alt="slide"></div>
+			      	<div><img src="/images/desarrollos/montecarlo/damasco.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 47.52 M2</p>
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$571,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection
@@ -188,18 +176,18 @@ Desde <b>$467,000.00*</b>
 
 {{-- Otros Section --}}
 @section('otros-img', '/images/hidalgo.jpg')
-@section('otros-title', 'PUNTA PALERMO')
-@section('otros-p', 'Punta Palermo es un fraccionamiento que se distingue por estar estratégicamente ubicado cerca de centros comerciales, escuelas, supermercados, autopistas y múltiples rutas de transporte público.')
+@section('otros-title', 'HIDALGO - TIZAYUCA')
+@section('otros-p', 'Un nuevo desarrollo ubicado en Técamac, Estado de México pensado en gente exigente que aprecia los detalles de vivir bien.')
 
-@section('otros-info-img', '/images/sample-img.jpg')
-@section('otros-info-title', 'PUNTA PALERMO')
-@section('otros-info-avivienda', '54')
-@section('otros-info-alote', '56.60')
-@section('otros-info-recamaras', '2')
-@section('otros-info-baños', '1 1/2')
+@section('otros-info-img', '/images/Bosques-de-Ibiza.png')
+@section('otros-info-title', 'BOSQUES DE IBIZA')
+@section('otros-info-avivienda', '105')
+@section('otros-info-alote', '2')
+@section('otros-info-recamaras', '4')
+@section('otros-info-baños', '3')
 
 @section('otros-btn-url')
-	<a href="{{ url('/desarrollo/punta-palermo') }}" class="btn-custom">VER DESARROLLO</a>
+	<a href="{{ url('/desarrollo/ibiza') }}" class="btn-custom">VER DESARROLLO</a>
 @endsection
 {{-- /Otros Section --}}
 

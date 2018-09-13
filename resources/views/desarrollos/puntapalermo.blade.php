@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollos/puntapalermo/head.JPG')
+@section('header-img', '/images/desarrollos/puntapalermo/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/puntapalermo/logo.png')
 @section('header-title', 'PUNTA PALERMO')
@@ -29,14 +29,14 @@
 		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/damasco/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 54.00 M2</p>
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$705,000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/imperial/head.jpg" alt="slide"></div>
@@ -56,7 +56,7 @@
 			      		<p>Construcción de: 66.81 M2</p>
 			      		<p>Precio:$794,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/turqia') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection

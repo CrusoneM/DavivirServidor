@@ -92,8 +92,8 @@ Route::get('/desarrollo/ibiza', function () {
 Route::get('/modelo/fortezza', function () {
     return view('modelos/fortezza');
 });
-Route::get('/modelo/damasco', function () {
-    return view('modelos/damasco');
+Route::get('/modelo/montecarlo-damasco', function () {
+    return view('modelos/montecarlo-damasco');
 });
 // San patricio
 Route::get('/modelo/adare', function () {
@@ -142,6 +142,25 @@ Route::get('/modelo/viena', function () {
     return view('modelos/viena');
 });
 
+
+//Punta-Palermo
+Route::get('/modelo/aleppo', function () {
+    return view('modelos/aleppo');
+});
+
+Route::get('/modelo/imperial', function () {
+    return view('modelos/imperial');
+});
+
+Route::get('/modelo/turquia', function () {
+    return view('modelos/turquia');
+});
+
+Route::get('/modelo/palermo-damasco', function () {
+    return view('modelos/palermo-damasco');
+});
+
+
 // ============================================
 //                 Cosas
 // ============================================
@@ -162,7 +181,7 @@ Route::post('/busqueda',function(Request $request){
     }
     
         $complejos = DB::table('complejos')
-        ->select('complejos.precio','modelos.nombre as modelo')
+        ->select('complejos.precio','modelos.nombre as modelo','complejos.url' )
         ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo');
         if(isset($ciudad)) {
                 $complejos = $complejos->where('id_ciudad','=',$ciudad);

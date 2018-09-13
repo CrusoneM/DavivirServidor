@@ -29,14 +29,14 @@
 		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/DSC_0720.JPG" alt="slide"></div>
+			      	<div><img src="/images/desarrollos/montecarlo/damasco.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 47.52 M2</p>
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$571,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection
@@ -168,7 +168,7 @@
 @section('otros-info-recamaras', '4')
 @section('otros-info-baños', '3')
 
-@section('otros-btn-url', '#')
+@section('otros-btn-url', 'ibiza')
 {{-- /Otros Section --}}
 
 {{--====== /Main ============--}}

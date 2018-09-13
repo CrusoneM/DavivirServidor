@@ -8,7 +8,7 @@
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/minerva/head.jpg')
 
-@section('header-title-img', '/images/sample-img.jpg')
+@section('header-title-img', '/images/desarrollos/villafuentes/logo.jpg')
 @section('header-title', 'VILLAS DE LAS FUENTES')
 @section('header-h4', 'MINERVA')
 @section('header-price')
@@ -23,7 +23,8 @@ Desde <b>$370,000.00*</b>
 				<a class="carousel-item" href="#one!"><img src="/images/modelos/minerva/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/minerva/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/minerva/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/minerva/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/minerva/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/minerva/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -77,7 +78,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/minerva/plano.jpg" alt="Plano">
 </div>
 @endsection
@@ -105,7 +106,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 
 {{-- Otros Section --}}
 @section('otros-img', '/images/desarrollos/sanpatricio/head2.jpg')
-@section('otros-title', 'COLINAS DE SAN PATRICIO')
+@section('otros-title', 'AGUASCALIENTES')
 @section('otros-p', 'Es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único!')
 
 @section('otros-info-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')

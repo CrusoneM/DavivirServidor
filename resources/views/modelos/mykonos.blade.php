@@ -49,7 +49,7 @@ Desde <b>$440,000.00*</b>
 
 {{-- Beneficio Section --}}
 @section('beneficios')
-			<div class="row">
+				<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
 						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
@@ -78,6 +78,7 @@ Desde <b>$440,000.00*</b>
 					</div>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col m4 beneficio">
 					<div class="col m3">
@@ -86,15 +87,6 @@ Desde <b>$440,000.00*</b>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>PARQUES</b></h5>
 						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/vias.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>VÍAS DE ACCESO</b></h5>
-						<p>Para brindarte el mejor acceso, nuestros desarrollos están ubicados dentro de rutas que facilitan tu desplazamiento y el de todo aquel que te visite.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
