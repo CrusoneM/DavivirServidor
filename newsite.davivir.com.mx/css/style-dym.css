@@ -50,6 +50,9 @@ nav{
 	min-height: 56px;
 	height: inherit;
 }
+nav .nav-wrapper {
+     position: inherit; 
+}
 nav > div > .collapsible{
 	display: none;
 	width: 100%;
@@ -72,6 +75,31 @@ nav > div > .collapsible > li{
 }
 nav ul li.active {
     background-color: inherit;
+}
+nav ul li {
+    padding: 0 2vw;
+}
+nav ul a {
+    font-size: 1.5vw;
+}
+nav ul a i.fa-bars{
+	color: #FFF799;
+	font-size: 2.3vw;
+}
+#dropdownDesarrollos{
+	top: 10.3vh !important;
+    width: inherit !important;
+    height: inherit !important;
+    background: #ed3529;
+}
+#dropdownDesarrollos li:hover{
+	background: #d23025;
+}
+#dropdownDesarrollos li a{
+	color: #fff;
+}
+#dropdownDesarrollos li a:hover{
+	background: inherit;
 }
 .collapsible-header {
     background-color: #ed3529;
@@ -96,15 +124,11 @@ nav ul li.active {
 	width: 100%;
 	font-size: 5vw;
 }
-nav ul li {
-    padding: 0 2vw;
+#collapse-mobile-desarrollo{
+	border: 0;
 }
-nav ul a {
-    font-size: 1.5vw;
-}
-nav ul a i.fa-bars{
-	color: #FFF799;
-	font-size: 2.3vw;
+#collapse-mobile-desarrollo li .collapsible-body{
+    padding: 0 2rem;
 }
 #cotizaYa{
     border: 1px solid #fff;
@@ -383,6 +407,12 @@ nav ul a i.fa-bars{
 }
 #equipo-section > div > div > div.description-equipo > .equipo-iconos > a > img{
 	width: 4.3vw;
+}
+#equipo-section > div > div > div.description-equipo > .equipo-iconos > a{
+	cursor: pointer;
+}
+.toast_equipo{
+
 }
 
 #map-section{

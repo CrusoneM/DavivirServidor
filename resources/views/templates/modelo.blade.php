@@ -31,8 +31,20 @@
 				    <li>
 				      <div class="collapsible-header"><i class="material-icons">menu</i></div>
 				      <div class="collapsible-body">
-				      	<ul>
-				      	    <li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+				      	<ul id="collapse-mobile-desarrollo" class="collapsible">
+				      	    <li>
+				      	    	<div class="collapsible-header">DESARROLLOS</div>
+				      	    	<div class="collapsible-body">
+				      	    		<ul>
+				      	    		    <li><a href="{{ url('/desarrollo/ibiza') }}">IBIZA</a></li>
+				      	    		    <li><a href="{{ url('/desarrollo/montebello') }}">MONTEBELLO</a></li>
+				      	    		    <li><a href="{{ url('/desarrollo/montecarlo') }}">MONTECARLO</a></li>
+				      	    		    <li><a href="{{ url('/desarrollo/puntapalermo') }}">PUNTA PALERMO</a></li>
+				      	    		    <li><a href="{{ url('/desarrollo/sanpatricio') }}">SAN PATRICIO</a></li>
+				      	    		    <li><a href="{{ url('/desarrollo/villafuentes') }}">VILLAS DE LAS FUENTES</a></li>
+				      	    		</ul>
+				      	    	</div>
+				      	    </li>
 				      	    <li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
 				      	    <li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
 				      	    <li><a href="{{ url('/blog') }}">BLOG</a></li>
@@ -42,7 +54,21 @@
 				    </li>
 			  	</ul>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li>
+					{{-- <li><a href="{{ url('/desarrollo/montecarlo') }}">DESARROLLOS</a></li> --}}
+					<li><a href='#' class="dropdown-trigger" data-target='dropdownDesarrollos'>DESARROLLOS</a></li>
+		      	    <ul id='dropdownDesarrollos' class='dropdown-content'>
+					    <li><a href="{{ url('/desarrollo/ibiza') }}">IBIZA</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="{{ url('/desarrollo/montebello') }}">MONTEBELLO</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="{{ url('/desarrollo/montecarlo') }}">MONTECARLO</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="{{ url('/desarrollo/puntapalermo') }}">PUNTA PALERMO</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="{{ url('/desarrollo/sanpatricio') }}">SAN PATRICIO</a></li>
+					    <li class="divider" tabindex="-1"></li>
+					    <li><a href="{{ url('/desarrollo/villafuentes') }}">VILLAS DE LAS FUENTES</a></li>
+				  	</ul>
 					<li><a href="{{ url('/empresa') }}">NUESTRA EMPRESA</a></li>
 					<li><a href="{{ url('/contactanos') }}">CONTÁCTANOS</a></li>
 					<li><a href="{{ url('/blog') }}">BLOG</a></li>
@@ -167,9 +193,11 @@
 						<p>En nuestras oficinas conseguirás la atención personalizada que necesitas, directamente con nuestros asesores.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<a href="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
-							<a href="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
-							<a href="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-recepcion-btn1')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('email')" data-clipboard-text="@yield('equipo-recepcion-btn2')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('ws')" data-clipboard-text="@yield('equipo-recepcion-btn3')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -182,9 +210,11 @@
 						<p>¿Sin tiempo para acercarte a nuestras oficinas? Obtén una atención con respuesta rápida y oportuna desde el Call Center de DAVIVIR.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<a href="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
-							<a href="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
-							<a href="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-callcenter-btn1')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('email')" data-clipboard-text="@yield('equipo-callcenter-btn2')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+
+							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('ws')" data-clipboard-text="@yield('equipo-callcenter-btn3')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -286,36 +316,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- Swiper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-		var swiper = new Swiper('.swiper-container-mas', {
-		  slidesPerView: 2,
-		  spaceBetween: 30,
-		  pagination: {
-		    el: '.swiper-pagination',
-		    clickable: true,
-		  },
-		});
-		var swiper = new Swiper('.swiper-container-mas-mobile', {
-		  slidesPerView: 1,
-		  spaceBetween: 30,
-		  pagination: {
-		    el: '.swiper-pagination',
-		    clickable: true,
-		  },
-		});
-	</script>
-	<script>
-	  	$(document).ready(function(){
-	    	$('.carousel').carousel({
-	    		dist:0
-	    	});
-	  	});
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-		    $('.collapsible').collapsible();
-	  	});
-	</script>
+    <!-- ClipboardJs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <!-- CustomJs-->
+    <script src="/js/custom.js"></script>
 </body>
 </html>

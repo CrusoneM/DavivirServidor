@@ -19,74 +19,74 @@
 @section('models-slide')
 			<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: CARTAGENA</b></h5>
-			      		<p>Terreno desde:  67.50M2</p>
-			      		<p>Construcción de:  70.23M2</p>
-			      		<p>Precio:$553,000.00*</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CANTABRIA</b></h5>
-			      		<p>Terreno desde:  90.00M2</p>
-			      		<p>Construcción de: 64.10M2</p>
+			      		<p>Terreno desde: 90 M2</p>
+			      		<p>Construcción de: 64.10 M2</p>
 			      		<p>Precio:$577,000.00*</p>
 	      			</div>
 		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: TERRANOVA</b></h5>
-			      		<p>Terreno desde: 90.00M2</p>
-			      		<p>Construcción de: 49.68M2</p>
-			      		<p>Precio:$500,000.00*</p>
+			      		<h5><b>MODELO: CARTAGENA</b></h5>
+			      		<p>Terreno desde: 67.50 M2</p>
+			      		<p>Construcción de: 70.23 M2</p>
+			      		<p>Precio:$553,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/terranova') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: SANTORINI P. BAJA </b></h5>
-			      		<p>Terreno desde:  90.00M2</p>
-			      		<p>Construcción de:  45.63M2</p>
-			      		<p>Precio:$380,000.00*</p>
+			      		<h5><b>MODELO: CÓRCEGA</b></h5>
+			      		<p>Terreno desde: 67.50 M2</p>
+			      		<p>Construcción de: 66.02 M2</p>
+			      		<p>Precio:$506,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/s-planta-baja') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: SANTORINI P. ALTA</b></h5>
-			      		<p>Terreno desde:  90.00M2</p>
-			      		<p>Construcción de:  39.68M2</p>
-			      		<p>Precio:$356,000.00*</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/s-planta-alta') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MYKONOS</b></h5>
-			      		<p>Terreno desde:  67.50M2</p>
-			      		<p>Construcción de:  41.78M2</p>
+			      		<p>Terreno desde: 67.50 M2</p>
+			      		<p>Construcción de: 41.78 M2</p>
 			      		<p>Precio:$440,000.00*</p>
 	      			</div>
 		      		<a href="{{ url('/modelo/mykonos') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/ibiza/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: CÓRCEGA</b></h5>
-			      		<p>Terreno desde:  67.50M2</p>
-			      		<p>Construcción de:  66.02M2</p>
-			      		<p>Precio:$506,000.00*</p>
+			      		<h5><b>MODELO: SANTORINI (PLANTA ALTA)</b></h5>
+			      		<p>Terreno desde: 90.00 M2</p>
+			      		<p>Construcción de: 39.68 M2</p>
+			      		<p>Precio:$356,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
+		      	</div>
+		      	<div class="swiper-slide z-depth-2">
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div class="models-slide-text">
+			      		<h5><b>MODELO: SANTORINI (PLANTA BAJA)</b></h5>
+			      		<p>Terreno desde: 90.00 M2</p>
+			      		<p>Construcción de: 45.63 M2</p>
+			      		<p>Precio:$380,000.00*</p>
+	      			</div>
+		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
+		      	</div>
+		      	<div class="swiper-slide z-depth-2">
+			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div class="models-slide-text">
+			      		<h5><b>MODELO: TERRANOVA PLUS</b></h5>
+			      		<p>Terreno desde: 90.00 M2</p>
+			      		<p>Construcción de: 49.68 M2</p>
+			      		<p>Precio:$500,000.00*</p>
+	      			</div>
+		      		<a href="{{ url('/modelo/terranova-plus') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection
@@ -111,7 +111,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ESCUELA</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>En cualquiera de nuestros desarrollos podrás estar tranquilo al saber que tus hijos estudiarán en excelentes escuelas, a pocos kilómetros de tu nuevo hogar.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -120,7 +120,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ÁREAS VERDES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>En cada uno de nuestros desarrollos hemos diseñado exclusivas áreas verdes, donde las mascotas de la familia podrán ejercitarse al aire libre.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -129,7 +129,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ZONA COMERCIAL</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Nuestros complejos están ubicados cercanos a centros comerciales, por lo que contarás con una amplia gama de servicios a pocos pasos de tu nuevo hogar.</p>
 					</div>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>PARQUES</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
 					</div>
 				</div>
 				<div class="col m4 beneficio">
@@ -150,7 +150,7 @@
 					</div>
 					<div class="col m9 left-align beneficio-text">
 						<h5><b>ACCESO CONTROLADO</b></h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+						<p>Tu seguridad y la de tu familia es lo más importante, por eso hemos desarrollado un sistema de acceso donde tú mismo puedes controlar quien entra a visitarte.</p>
 					</div>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
-@section('map', '')
+@section('map', '/images/desarrollos/ibiza/mapa.jpg')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

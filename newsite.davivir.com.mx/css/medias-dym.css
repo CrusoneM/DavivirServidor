@@ -165,6 +165,9 @@
         #header-text-mobile{
             display: inherit;
         }
+        #header-text-mobile div img{
+            width: 35vw;
+        }
         #header-text-mobile > div > h2 {
             font-size: 5vw;
         }
@@ -225,7 +228,8 @@
             width: 23%;
         }
         .beneficio-text{
-            width: 65vw;
+            width: 60vw;
+            padding: 0 1vw !important;
         }
 
         #equipo-section > h4 {
