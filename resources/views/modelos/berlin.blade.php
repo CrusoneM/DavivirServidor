@@ -157,7 +157,7 @@ Desde <b>$604,000.00*</b>
 			      		<p>Construcción de: 61.92 M2</p>
 			      		<p>Precio:$562.200.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/VIENA') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/viena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 			</div>
 @endsection

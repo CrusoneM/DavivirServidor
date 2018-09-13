@@ -142,6 +142,25 @@ Route::get('/modelo/viena', function () {
     return view('modelos/viena');
 });
 
+
+//Punta-Palermo
+Route::get('/modelo/aleppo', function () {
+    return view('modelos/aleppo');
+});
+
+Route::get('/modelo/imperial', function () {
+    return view('modelos/imperial');
+});
+
+Route::get('/modelo/turquia', function () {
+    return view('modelos/turquia');
+});
+
+Route::get('/modelo/palermo-damasco', function () {
+    return view('modelos/palermo-damasco');
+});
+
+
 // ============================================
 //                 Cosas
 // ============================================
