@@ -119,7 +119,7 @@ Desde <b>$574,500.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/adare/plano.jpg" alt="Plano">
 </div>
 @endsection

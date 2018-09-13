@@ -23,7 +23,8 @@ Desde <b>$794,000.00*</b>
 				<a class="carousel-item" href="#one!"><img src="/images/modelos/turquia/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/turquia/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/turquia/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/turquia/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/turquia/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/turquia/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -109,7 +110,12 @@ Desde <b>$794,000.00*</b>
 {{-- /Beneficio Section --}}
 
 {{-- Plano Section --}}
-@section('plano', '/images/modelos/turquia/plano-pa.png')
+@section('plano')
+<div class="plano-dos">
+	<img src="/images/modelos/turquia/plano-pa.jpg" alt="Plano">
+	<img src="/images/modelos/turquia/plano-pb.jpg" alt="Plano">
+</div>
+@endsection
 {{-- /Plano Section --}}
 
 {{-- Más Section --}}

@@ -109,8 +109,9 @@ Desde <b>$951,000.00.00*</b>
 {{-- /Beneficio Section --}}
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/aleppo/plano-pa.png" alt="Plano">
+	<img src="/images/modelos/aleppo/plano-pb.png" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}

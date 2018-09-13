@@ -23,7 +23,8 @@ Desde <b>$370,000.00*</b>
 				<a class="carousel-item" href="#one!"><img src="/images/modelos/minerva/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/minerva/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/minerva/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/minerva/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/minerva/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/minerva/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -77,7 +78,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/minerva/plano.jpg" alt="Plano">
 </div>
 @endsection

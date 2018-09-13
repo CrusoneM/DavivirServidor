@@ -20,12 +20,12 @@ Desde <b>$571,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/modelos/montecarlo-damasco/galeria-1.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/montecarlo-damasco/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/montecarlo-damasco/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/montecarlo-damasco/galeria-3.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/montecarlo-damasco/galeria-4.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/montecarlo-damasco/galeria-5.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/montecarlo-damasco/galeria-6.jpg"></a>
+
 @endsection
 
 @section('models-info')
@@ -142,8 +142,8 @@ Desde <b>$571,000.00*</b>
 {{-- Plano Section --}}
 @section('plano')
 <div class="plano-dos">
-	<img src="/images/modelos/montecarlo-damasco/plano-1.png" alt="Plano">
-	<img src="/images/modelos/montecarlo-damasco/plano-2.png" alt="Plano">
+	<img src="/images/modelos/montecarlo-damasco/plano-pb.jpg" alt="Plano">
+	<img src="/images/modelos/montecarlo-damasco/plano-pa.jpg" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}

@@ -21,8 +21,9 @@ Desde <b>$1,164,000.00*</b>
 @section('models-slide')
 				<a class="carousel-item" href="#one!"><img src="/images/modelos/imperial/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/imperial/galeria-2.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/imperial/galeria-3.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/imperial/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/imperial/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/imperial/galeria-4.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -108,7 +109,12 @@ Desde <b>$1,164,000.00*</b>
 {{-- /Beneficio Section --}}
 
 {{-- Plano Section --}}
-@section('plano', '/images/modelos/imperial/plano-pa.png')
+@section('plano')
+<div class="plano-dos">
+	<img src="/images/modelos/imperial/plano-pb.png" alt="Plano">
+	<img src="/images/modelos/imperial/plano-pa.png" alt="Plano">
+</div>
+@endsection
 {{-- /Plano Section --}}
 
 {{-- Más Section --}}

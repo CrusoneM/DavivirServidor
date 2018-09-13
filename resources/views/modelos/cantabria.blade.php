@@ -104,7 +104,7 @@ Desde <b>$577,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/sample-img.jpg" alt="Plano">
 </div>
 @endsection

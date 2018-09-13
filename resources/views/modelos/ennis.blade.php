@@ -20,11 +20,12 @@ Desde <b>$545,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/DSC_0224a.jpg"></a>
-			    <a class="carousel-item" href="#four!"><img src="/images/modelos/ennis/recamara_1.jpg"></a>
-				<a class="carousel-item" href="#one!"><img src="/images/modelos/ennis/sala_1_a.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/sala_1b.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/ennis/recamara_1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/galeria-1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/galeria-5.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/ennis/galeria-2.jpg"></a>
+				
 @endsection
 
 @section('models-info')
@@ -121,7 +122,7 @@ Desde <b>$545,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/ennis/plano.jpg" alt="Plano">
 </div>
 @endsection

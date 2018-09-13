@@ -121,7 +121,7 @@ Desde <b>$490,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/bray/plano.jpg" alt="Plano">
 </div>
 @endsection

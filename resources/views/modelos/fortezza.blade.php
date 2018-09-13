@@ -1,6 +1,5 @@
 {{--====== Head ============--}}
 @extends('templates.modelo')
-
 @section('keywords', '')
 @section('title', 'Fortezza')
 {{--====== /Head ============--}}
@@ -20,12 +19,11 @@ Desde <b>$467,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/modelos/fortezza/galeria-1.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/fortezza/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/fortezza/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-3.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-4.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-5.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/modelos/fortezza/galeria-6.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/fortezza/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/fortezza/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -141,7 +139,7 @@ Desde <b>$467,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
+<div class="plano-dos">
 	<img src="/images/modelos/fortezza/plano.png" alt="Plano">
 </div>
 @endsection
