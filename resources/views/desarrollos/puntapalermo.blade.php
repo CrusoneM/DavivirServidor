@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollos/puntapalermo/head.JPG')
+@section('header-img', '/images/desarrollos/puntapalermo/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/puntapalermo/logo.png')
 @section('header-title', 'PUNTA PALERMO')

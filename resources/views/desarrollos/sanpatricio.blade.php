@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/desarrollos/sanpatricio/head.JPG')
+@section('header-img', '/images/desarrollos/sanpatricio/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('header-title', 'COLINAS DE SAN PATRICIO')
