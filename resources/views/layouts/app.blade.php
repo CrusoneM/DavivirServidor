@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-
+	<meta name="google-site-verification" content="est-Qd6T0_QRA0YlmMfLt0zEAYgWtYJNyD3P9O-p-R0" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
