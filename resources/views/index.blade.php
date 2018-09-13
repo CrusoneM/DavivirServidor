@@ -735,6 +735,7 @@
             async: false,
             data: dataString,
             success: function(data) {
+            	console.log(data)
             	$('#exampleModal').modal('show')
 
             	$(".busqueda").remove();
@@ -751,10 +752,12 @@
 
 				var contImagen = document.createElement("div");
 				shadow.appendChild(contImagen);
-
+				
+				//images/desarrollo-sanpatricio/Adare/fachada.jpg
 				var imagen = document.createElement("img");
-				imagen.setAttribute("src","images/desarrollo-sanpatricio/Adare/fachada.jpg");
+				imagen.setAttribute("src",data[j].url);
 				imagen.setAttribute("style","width: 100%");
+				imagen.setAttribute("style","height: 325px");
 				contImagen.appendChild(imagen);
 
 				shadow.appendChild(contImagen);

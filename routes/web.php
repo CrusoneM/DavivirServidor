@@ -181,7 +181,7 @@ Route::post('/busqueda',function(Request $request){
     }
     
         $complejos = DB::table('complejos')
-        ->select('complejos.precio','modelos.nombre as modelo')
+        ->select('complejos.precio','modelos.nombre as modelo','complejos.url' )
         ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo');
         if(isset($ciudad)) {
                 $complejos = $complejos->where('id_ciudad','=',$ciudad);
