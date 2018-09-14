@@ -650,13 +650,14 @@ footer > div > a > img{
 }
 #plano-section img{
 	margin-top: 2vh;
-	width: 74vw;
+	max-width: 74vw;
+    max-height: 100vh;
 }
 .plano-dos > img{
-	width: 30vw !important;
+    max-width: 30vw !important;
     margin: 2vh 1vw 0;
     display: inline-block;
-}
+}	
 
 #mas-section{
 	text-align: center;

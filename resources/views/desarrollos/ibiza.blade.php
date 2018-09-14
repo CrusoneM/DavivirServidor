@@ -39,7 +39,7 @@
 		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/corcega/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CÓRCEGA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -49,7 +49,7 @@
 		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/mykonos/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MYKONOS</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -69,7 +69,7 @@
 		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pb/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA BAJA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -79,7 +79,7 @@
 		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/terranova-plus/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: TERRANOVA PLUS</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -98,7 +98,7 @@
 	<p>Adicionalmente, el fraccionamiento cuenta con acceso controlado, escuelas, jardín de niños, locales comerciales, áreas verdes y parques con juegos infantiles. Todo esto para que tú y tu familia vivan en un ambiente seguro y cómodo. </p>
 	<p>Y lo mejor, en Bosques de Ibiza sí te alcanza para comprar tu casa propia!</p>
 @endsection
-@section('catalogo-btn1', '#')
+@section('catalogo-btn1', '#models-section')
 @section('catalogo-btn2', '#')
 {{-- /Catalogo Section --}}
 

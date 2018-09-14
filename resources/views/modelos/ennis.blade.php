@@ -122,7 +122,7 @@ Desde <b>$545,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="plano-dos">
+<div class="">
 	<img src="/images/modelos/ennis/plano.jpg" alt="Plano">
 </div>
 @endsection

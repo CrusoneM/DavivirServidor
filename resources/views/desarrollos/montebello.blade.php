@@ -48,7 +48,7 @@
 	<p>Ahora con pequeñas privadas, cada una con interfón para que puedas controlar quién entra a visitarte. Jardines de Montebello te brinda un estilo de vida diferente, con la tranquilidad que te brinda vivir con este toque de exclusividad, donde la suma de los pequeños detalles hacen la diferencia.</p>
 	<p>Ubicados en la Zona Norte de la ciudad con seguridad, acceso controlado, área social, cerca de centros comerciales, escuelas y hospitales.</p>
 @endsection
-@section('catalogo-btn1', '#')
+@section('catalogo-btn1', '#models-section')
 @section('catalogo-btn2', '#')
 {{-- /Catalogo Section --}}
 

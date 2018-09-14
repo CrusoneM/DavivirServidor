@@ -111,9 +111,9 @@ Desde <b>$705.00.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
-	<img src="" alt="Plano">
-
+<div class="plano-dos">
+	<img src="/images/modelos/palermo-damasco/plano-1.jpg" alt="Plano">
+	<img src="/images/modelos/palermo-damasco/plano-2.jpg" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}
