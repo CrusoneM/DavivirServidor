@@ -107,7 +107,7 @@ Desde <b>$440,000.00*</b>
 {{-- Plano Section --}}
 @section('plano')
 <div class="">
-	<img src="/images/sample-img.jpg" alt="Plano">
+	<img src="/images/modelos/mykonos/plano.png" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}

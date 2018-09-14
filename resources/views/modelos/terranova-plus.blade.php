@@ -107,7 +107,7 @@ Desde <b>$500,000.00*</b>
 {{-- Plano Section --}}
 @section('plano')
 <div class="">
-	<img src="/images/sample-img.jpg" alt="Plano">
+	<img src="/images/modelos/terranova-plus/plano.png" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}
