@@ -798,7 +798,7 @@
 
 				var btn = document.createElement("div");
 				btn.setAttribute("class","col-12 text-center");
-				btn.innerHTML = "<a href='modelo-adare' target='_blank'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
+				btn.innerHTML = "<a href="+data[j].url+" target='_blank'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
 				shadow.appendChild(btn);
 		       	}
 
