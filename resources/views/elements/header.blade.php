@@ -22,7 +22,23 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a class="weight-light" href="desarrollo/sanpatricio"><div>DESARROLLO</div></a></li>
+
+							<li>
+								<div class="dropdown">
+								  <a class="weight-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    DESARROLLO
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								    	<a href="{{ url('/desarrollo/ibiza') }}">IBIZA</a>
+				      	    		    <a href="{{ url('/desarrollo/montebello') }}">MONTEBELLO</a>
+				      	    		    <a href="{{ url('/desarrollo/montecarlo') }}">MONTECARLO</a>
+				      	    		    <a href="{{ url('/desarrollo/puntapalermo') }}">PUNTA PALERMO</a>
+				      	    		    <a href="{{ url('/desarrollo/sanpatricio') }}">SAN PATRICIO</a>
+				      	    		    <a href="{{ url('/desarrollo/villafuentes') }}">VILLAS DE LAS FUENTES</a>
+								  </div>
+								</div>
+							</li>
 							<li><a class="weight-light" href="empresa"><div>NUESTRA EMPRESA</div></a></li>
 							<li><a class="weight-light" href="contactanos"><div>CONTÁCTANOS</div></a></li>
 							<li><a class="weight-light" href="blog"><div>BLOG</div></a></li>
