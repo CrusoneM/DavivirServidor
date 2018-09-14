@@ -754,7 +754,7 @@
             	console.log(data[j].id_modelo)
        	
             	var contenedor = document.createElement("div");
-				contenedor.setAttribute("class","col-md-6 col-lg-4 col-xl-3 col-sm-6 col-xs-12 busqueda");
+				contenedor.setAttribute("class","col-md-6 col-lg-4 col-xl-3 col-sm-6	 col-xs-12 busqueda");
 				document.getElementById('modal-body').appendChild(contenedor);
 
 				var shadow = document.createElement("div");
