@@ -110,6 +110,17 @@
 							</div>
 
 							<div class="form-group col-md-3 text-left">
+								<label for="precios weight-light">precios</label>
+								<select id="precios" name="precios" class="form-control">
+									<option value="">Seleccione precio</option>
+									<option value="0-399000"> Menos de $400.000 </option>
+									<option value="400000-799000">$400.000 - $800.000</option>
+									<option value="800000-999999">$800.000 - $1.000.000</option>
+									<option value="1000000-50000000"> Mas de $1.000.000 </option>
+								</select>
+							</div>
+
+							<div class="form-group col-md-3 text-left">
 								<label for="ingresos weight-light">ingresos</label>
 								<select id="ingresos" name="ingresos" class="form-control">
 									<option value="">Seleccione ingreso</option>
