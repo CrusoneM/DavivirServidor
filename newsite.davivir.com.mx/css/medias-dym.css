@@ -142,6 +142,16 @@
             width: 50vw;
         }
 
+        .otros-section{
+            display: none;
+        }
+        .otros-section-mobile{
+            display: inherit;
+        }
+        .otro-text-section-mobile > p {
+            font-size: 4vw;
+        }
+
         footer > div > a > img {
             margin-top: 0vh;
         }

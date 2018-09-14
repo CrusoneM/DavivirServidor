@@ -127,6 +127,9 @@ nav ul a i.fa-bars{
 #collapse-mobile-desarrollo{
 	border: 0;
 }
+#collapse-mobile-desarrollo li .collapsible-header {
+    font-size: 3vw;
+}
 #collapse-mobile-desarrollo li .collapsible-body{
     padding: 0 2rem;
 }

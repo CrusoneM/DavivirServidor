@@ -6,9 +6,9 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/sample-img.jpg')
+@section('header-img', '/images/modelos/corcega/head.jpg')
 
-@section('header-title-img', '/images/sample-img.jpg')
+@section('header-title-img', '/images/desarrollos/ibiza/logo.png')
 @section('header-title', 'BOSQUES DE IBIZA')
 @section('header-h4', 'CORCEGA')
 @section('header-price')
@@ -20,11 +20,11 @@ Desde <b>$506,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="/images/modelos/corcega/galeria-1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-2.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -104,8 +104,9 @@ Desde <b>$506,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
-	<img src="/images/sample-img.jpg" alt="Plano">
+<div class="plano-dos">
+	<img src="/images/modelos/corcega/plano-1.png" alt="Plano">
+	<img src="/images/modelos/corcega/plano-2.png" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}
