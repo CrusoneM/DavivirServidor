@@ -78,7 +78,7 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="plano-dos">
+<div class="">
 	<img src="/images/modelos/minerva/plano.jpg" alt="Plano">
 </div>
 @endsection

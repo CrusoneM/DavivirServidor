@@ -8,7 +8,7 @@
 {{--====== Header ============--}}
 @section('header-img', '/images/sample-img.jpg')
 
-@section('header-title-img', '/images/sample-img.jpg')
+@section('header-title-img', '/images/desarrollos/ibiza/logo.png')
 @section('header-title', 'BOSQUES DE IBIZA')
 @section('header-h4', 'CARTAGENA')
 @section('header-price')
@@ -136,7 +136,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/corcega/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CÓRCEGA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -146,7 +146,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/mykonos/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MYKONOS</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -166,7 +166,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pb/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA BAJA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -176,7 +176,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/terranova-plus/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: TERRANOVA PLUS</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>

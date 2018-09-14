@@ -139,7 +139,7 @@ Desde <b>$467,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="plano-dos">
+<div class="">
 	<img src="/images/modelos/fortezza/plano.png" alt="Plano">
 </div>
 @endsection

@@ -71,7 +71,7 @@
 	<p>Ubicado sobre la Avenida Ozumbilla en el municipio de Tecamac, Punta Palermo es un fraccionamiento que se distingue por estar estratégicamente ubicado cerca de centros comerciales, escuelas, supermercados, autopistas y múltiples rutas de transporte público.</p>
 	<p>Adicionalmente, el desarrollo cuenta con acceso controlado, calles con pórticos con interfón, áreas verdes dentro de privadas, parques, escuelas y comercio. Todo esto para ofrecer un entorno agradable, de alta calidad y que aumente la plusvalía de las viviendas.</p>
 @endsection
-@section('catalogo-btn1', '#')
+@section('catalogo-btn1', '#models-section')
 @section('catalogo-btn2', '#')
 {{-- /Catalogo Section --}}
 
@@ -152,7 +152,7 @@
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
-@section('map', '/images/desarrollos/puntapalermo/mapa.jpg')
+@section('map', '/images/desarrollos/puntapalermo/map.jpg')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}
