@@ -53,7 +53,6 @@
 														<label for="ingresos">ingresos</label>
 														<select id="ingresos" name="ingresos" class="form-control">
 															<option value="">Seleccione ingreso</option>
-															<option value="0-4999">Menos de $5.000</option>
 															<option value="5000-7999">$5.000 - $8.000</option>
 															<option value="8000-9999">$8.000 - $10.000</option>
 															<option value="10000-50000">Mas de $10.000</option>
@@ -124,7 +123,6 @@
 								<label for="ingresos weight-light">ingresos</label>
 								<select id="ingresos" name="ingresos" class="form-control">
 									<option value="">Seleccione ingreso</option>
-									<option value="0-4999">Menos de $5.000</option>
 									<option value="5000-7999">$5.000 - $8.000</option>
 									<option value="8000-9999">$8.000 - $10.000</option>
 									<option value="10000-50000">Mas de $10.000</option>
@@ -222,7 +220,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-							<a href="desarrollo-sanpatricio"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo/ibiza"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -295,7 +293,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-right	 btn-desarrollo">
-							<a href="desarrollo-sanpatricio"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+							<a href="desarrollo/puntapalermo"><button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
@@ -367,13 +365,16 @@
 							</div>
 						</div>
 						<div class="col-md-12 text-md-left btn-desarrollo">
-						<a href="desarrollo-sanpatricio">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
+						<a href="desarrollo/montecarlo">	<button type="button" class="btn btn-danger weight-light" style="margin-top: 12px; padding: 8px 40px;">VER DESARROLLO</button></a>
 						</div>	
 					</div>
 				</div>
 
 				<div class="col-12 text-center" style="padding-top: 25px;">
-					<a href="desarrollo-sanpatricio" style="color: red;padding:5px 3%;; height: 50px" class="button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
+					<a  style="color: red;padding:5px 3%;; height: 50px" class="enviar-form buscar-todos button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
+					<form method="POST" id="null-form">
+						<input type="hidden" name="null">
+					</form>
 				</div>
 		</div>
 
@@ -403,7 +404,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo/ibiza"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -425,7 +426,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo/puntapalermo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -446,7 +447,7 @@
 									<p>Baños:2</p>
 
 								<div class="col-12 text-center btn-residence">
-									<a href="desarrollo-sanpatricio"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
+									<a href="desarrollo/montecarlo"> <button type="button" class="btn btn-danger weight-light">VER DESARROLLO</button></a>
 								</div>
 
 								</div>
@@ -731,30 +732,37 @@
 
     	if ($(this).hasClass("buscar-desktop")) {
         	var dataString = $('#desktop-form').serialize();
-        	console.log('escritorio')
     	}
 
     	if ($(this).hasClass("buscar-mobile")) {
-        	var dataString = $('#mobile-form	').serialize();
-        	console.log('mobile')
+        	var dataString = $('#mobile-form').serialize();
     	}
 
-        console.log('Datos serializados: '+dataString);
+    	if ($(this).hasClass("buscar-todos")) {
+        	var dataString = $('#null-form').serialize();
+    	}
+
         $.ajax({
             type: "POST",
             url: "busqueda",
             async: false,
             data: dataString,
             success: function(data) {
-            	console.log(data)
             	$('#exampleModal').modal('show')
-
+            	console.log(data.busqueda)
             	$(".busqueda").remove();
-            	  for (j in data) {
-            	console.log(data[j].id_modelo)
+            	if (data.busqueda==false) {
+            		var mensaje = document.createElement("div");
+					mensaje.setAttribute("class","col-12 busqueda text-center");
+					mensaje.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>NO SE HAN ENCONTRADO RESULTADOS DE ACUERDO A LA BUSQUEDA </BR> TENEMOS ESTAS OTRAS OPCIONES PARA TI</h4>"
+					document.getElementById('modal-body').appendChild(mensaje);
+
+            	}
+
+            	  for (j in data.datos) {
        	
             	var contenedor = document.createElement("div");
-				contenedor.setAttribute("class","col-md-6 col-lg-3 col-sm-6 col-xs-12 busqueda");
+				contenedor.setAttribute("class","col-md-6 col-lg-4 col-xl-3 col-sm-6 col-xs-12 busqueda");
 				document.getElementById('modal-body').appendChild(contenedor);
 
 				var shadow = document.createElement("div");
@@ -764,17 +772,17 @@
 				var contImagen = document.createElement("div");
 				shadow.appendChild(contImagen);
 				
-				//images/desarrollo-sanpatricio/Adare/fachada.jpg
+				//images/desarrollo/sanpatricio/Adare/fachada.jpg
 				var imagen = document.createElement("img");
-				imagen.setAttribute("src",data[j].url);
+				imagen.setAttribute("src",data.datos[j].images);
 				imagen.setAttribute("style","width: 100%");
-				imagen.setAttribute("style","height: 325px");
+				imagen.setAttribute("style","max-height: 275px");
 				contImagen.appendChild(imagen);
 
 				shadow.appendChild(contImagen);
 				var titulo = document.createElement("div");
 				titulo.setAttribute("class","margin-side-xs");
-				titulo.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>MODELO:"+ data[j].modelo+"</h4>"
+				titulo.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>MODELO:"+ data.datos[j].modelo+"</h4>"
 				shadow.appendChild(titulo);
 
 				var info = document.createElement("div");
@@ -793,12 +801,12 @@
 
 				var descripcion3 = document.createElement("h6");
 				descripcion3.setAttribute("class","nomargin");
-				descripcion3.innerHTML = "Precio: $"+data[j].precio+"*"
+				descripcion3.innerHTML = "Precio: $"+data.datos[j].precio+"*"
 				info.appendChild(descripcion3);
 
 				var btn = document.createElement("div");
 				btn.setAttribute("class","col-12 text-center");
-				btn.innerHTML = "<a href='modelo-adare' target='_blank'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
+				btn.innerHTML = "<a href="+data.datos[j].url+" target='_blank'><button type='button' class='btn btn-danger weight-light' style='margin-top: 12px; padding: 8px 40px;'>VER MODELO</button></a>"
 				shadow.appendChild(btn);
 		       	}
 

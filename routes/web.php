@@ -181,7 +181,7 @@ Route::post('/busqueda',function(Request $request){
     }
     
         $complejos = DB::table('complejos')
-        ->select('complejos.precio','modelos.nombre as modelo','complejos.url' )
+        ->select('complejos.precio','modelos.nombre as modelo','complejos.images' ,'complejos.url')
         ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo');
         if(isset($ciudad)) {
                 $complejos = $complejos->where('id_ciudad','=',$ciudad);
@@ -202,7 +202,52 @@ Route::post('/busqueda',function(Request $request){
         $complejos = $complejos->get();
 
 
-    return Response::json($complejos);
+        if (count($complejos)==0) {
+            $data = array('busqueda' => false, );
+            unset($complejos);  
+            $complejos = DB::table('complejos')
+            ->select('complejos.precio','modelos.nombre as modelo','complejos.images' ,'complejos.url')
+            ->leftJoin('modelos', 'modelos.id_modelo', 'complejos.id_modelo');
+            if(!empty($ciudad)) {
+                $complejos = $complejos->where('id_ciudad','=',$ciudad);
+                $complejos = $complejos->orderBy('precio');
+                $complejos = $complejos->get();
+                $data['datos']=$complejos;
+                return Response::json($data);
+            };
+            if(!empty($recamaras)) {
+                $complejos = $complejos->where('recamaras','=',$recamaras);
+                $complejos = $complejos->orderBy('precio');
+                $complejos = $complejos->get();
+                $data['datos']=$complejos;
+                return Response::json($data);
+            };
+              if(!empty($precios)) {
+                $complejos = $complejos->where('precio','>=',$precios[0]);
+                $complejos = $complejos->where('precio','<=',$precios[1]);
+                $complejos = $complejos->orderBy('precio');
+                $complejos = $complejos->get();
+                $data['datos']=$complejos;
+                return Response::json($data);
+            };
+             if(!empty($ingresos)) {
+                $complejos = $complejos->where('maximo','>=',$ingresos[0]);
+                $complejos = $complejos ->where('maximo','<=',$ingresos[1]);
+                $complejos = $complejos->orderBy('precio');
+                $complejos = $complejos->get();
+                $data['datos']=$complejos;
+                return Response::json($data);
+            };
+
+
+
+        }
+    $data = array(
+                    'busqueda' => true,  
+                    'datos'     => $complejos,
+                );
+
+    return Response::json($data);
 });
 
 
