@@ -163,11 +163,12 @@
 						<p>En nuestras oficinas conseguirás la atención personalizada que necesitas, directamente con nuestros asesores.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-recepcion-btn1')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							{{-- <a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-recepcion-btn1')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a> --}}
+							<a href="tel:@yield('equipo-recepcion-btn1')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
 
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('email')" data-clipboard-text="@yield('equipo-recepcion-btn2')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							<a href="mailto:@yield('equipo-recepcion-btn2')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
 							
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('ws')" data-clipboard-text="@yield('equipo-recepcion-btn3')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a href="tel:@yield('equipo-recepcion-btn3')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -180,11 +181,11 @@
 						<p>¿Sin tiempo para acercarte a nuestras oficinas? Obtén una atención con respuesta rápida y oportuna desde el Call Center de DAVIVIR.</p>
 						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
 						<div class="equipo-iconos">
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-callcenter-btn1')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="tel:@yield('equipo-callcenter-btn1')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
 
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('email')" data-clipboard-text="@yield('equipo-callcenter-btn2')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
-
-							<a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('ws')" data-clipboard-text="@yield('equipo-callcenter-btn3')" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a href="mailto:@yield('equipo-callcenter-btn2')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
+							
+							<a href="tel:@yield('equipo-callcenter-btn3')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>

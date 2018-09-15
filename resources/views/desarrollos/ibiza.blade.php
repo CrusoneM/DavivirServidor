@@ -19,7 +19,7 @@
 @section('models-slide')
 			<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/desarrollos/ibiza/prueba-505.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CANTABRIA</b></h5>
 			      		<p>Terreno desde: 90 M2</p>
@@ -29,7 +29,7 @@
 		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/desarrollos/ibiza/prueba-350.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CARTAGENA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
