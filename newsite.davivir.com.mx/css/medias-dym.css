@@ -324,8 +324,9 @@
             font-size: 2.5vw;
         }
         footer > div > a > img {
-            right: 51vw;
-            display: none;
+            right: 48vw;
+            margin-top: 3vh;
+            width: 7vw;
         }
         /*== /Footer ==*/
 
