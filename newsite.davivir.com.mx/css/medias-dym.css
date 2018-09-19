@@ -26,7 +26,9 @@
         
     }
     @media only screen and (min-width : 1750px) {
-
+        .beneficio > .col.m3{
+            width: 20%;
+        }
     }
     /*==========  Non-Mobile First Method  ==========*/
 
@@ -51,6 +53,7 @@
         }
         #header-text {
             margin: 35vh 0vw 0 0;
+            top: 40vh;
         }
 
         #models-section > .swiper-container > .swiper-wrapper > .swiper-slide {
@@ -97,6 +100,7 @@
 
         #header-text {
             width: 63vw;
+            top: 30vh;
         }
         #header-text > div#header-titles {
             width: 43vw;
@@ -235,7 +239,7 @@
             font-size: 4vw;
         }
         .beneficio > .col.m3{
-            width: 23%;
+            width: 20%;
         }
         .beneficio-text{
             width: 60vw;
@@ -320,8 +324,9 @@
             font-size: 2.5vw;
         }
         footer > div > a > img {
-            right: 51vw;
-            display: none;
+            right: 48vw;
+            margin-top: 3vh;
+            width: 7vw;
         }
         /*== /Footer ==*/
 
