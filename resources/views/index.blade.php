@@ -31,7 +31,7 @@
 													<div class="form-group col-md-3 text-left">
 														<label for="recamaras">Recámaras</label>
 														<select id="recamaras" name="recamaras" class="form-control">
-															<option value="">Seleccione recamaras</option>
+															<option value="">Seleccione recámaras</option>
 															<option value="2">2</option>
 															<option value="3">3</option>
 

@@ -7,7 +7,7 @@
 
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/ennis/head.jpg')
-
+d
 @section('header-title-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('header-title', 'SAN PATRICIO')
 @section('header-h4', 'ENNIS')
@@ -131,9 +131,9 @@ Desde <b>$545,000.00*</b>
 {{-- Más Section --}}
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536621159222!6m8!1m7!1sCAoSLEFGMVFpcE5sdVR5V2NUbENSelJod3l4ejRSSnhnQVRLYndXZDNMdlpOYUtm!2m2!1d21.8841757!2d-102.2425267!3f216.1!4f-23.810000000000002!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-dos">
+			<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/adare.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/adare/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: ADARE</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>
@@ -143,7 +143,7 @@ Desde <b>$545,000.00*</b>
 		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/bray.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/bray/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: BRAY</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>

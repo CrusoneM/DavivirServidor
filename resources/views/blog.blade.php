@@ -45,7 +45,7 @@
 
 						<div class="timeline-border"></div>
 
-						<div class="entry entry-date-section notopmargin"><span>November 2014</span></div>
+						<div class="entry entry-date-section notopmargin"><span>Septiembre 2018</span></div>
 
 						<div class="entry clearfix">
 							<div class="entry-timeline">
@@ -58,13 +58,13 @@
 								<h2><a href="blog-single.html">Lorem ipsum dolor sit amet</a></h2>
 							</div>
 							<ul class="entry-meta clearfix">
-								<li><i class="icon-calendar3"></i> 10th Feb 2014</li>
+								<li><i class="icon-calendar3"></i> 10 de Septiembre de 2018</li>
 								<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
 								<li><a href="#"><i class="icon-camera-retro"></i></a></li>
 							</ul>
 							<div class="entry-content">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
-								<a href="blog-single.html"class="more-link text-red">Read More</a>
+								<a href="blog-single.html"class="more-link text-red">Leer mas...</a>
 							</div>
 						</div>
 
@@ -80,13 +80,13 @@
 								<h2><a href="blog-single.html">Lorem ipsum dolor sit amet</a></h2>
 							</div>
 							<ul class="entry-meta clearfix">
-								<li><i class="icon-calendar3"></i> 10th Feb 2014</li>
+								<li><i class="icon-calendar3"></i> 10 de Septiembre de 2018</li>
 								<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
 								<li><a href="#"><i class="icon-camera-retro"></i></a></li>
 							</ul>
 							<div class="entry-content">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
-								<a href="blog-single.html"class="more-link text-red">Read More</a>
+								<a href="blog-single.html"class="more-link text-red">Leer mas...</a>
 							</div>
 						</div>
 
@@ -102,13 +102,13 @@
 								<h2><a href="blog-single.html">Lorem ipsum dolor sit amet</a></h2>
 							</div>
 							<ul class="entry-meta clearfix">
-								<li><i class="icon-calendar3"></i> 10th Feb 2014</li>
+								<li><i class="icon-calendar3"></i> 10 de Septiembre de 2018</li>
 								<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
 								<li><a href="#"><i class="icon-camera-retro"></i></a></li>
 							</ul>
 							<div class="entry-content">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
-								<a href="blog-single.html"class="more-link text-red">Read More</a>
+								<a href="blog-single.html"class="more-link text-red">Leer mas...</a>
 							</div>
 						</div>
 
@@ -130,7 +130,7 @@
 					</div>
 
 					<div class="center">
-						<a href="blog-timeline-2.html" class="button button-3d button-dark button-large button-rounded load-next-posts">Load more..</a>
+						<a href="blog-timeline-2.html" class="button button-3d button-dark button-large button-rounded load-next-posts">Cargar mas</a>
 					</div>
 
 				</div>

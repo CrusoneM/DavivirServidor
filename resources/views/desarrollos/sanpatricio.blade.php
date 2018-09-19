@@ -19,7 +19,7 @@
 @section('models-slide')
 			<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/adare.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/adare/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: ADARE</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>
@@ -29,7 +29,7 @@
 		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/bray.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/bray/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: BRAY</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>
@@ -39,7 +39,7 @@
 		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/sanpatricio/ennis.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/ennis/head.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: ENNIS</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>
