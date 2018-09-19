@@ -52,7 +52,7 @@
 				</div>
 
 					
-					<div  onclick="window.open();"	 class="col-xl-3 col-lg-6 banco-esritorio" style="padding: 0px; background: url('images/pre-infonavit.png') center center no-repeat; background-size: cover; min-height: 340px ;cursor:pointer;">
+					<div  onclick="window.open('http://portal.infonavit.org.mx/wps/wcm/connect/infonavit/inicio');"	 class="col-xl-3 col-lg-6 banco-esritorio" style="padding: 0px; background: url('images/pre-infonavit.png') center center no-repeat; background-size: cover; min-height: 340px ;cursor:pointer;">
 				
 					</div>
 					<div onclick="window.open('http://www.fovissste.gob.mx/en/FOVISSSTE/Simulador_de_Creditos_Tradicionales#.Ut1XnvbnZxA')" class="col-xl-3 col-lg-6 banco-esritorio" style="padding: 0px; background: url('images/pre-fovisste.png') center center no-repeat; background-size: cover; min-height: 340px;cursor:pointer; ">
