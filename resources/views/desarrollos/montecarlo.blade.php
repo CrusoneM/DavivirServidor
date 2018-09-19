@@ -26,7 +26,7 @@
 			      		<p>Construcción de: Desde 40.31 hasta 52.27</p>
 			      		<p>Precio:$467,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/montecarlo-damasco/modelo.jpg" alt="slide"></div>
@@ -36,7 +36,7 @@
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$571,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

@@ -123,7 +123,7 @@
 				<div class="col m7" id="nuevo-desarrollo">
 					<h4><b>TENEMOS UN NUEVO DESARROLLO DE VIVIENDA PARA TI</b></h4>
 					@yield('catalogo-p')
-					<a href="@yield('catalogo-btn1')" class="btn-custom"><b>VER MODELOS</b></a>
+					<a href="#models-section" class="scro btn-custom"><b>VER MODELOS</b></a>
 					<a href="@yield('catalogo-btn2')" class="btn-custom">AGENDA TU VISITA</a>
 				</div>
 				<div class="col m5" id="catalogo-form">
@@ -301,5 +301,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <!-- CustomJs-->
     <script src="/js/custom.js"></script>
+	<!-- Scroll-->
+    <script src="/js/scroll-efect.js"></script>
 </body>
 </html>

@@ -776,7 +776,7 @@
 				var imagen = document.createElement("img");
 				imagen.setAttribute("src",data.datos[j].images);
 				imagen.setAttribute("style","width: 100%");
-				imagen.setAttribute("style","max-height: 275px");
+				imagen.setAttribute("style","max-height: 500px");
 				contImagen.appendChild(imagen);
 
 				shadow.appendChild(contImagen);

@@ -26,7 +26,7 @@
 			      		<p>Construcción de: 61.92 M2</p>
 			      		<p>Precio:$562,200.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/viena') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/viena') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/berlin/modelo.jpg" alt="slide"></div>
@@ -36,7 +36,7 @@
 			      		<p>Construcción de: 69.00 M2</p>
 			      		<p>Precio:$604,000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/berlin') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/berlin') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

@@ -26,7 +26,7 @@
 			      		<p>Construcción de: 64.10 M2</p>
 			      		<p>Precio:$577,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/cartagena/modelo.jpg" alt="slide"></div>
@@ -36,7 +36,7 @@
 			      		<p>Construcción de: 70.23 M2</p>
 			      		<p>Precio:$553,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/corcega/modelo.jpg" alt="slide"></div>
@@ -46,7 +46,7 @@
 			      		<p>Construcción de: 66.02 M2</p>
 			      		<p>Precio:$506,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/mykonos/modelo.jpg" alt="slide"></div>
@@ -56,7 +56,7 @@
 			      		<p>Construcción de: 41.78 M2</p>
 			      		<p>Precio:$440,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/mykonos') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/mykonos') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/santorini-pa/modelo.jpg" alt="slide"></div>
@@ -66,7 +66,7 @@
 			      		<p>Construcción de: 39.68 M2</p>
 			      		<p>Precio:$356,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/santorini-pb/modelo.jpg" alt="slide"></div>
@@ -76,7 +76,7 @@
 			      		<p>Construcción de: 45.63 M2</p>
 			      		<p>Precio:$380,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/terranova-plus/modelo.jpg" alt="slide"></div>
@@ -86,7 +86,7 @@
 			      		<p>Construcción de: 49.68 M2</p>
 			      		<p>Precio:$500,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/terranova-plus') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/terranova-plus') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

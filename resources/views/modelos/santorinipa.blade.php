@@ -43,8 +43,8 @@ Desde <b>$356,000.00*</b>
 <p>Adicionalmente, el fraccionamiento cuenta con acceso controlado, escuelas, jardín de niños, locales comerciales, áreas verdes y parques con juegos infantiles. Todo esto para que tú y tu familia vivan en un ambiente seguro y cómodo.</p>
 <p>Y lo mejor, en Bosques de Ibiza sí te alcanza para comprar tu casa propia!</p>
 @endsection
-@section('catalogo-btn1', '#mas-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn1', '{{ url("/desarrollo/ibiza") }}')
+@section('catalogo-btn2', '{{ url("/contacto") }}')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

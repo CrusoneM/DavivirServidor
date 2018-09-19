@@ -26,7 +26,7 @@
 			      		<p>Construcción de: 83.73 M2</p>
 			      		<p>Precio:$951,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/palermo-damasco/modelo.jpg" alt="slide"></div>
@@ -36,7 +36,7 @@
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$705,000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/imperial/modelo.jpg" alt="slide"></div>
@@ -46,7 +46,7 @@
 			      		<p>Construcción de: 94.00 M2</p>
 			      		<p>Precio:$1,164,000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/turquia/modelo.jpg" alt="slide"></div>
@@ -56,7 +56,7 @@
 			      		<p>Construcción de: 66.81 M2</p>
 			      		<p>Precio:$794,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

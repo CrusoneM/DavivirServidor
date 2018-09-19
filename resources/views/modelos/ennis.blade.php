@@ -42,8 +42,8 @@ Desde <b>$545,000.00*</b>
 <p>Colinas de San Patricio es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único! Al vivir en Colinas de San Patricio contarás con muchos servicios cómo escuelas, universidades, hospitales y tiendas de auto servicio, a sólo unos pasos de tu hogar. Adicionalmente, al estar ubicado frente a la Línea Verde, tendrás todos los espacios recreativos, deportivos y de convivencia familiar que este parque lineal ofrece.</p>
 <p>En Colinas de San Patricio contaremos con cuatro modelos distintos de vivienda, para que puedas escoger el que más se acomoda a tus necesidades y presupuesto. Adicionalmente, al adquirir tu vivienda en este desarrollo, contarás con viviendas ecológicas de una excelente distribución, calidad y diseño, además de tener parques dentro del desarrollo y accesos controlados en las calles, para que puedas vivir con tranquilidad.</p>
 @endsection
-@section('catalogo-btn1', '#mas-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn1', '{{ url("/desarrollo/sanpatricio") }}')
+@section('catalogo-btn2', '{{ url("/contacto") }}')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

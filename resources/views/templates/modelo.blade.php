@@ -129,7 +129,7 @@
 				<div class="col m7" id="nuevo-desarrollo">
 					<h4><b>TENEMOS UN NUEVO DESARROLLO DE VIVIENDA PARA TI</b></h4>
 					@yield('catalogo-p')
-					<a href="@yield('catalogo-btn1')" class="btn-custom"><b>VER MODELOS</b></a>
+					<a href="@yield('catalogo-btn1')" class="btn-custom"><b>VER DESARROLLO</b></a>
 					<a href="@yield('catalogo-btn2')" class="btn-custom">AGENDA TU VISITA</a>
 				</div>
 				<div class="col m5" id="catalogo-form">

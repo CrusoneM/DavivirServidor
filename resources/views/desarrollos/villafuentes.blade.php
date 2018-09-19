@@ -26,7 +26,7 @@
 			      		<p>Construcción de: 41.67 M2</p>
 			      		<p>Precio:$370,000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/minerva') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/minerva') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection
