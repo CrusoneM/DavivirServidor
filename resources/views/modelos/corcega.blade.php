@@ -49,56 +49,7 @@ Desde <b>$506,000.00*</b>
 
 {{-- Beneficio Section --}}
 @section('beneficios')
-			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/escuela.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ESCUELA</b></h5>
-						<p>En cualquiera de nuestros desarrollos podrás estar tranquilo al saber que tus hijos estudiarán en excelentes escuelas, a pocos kilómetros de tu nuevo hogar.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/verde.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ÁREAS VERDES</b></h5>
-						<p>En cada uno de nuestros desarrollos hemos diseñado exclusivas áreas verdes, donde las mascotas de la familia podrán ejercitarse al aire libre.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/comercial.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ZONA COMERCIAL</b></h5>
-						<p>Nuestros complejos están ubicados cercanos a centros comerciales, por lo que contarás con una amplia gama de servicios a pocos pasos de tu nuevo hogar.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/parque.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>PARQUES</b></h5>
-						<p>¿Buscas más áreas verdes? Pregunta por nuestros complejos cercanos a los más espaciosos parques y pulmones vegetales de la ciudad.</p>
-					</div>
-				</div>
-				<div class="col m4 beneficio">
-					<div class="col m3">
-						<img src="/images/modelo-aleppo/control.png" alt="icono">
-					</div>
-					<div class="col m9 left-align beneficio-text">
-						<h5><b>ACCESO CONTROLADO</b></h5>
-						<p>Tu seguridad y la de tu familia es lo más importante, por eso hemos desarrollado un sistema de acceso donde tú mismo puedes controlar quien entra a visitarte.</p>
-					</div>
-				</div>
-			</div>
+	
 @endsection
 {{-- /Beneficio Section --}}
 
@@ -115,9 +66,9 @@ Desde <b>$506,000.00*</b>
 @section('visita-virtual', 'display:none;')
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
+					<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/cantabria/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CANTABRIA</b></h5>
 			      		<p>Terreno desde: 90 M2</p>
@@ -127,7 +78,7 @@ Desde <b>$506,000.00*</b>
 		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/cartagena/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CARTAGENA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -137,17 +88,7 @@ Desde <b>$506,000.00*</b>
 		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/corcega/head.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: CÓRCEGA</b></h5>
-			      		<p>Terreno desde: 67.50 M2</p>
-			      		<p>Construcción de: 66.02 M2</p>
-			      		<p>Precio:$506,000.00*</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/mykonos/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/mykonos/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MYKONOS</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -157,7 +98,7 @@ Desde <b>$506,000.00*</b>
 		      		<a href="{{ url('/modelo/mykonos') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pa/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA ALTA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -167,7 +108,7 @@ Desde <b>$506,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/santorini-pb/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pb/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA BAJA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -177,7 +118,7 @@ Desde <b>$506,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/terranova-plus/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/terranova-plus/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: TERRANOVA PLUS</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>

@@ -146,7 +146,7 @@ Desde <b>$562,200.00*</b>
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-one">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montebello/berlin.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/berlin/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: BERLIN</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>

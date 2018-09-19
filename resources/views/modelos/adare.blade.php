@@ -4,7 +4,7 @@
 @section('keywords', '')
 @section('title', 'Adare')
 {{--====== /Head ============--}}
-d
+1
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/adare/head.jpg')
 
@@ -128,9 +128,9 @@ Desde <b>$574,500.00*</b>
 {{-- Más Section --}}
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
+			<div class="swiper-wrapper swiper-wrapper-dos">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/bray/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/bray/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: BRAY</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>
@@ -140,7 +140,7 @@ Desde <b>$574,500.00*</b>
 		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/ennis/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/ennis/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: ENNIS</b></h5>
 			      		<p>Terreno desde: 75.00 M2</p>

@@ -114,9 +114,9 @@ Desde <b>$553,000.00*</b>
 @section('visita-virtual', 'display:none;')
 @section('video', 'https://www.google.com/maps/embed?pb=!4v1536608677434!6m8!1m7!1sCAoSLEFGMVFpcE96UlR2R0V0MXB5UDI5c29xTHR5TTZRU3Jqdzh5bHd3WjZiVTRF!2m2!1d21.884303894561!2d-102.24262496804!3f187.3930959716684!4f-21.553628663297147!5f0.7820865974627469')
 @section('mas-model')
-			<div class="swiper-wrapper swiper-wrapper-tres">
+					<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/cantabria/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CANTABRIA</b></h5>
 			      		<p>Terreno desde: 90 M2</p>
@@ -126,17 +126,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/cantabria') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
-			      	<div class="models-slide-text">
-			      		<h5><b>MODELO: CARTAGENA</b></h5>
-			      		<p>Terreno desde: 67.50 M2</p>
-			      		<p>Construcción de: 70.23 M2</p>
-			      		<p>Precio:$553,000.00*</p>
-	      			</div>
-		      		<a href="{{ url('/modelo/cartagena') }}" class="btn-custom">VER DESARROLLO</a>
-		      	</div>
-		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/corcega/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/corcega/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: CÓRCEGA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -146,7 +136,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/corcega') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/mykonos/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/mykonos/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MYKONOS</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -156,7 +146,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/mykonos') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pa/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA ALTA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -166,7 +156,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipa') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/santorini-pb/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/santorini-pb/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: SANTORINI (PLANTA BAJA)</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>
@@ -176,7 +166,7 @@ Desde <b>$553,000.00*</b>
 		      		<a href="{{ url('/modelo/santorinipb') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/terranova-plus/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/terranova-plus/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: TERRANOVA PLUS</b></h5>
 			      		<p>Terreno desde: 90.00 M2</p>

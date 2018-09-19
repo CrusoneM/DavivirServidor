@@ -19,7 +19,7 @@
 @section('models-slide')
 			<div class="swiper-wrapper">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/fortezza.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/fortezza/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: FORTEZZA</b></h5>
 			      		<p>Terreno desde: N/A</p>
@@ -29,7 +29,7 @@
 		      		<a href="{{ url('/modelo/fortezza') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/damasco.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/montecarlo-damasco/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 47.52 M2</p>

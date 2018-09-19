@@ -19,7 +19,7 @@
 @section('models-slide')
 			<div class="swiper-wrapper swiper-wrapper-one">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/minerva/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/minerva/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: MINERVA</b></h5>
 			      		<p>Terreno desde: 76.50 M2</p>

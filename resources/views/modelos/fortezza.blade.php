@@ -151,7 +151,7 @@ Desde <b>$467,000.00*</b>
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-one">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montecarlo/damasco.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/montecarlo/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 47.52 M2</p>

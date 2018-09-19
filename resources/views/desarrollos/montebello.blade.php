@@ -19,7 +19,7 @@
 @section('models-slide')
 			<div class="swiper-wrapper swiper-wrapper">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montebello/viena.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/viena/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: VIENA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
@@ -29,7 +29,7 @@
 		      		<a href="{{ url('/modelo/viena') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montebello/berlin.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/berlin/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: BERLÍN</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>

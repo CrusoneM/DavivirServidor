@@ -122,7 +122,7 @@ Desde <b>$1,164,000.00*</b>
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-tres">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/aleppo/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/aleppo/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: ALEPPO</b></h5>
 			      		<p>Terreno desde: 63.37 M2</p>
@@ -132,7 +132,7 @@ Desde <b>$1,164,000.00*</b>
 		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/sample-img.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/palermo-damasco/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 54.00 M2</p>
@@ -142,7 +142,7 @@ Desde <b>$1,164,000.00*</b>
 		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/turquia/head.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/turquia/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: TURQUIA</b></h5>
 			      		<p>Terreno desde: 59.73 M2</p>

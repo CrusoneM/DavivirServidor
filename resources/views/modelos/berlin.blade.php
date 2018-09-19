@@ -150,7 +150,7 @@ Desde <b>$604,000.00*</b>
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-one">
 				<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/desarrollos/montebello/viena.jpg" alt="slide"></div>
+			      	<div><img src="/images/modelos/viena/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: VIENA</b></h5>
 			      		<p>Terreno desde: 67.50 M2</p>
