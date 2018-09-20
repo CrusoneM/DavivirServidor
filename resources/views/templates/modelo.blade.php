@@ -286,7 +286,7 @@
 			<div class="row">
 				<div class="col m5 offset-m7" id="catalogo-form-footer">
 					{{-- <img src="/images/imagen-contactanos.jpg" alt="Img-catalogo"> --}}
-					<h4>DESCARGA NUESTRO <b>CATÁLOGO</b></h4>
+					<h4>SOLICITA MÁS <b>INFORMACIÓN</b></h4> 
 					<form action="#" method="post">
 						<input type="text" name="names" placeholder="Nombre y Apellido">
 						<input type="email" name="email" placeholder="Email">
