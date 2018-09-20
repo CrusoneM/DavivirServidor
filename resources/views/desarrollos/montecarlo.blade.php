@@ -142,18 +142,28 @@
 @endsection
 {{-- /Beneficio Section --}}
 
-{{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '55-84-49-33-40')
-@section('equipo-recepcion-btn2', 'montecarlo.recepcion@davivir.com.mx')
-@section('equipo-recepcion-btn3', '55-84-49-33-40')
 
-@section('equipo-callcenter-btn1', '55-59-34-71-93')
+{{-- Equipo Section --}}
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'Lunes a Domingo de 10:00 AM a 06:00 PM')
+@section('equipo-recepcion-btn1', '558449340')
+@section('equipo-recepcion-btn2', 'montecarlo.recepcion@davivir.com.mx')
+@section('equipo-recepcion-btn3', '5215584493340')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '555937193')
 @section('equipo-callcenter-btn2', 'montecarlo.recepcion@davivir.com.mx')
-@section('equipo-callcenter-btn3', '55-59-34-71-93')
+@section('equipo-callcenter-btn3', '5215584493340')
+
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/montecarlo/map.jpg')
+@section('la', '19.709784')
+@section('lg', '-98.958067')
+@section('g-map','https://www.google.com/maps/place/Desarrollo+Montecarlo,+Davivir/@19.7094958,-98.9602449,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x85d1ecc143fd62d1:0x983ffe1b23398e64!2sDESARROLLO+MONTECARLO!8m2!3d19.7067385!4d-98.951101!3m4!1s0x85d1ecdb316929e7:0x5d86a96044d19873!8m2!3d19.7094908!4d-98.9580562')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

@@ -1,5 +1,6 @@
 {{--====== Head ============--}}
 @extends('templates.modelo')
+
 @section('keywords', '')
 @section('title', 'Fortezza')
 {{--====== /Head ============--}}
@@ -166,13 +167,19 @@ Desde <b>$467,000.00*</b>
 {{-- /Más Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'Lunes a Domingo de 10:00 AM a 06:00 PM')
+@section('equipo-recepcion-btn1', '558449340')
+@section('equipo-recepcion-btn2', 'montecarlo.recepcion@davivir.com.mx')
+@section('equipo-recepcion-btn3', '5215584493340')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '555937193')
+@section('equipo-callcenter-btn2', 'montecarlo.recepcion@davivir.com.mx')
+@section('equipo-callcenter-btn3', '5215584493340')
+
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}

@@ -69,17 +69,28 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '55-84-49-33-40')
-@section('equipo-recepcion-btn2', 'montecarlo.recepcion@davivir.com.mx')
-@section('equipo-recepcion-btn3', '55-84-49-33-40')
 
-@section('equipo-callcenter-btn1', '55-59-34-71-93')
-@section('equipo-callcenter-btn2', 'montecarlo.recepcion@davivir.com.mx')
-@section('equipo-callcenter-btn3', '55-59-34-71-93')
+@section('dis-whatapp', 'display:none')
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'De Lunes a Viernes de 8:00 AM a 2:00 PM y de 3:00 PM a 6:00 PM')
+@section('equipo-recepcion-btn1', '9961111')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'De Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '9961111')
+@section('equipo-callcenter-btn2', 'ventas@davivir.com.mx')
+
 {{-- /Equipo Section --}}
+
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/villafuentes/mapa.png')
+@section('btn-pdf', 'display:none')
+@section('la', '21.912111')
+@section('lg', '-102.238971')
+@section('g-map','https://www.google.com/maps/dir//Av.+Villas+de+las+Fuentes,+Pozo+Bravo,+Aguascalientes,+Ags.,+M%C3%A9xico/@21.9118614,-102.2413518,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8429f1cf17fb2cc1:0x961b0cddead07536!2m2!1d-102.2391631!2d21.9118614')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

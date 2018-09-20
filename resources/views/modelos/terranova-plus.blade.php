@@ -182,13 +182,19 @@ Desde <b>$500,000.00*</b>
 {{-- /Más Section --}}
 
 {{-- Equipo Section --}}
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'Lunes a Domingo de 10:00 AM a 06:00 PM')
 @section('equipo-recepcion-btn1', '53958813')
 @section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
-@section('equipo-recepcion-btn3', '5566118121')
+@section('equipo-recepcion-btn3', '5215566118121')
 
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'Lunes a Viernes de 9:00 AM a 06:00 PM')
 @section('equipo-callcenter-btn1', '55801213')
 @section('equipo-callcenter-btn2', 'info@davivir.com.mx')
-@section('equipo-callcenter-btn3', '5566118121')
+@section('equipo-callcenter-btn3', '5215566118121')
+
 {{-- /Equipo Section --}}
 
 {{-- Otros Section --}}

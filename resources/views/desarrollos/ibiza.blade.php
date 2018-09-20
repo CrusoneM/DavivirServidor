@@ -158,17 +158,26 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'Lunes a Domingo de 10:00 AM a 06:00 PM')
+@section('equipo-recepcion-btn1', '53958813')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+@section('equipo-recepcion-btn3', '5215566118121')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '55801213')
+@section('equipo-callcenter-btn2', 'info@davivir.com.mx')
+@section('equipo-callcenter-btn3', '5215566118121')
+
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/ibiza/mapa.jpg')
+@section('la', '19.887854')
+@section('lg', '-98.939859')
+@section('g-map','https://www.google.com.mx/maps/place/Fraccionamiento+DAVIVIR+Bosques+de+Ibiza+Informes+y+Ventas+INFONAVIT.+CAPREPOL,+FOVISSSTE/@19.8852509,-98.942477,15z/data=!4m8!1m2!2m1!1sbosques+de+Ibiza!3m4!1s0x0:0xb4fe4770a11f6c5e!8m2!3d19.8868791!4d-98.9396793')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

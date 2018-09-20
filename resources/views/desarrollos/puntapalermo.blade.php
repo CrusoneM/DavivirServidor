@@ -142,17 +142,26 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'Lunes a Domingo de 10:00 AM a 06:00 PM')
+@section('equipo-recepcion-btn1', '53958813')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+@section('equipo-recepcion-btn3', '5215566116206')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '55801213')
+@section('equipo-callcenter-btn2', 'ventas@davivir.com.mx')
+@section('equipo-callcenter-btn3', '5215566116206')
+
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/puntapalermo/map.jpg')
+@section('la', '19.640808')
+@section('lg', '-99.026286')
+@section('g-map','https://www.google.com.mx/maps/place/Punta+Palermo/@19.6404286,-99.0284963,17z/data=!4m12!1m6!3m5!1s0x85d1f210458bbc53:0xe56a51aac70598b9!2sPunta+Palermo!8m2!3d19.6404286!4d-99.0263076!3m4!1s0x85d1f210458bbc53:0xe56a51aac70598b9!8m2!3d19.6404286!4d-99.0263076')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

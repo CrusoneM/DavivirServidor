@@ -160,15 +160,16 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>RECEPCIÓN</h6>
-						<p>En nuestras oficinas conseguirás la atención personalizada que necesitas, directamente con nuestros asesores.</p>
-						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
+						<p>@yield('mensaje-recepcion')</p>
+						<p class="equipo-horario"><b>@yield('hor-recepcion')</b></p>
 						<div class="equipo-iconos">
 							{{-- <a class="tooltipped" onclick="copyEquipoBtn(), toastEquipoBtn('telefono')" data-clipboard-text="@yield('equipo-recepcion-btn1')" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a> --}}
-							<a href="tel:@yield('equipo-recepcion-btn1')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
-
-							<a href="mailto:@yield('equipo-recepcion-btn2')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
 							
-							<a href="tel:@yield('equipo-recepcion-btn3')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-recepcion-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a href="tel:@yield('equipo-recepcion-btn1')" ><img src="/images/Telefono.png" alt="Telefono"></a>
+
+							<a href="mailto:@yield('equipo-recepcion-btn2')" ><img src="/images/Mensaje.png" alt="mensajes"></a>
+
+							<a href="https://api.whatsapp.com/send?phone=@yield('equipo-recepcion-btn3')" target="_blank" style="@yield('dis-whatapp')""><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -178,14 +179,14 @@
 					</div>
 					<div class="col m6 left-align description-equipo">
 						<h6>CALL CENTER</h6>
-						<p>¿Sin tiempo para acercarte a nuestras oficinas? Obtén una atención con respuesta rápida y oportuna desde el Call Center de DAVIVIR.</p>
-						<p class="equipo-horario"><b>LUN A VIE | DE 9AM A 4PM</b></p>
+						<p>@yield('mensaje-call')</p>
+						<p class="equipo-horario"><b>@yield('hor-call')</b></p>
 						<div class="equipo-iconos">
-							<a href="tel:@yield('equipo-callcenter-btn1')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn1')"><img src="/images/Telefono.png" alt="Telefono"></a>
+							<a href="tel:@yield('equipo-callcenter-btn1')" ><img src="/images/Telefono.png" alt="Telefono"></a>
 
-							<a href="mailto:@yield('equipo-callcenter-btn2')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn2')"><img src="/images/Mensaje.png" alt="mensajes"></a>
-							
-							<a href="tel:@yield('equipo-callcenter-btn3')" class="tooltipped" data-position="bottom" data-tooltip="@yield('equipo-callcenter-btn3')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
+							<a href="mailto:@yield('equipo-callcenter-btn2')" ><img src="/images/Mensaje.png" alt="mensajes"></a>
+
+							<a <a href="https://api.whatsapp.com/send?phone=@yield('equipo-callcenter-btn3')" target="_blank" style="@yield('dis-whatapp')"><img src="/images/Whatsapp.png" alt="Whatsapp"></a>
 						</div>
 					</div>
 				</div>
@@ -196,10 +197,10 @@
 			<h4>VISITA TU <b>PRÓXIMO HOGAR</b></h4>
 			<img src="@yield('map')" alt="mapa">
 			<p><b>LLEGA A @yield('header-title') CON UN SOLO CLIC</b></p>
-			<a href="#" class="btn-custom">WAZE</a>
-			<a href="@yield('map')" class="btn-custom" download>DESCARGAR PDF</a>
-			<a href="#" class="btn-custom"><i class="fas fa-map-marker-alt"></i> ¿CÓMO LLEGAR A @yield('header-title')?</a>
-			<a href="#" class="btn-custom">AGENDA TU VISITA</a>
+			<a href="https://waze.com/ul?ll=@yield('la'),@yield('lg')&navigate=yes&z=10" target="_blank" class="btn-custom">WAZE</a>
+			<a href="@yield('map')" style="@yield('btn-pdf')" class="btn-custom" download>DESCARGAR PDF</a>
+			<a href="@yield('g-map')" target="_blank" class="btn-custom"><i class="fas fa-map-marker-alt"></i> ¿CÓMO LLEGAR A @yield('header-title')?</a>
+			<a href="/contactanos" class="btn-custom">AGENDA TU VISITA</a>
 		</section>
 
 		<section id="otros-section">

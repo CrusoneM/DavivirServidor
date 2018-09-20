@@ -137,17 +137,28 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('dis-whatapp', 'display:none')
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'De Lunes a Viernes de 8:00 AM a 2:00 PM y de 3:00 PM a 6:00 PM')
+@section('equipo-recepcion-btn1', '9961111')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'De Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '9961111')
+@section('equipo-callcenter-btn2', 'ventas@davivir.com.mx')
+
 {{-- /Equipo Section --}}
+
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/montebello/mapa.png')
+@section('btn-pdf', 'display:none')
+@section('la', '21.938329')
+@section('lg', '-102.271701')
+@section('g-map',"https://www.google.com/maps/place/21%C2%B056'18.0%22N+102%C2%B016'18.1%22W/@21.938334,-102.2738897,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x8429efc19aae8451:0x84aff0699d72d319!2sAv.+Unidad+Nacional,+Jardines+de+Montebello,+20126+Aguascalientes,+Ags.,+Mexico!3b1!8m2!3d21.9390933!4d-102.2719035!3m5!1s0x0:0x0!7e2!8m2!3d21.9383291!4d-102.2717008")
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

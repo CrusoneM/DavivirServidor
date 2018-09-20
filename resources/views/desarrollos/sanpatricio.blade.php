@@ -136,17 +136,27 @@
 {{-- /Beneficio Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '996 11 11')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('dis-whatapp', 'display:none')
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'De Lunes a Viernes de 8:00 AM a 2:00 PM y de 3:00 PM a 6:00 PM')
+@section('equipo-recepcion-btn1', '9961111')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'De Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '9961111')
+@section('equipo-callcenter-btn2', 'ventas@davivir.com.mx')
+
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
 @section('map', '/images/desarrollos/sanpatricio/mapa.jpg')
+@section('btn-pdf', 'display:none')
+@section('la', '21.883951')
+@section('lg', '-102.236948')
+@section('g-map','https://www.google.com/maps/place/21.883951,+-102.236948/@21.8838064,-102.2372686,439m/data=!3m1!1e3!4m13!1m7!3m6!1s0x8429f1f22dfa0045:0x70418829a2ce40ec!2sSan+Francisco+de+Los+Viveros+%26+Av+Vallarta,+Aguascalientes,+Ags.,+Mexico!3b1!8m2!3d21.8838328!4d-102.2369492!3m4!7e2!8m2!3d21.8839508!4d-102.2369483')
 {{-- /Map Section --}}
 
 {{-- Otros Section --}}

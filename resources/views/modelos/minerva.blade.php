@@ -96,14 +96,21 @@ Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayud
 {{-- /Más Section --}}
 
 {{-- Equipo Section --}}
-@section('equipo-recepcion-btn1', '#')
-@section('equipo-recepcion-btn2', '#')
-@section('equipo-recepcion-btn3', '#')
 
-@section('equipo-callcenter-btn1', '#')
-@section('equipo-callcenter-btn2', '#')
-@section('equipo-callcenter-btn3', '#')
+@section('dis-whatapp', 'display:none')
+
+@section('mensaje-recepcion', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos')
+@section('hor-recepcion', 'De Lunes a Viernes de 8:00 AM a 2:00 PM y de 3:00 PM a 6:00 PM')
+@section('equipo-recepcion-btn1', '9961111')
+@section('equipo-recepcion-btn2', 'ventas@davivir.com.mx')
+
+@section('mensaje-call', 'Ahora que ya sabes que tenemos la mejor opción para ti, no dudes en contactarnos.')
+@section('hor-call', 'De Lunes a Viernes de 9:00 AM a 06:00 PM')
+@section('equipo-callcenter-btn1', '9961111')
+@section('equipo-callcenter-btn2', 'ventas@davivir.com.mx')
+
 {{-- /Equipo Section --}}
+
 
 {{-- Otros Section --}}
 @section('otros-img', '/images/desarrollos/sanpatricio/head2.jpg')
