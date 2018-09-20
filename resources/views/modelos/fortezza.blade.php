@@ -36,13 +36,14 @@ Desde <b>$467,000.00*</b>
 @section('models-terreno', 'N/A')
 @section('models-construccion', 'Desde 40.31 hasta 52.27')
 {{-- /Models Section --}}
-s
+
 {{-- Catalogo Section --}}
 @section('catalogo-p')
 <p>Davivir tiene un nuevo desarrollo de vivienda para ti. Te presentamos Montecarlo, ubicado en Tecámac, Estado de México, pensado en gente exigente que aprecia los detalles de vivir bien. Conoce Montecarlo y experimenta el placer de Vivir con altura! Al elegir vivir en Montecarlo, podrás estar ubicado muy cerca del centro del municipio de Tecámac, con lo cual contarás con muchos servicios a sólo unos pasos. Adicionalmente, por estar en Tecámac, estarás muy cerca de la ciudad de México y con múltiples vías de acceso a ella como la autopista México Pachuca, la carretera libre o incluso, la nueva línea de Mexibus que está próxima a ser inaugurada. En Montecarlo podrás elegir entre vivir en casas en calles privadas o departamentos en edificios de tres niveles también en calles privadas.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/montecarlo") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
@@ -151,14 +152,14 @@ s
 @section('mas-model')
 			<div class="swiper-wrapper swiper-wrapper-one">
 		      	<div class="swiper-slide z-depth-2">
-			      	<div><img src="/images/modelos/montecarlo/modelo.jpg" alt="slide"></div>
+			      <div><img src="/images/modelos/montecarlo-damasco/modelo.jpg" alt="slide"></div>
 			      	<div class="models-slide-text">
 			      		<h5><b>MODELO: DAMASCO</b></h5>
 			      		<p>Terreno desde: 47.52 M2</p>
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$571,000.00*</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/montecarlo-damasco') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

@@ -123,11 +123,11 @@
 				<div class="col m7" id="nuevo-desarrollo">
 					<h4><b>TENEMOS UN NUEVO DESARROLLO DE VIVIENDA PARA TI</b></h4>
 					@yield('catalogo-p')
-					<a href="#models-section" class="scro btn-custom"><b>VER MODELOS</b></a>
+					<a href="#models-section" class="scroll btn-custom"><b>VER MODELOS</b></a>
 					<a href="@yield('catalogo-btn2')" class="btn-custom">AGENDA TU VISITA</a>
 				</div>
 				<div class="col m5" id="catalogo-form">
-					<h4>DESCARGA NUESTRO <b>CATÁLOGO</b></h4>
+					<h4>SOLICITA MÁS <b>INFORMACIÓN</b></h4> 
 					<form action="#" method="post">
 						<input type="text" name="names" placeholder="Nombre y Apellido">
 						<input type="email" name="email" placeholder="Email">

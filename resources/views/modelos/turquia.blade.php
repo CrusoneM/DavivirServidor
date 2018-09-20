@@ -31,9 +31,9 @@ Desde <b>$794,000.00*</b>
 {{-- <h3>¡CON <b>BONO DE DESCUENTO</b> DE HASTA <b> $45,000.00 PESOS!</b></h3> --}}
 <p>Tienes una familia con dos hijos o más o tienes más miembros de tu familia extensiva viviendo contigo? Requieres de una vivienda cómoda de tres recámaras? El modelo Turquía te ofrece tres amplias y confortables recámaras para que tu familia y tú vivan a plenitud y con privacidad entre sí.</p>
 @endsection
-
-@section('models-terreno', '59.73')
-@section('models-construccion', '66.81')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Models Section --}}
 
 {{-- Catalogo Section --}}
@@ -130,7 +130,7 @@ Desde <b>$794,000.00*</b>
 			      		<p>Construcción de: 83.73 M2</p>
 			      		<p>Precio:$951,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/palermo-damasco/modelo.jpg" alt="slide"></div>
@@ -140,7 +140,7 @@ Desde <b>$794,000.00*</b>
 			      		<p>Construcción de: 56.60 M2</p>
 			      		<p>Precio:$705,000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/palermo-damasco') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/imperial/modelo.jpg" alt="slide"></div>
@@ -150,7 +150,7 @@ Desde <b>$794,000.00*</b>
 			      		<p>Construcción de: 94.00 M2</p>
 			      		<p>Precio:$1,164,000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

@@ -39,7 +39,7 @@
 	<p>Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayuda a ahorrar en gastos de luz y agua, al tiempo que ayudas a cuidar el medio ambiente.</p>
 @endsection
 @section('catalogo-btn1', '#models-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

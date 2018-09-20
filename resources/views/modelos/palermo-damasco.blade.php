@@ -41,8 +41,9 @@ Desde <b>$705.00.00*</b>
 	<p>Ubicado sobre la Avenida Ozumbilla en el municipio de Tecamac, Punta Palermo es un fraccionamiento que se distingue por estar estratégicamente ubicado cerca de centros comerciales, escuelas, supermercados, autopistas y múltiples rutas de transporte público.</p>
 	<p>Adicionalmente, el desarrollo cuenta con acceso controlado, calles con pórticos con interfón, áreas verdes dentro de privadas, parques, escuelas y comercio. Todo esto para ofrecer un entorno agradable, de alta calidad y que aumente la plusvalía de las viviendas.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/puntapalermo") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
@@ -131,7 +132,7 @@ Desde <b>$705.00.00*</b>
 			      		<p>Construcción de: 83.73 M2</p>
 			      		<p>Precio:$951,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/imperial/head.jpg" alt="slide"></div>
@@ -141,7 +142,7 @@ Desde <b>$705.00.00*</b>
 			      		<p>Construcción de: 94.00 M2</p>
 			      		<p>Precio:$1,164,000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/turquia/head.jpg" alt="slide"></div>
@@ -151,7 +152,7 @@ Desde <b>$705.00.00*</b>
 			      		<p>Construcción de: 66.81 M2</p>
 			      		<p>Precio:$794,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

@@ -7,7 +7,7 @@
 
 {{--====== Header ============--}}
 @section('header-img', '/images/modelos/ennis/head.jpg')
-1
+
 @section('header-title-img', '/images/desarrollos/sanpatricio/logo_sanpatricio.png')
 @section('header-title', 'SAN PATRICIO')
 @section('header-h4', 'ENNIS')
@@ -42,8 +42,9 @@ Desde <b>$545,000.00*</b>
 <p>Colinas de San Patricio es el nuevo desarrollo de Davivir en el oriente de la ciudad. Ven, conoce y entérate por qué este desarrollo será tan especial y único! Al vivir en Colinas de San Patricio contarás con muchos servicios cómo escuelas, universidades, hospitales y tiendas de auto servicio, a sólo unos pasos de tu hogar. Adicionalmente, al estar ubicado frente a la Línea Verde, tendrás todos los espacios recreativos, deportivos y de convivencia familiar que este parque lineal ofrece.</p>
 <p>En Colinas de San Patricio contaremos con cuatro modelos distintos de vivienda, para que puedas escoger el que más se acomoda a tus necesidades y presupuesto. Adicionalmente, al adquirir tu vivienda en este desarrollo, contarás con viviendas ecológicas de una excelente distribución, calidad y diseño, además de tener parques dentro del desarrollo y accesos controlados en las calles, para que puedas vivir con tranquilidad.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/sanpatricio") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
@@ -140,7 +141,7 @@ Desde <b>$545,000.00*</b>
 			      		<p>Construcción de: 71.75 M2</p>
 			      		<p>Precio:$574.500.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/adare') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/bray/head.jpg" alt="slide"></div>
@@ -150,7 +151,7 @@ Desde <b>$545,000.00*</b>
 			      		<p>Construcción de: 51.49 M2</p>
 			      		<p>Precio:$490.000.00 *</p>
 			      	</div>
-		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/bray') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

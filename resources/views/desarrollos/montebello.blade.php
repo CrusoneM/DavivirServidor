@@ -49,7 +49,7 @@
 	<p>Ubicados en la Zona Norte de la ciudad con seguridad, acceso controlado, área social, cerca de centros comerciales, escuelas y hospitales.</p>
 @endsection
 @section('catalogo-btn1', '#models-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

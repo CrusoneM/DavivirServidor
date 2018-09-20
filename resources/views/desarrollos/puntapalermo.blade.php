@@ -72,7 +72,7 @@
 	<p>Adicionalmente, el desarrollo cuenta con acceso controlado, calles con pórticos con interfón, áreas verdes dentro de privadas, parques, escuelas y comercio. Todo esto para ofrecer un entorno agradable, de alta calidad y que aumente la plusvalía de las viviendas.</p>
 @endsection
 @section('catalogo-btn1', '#models-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 

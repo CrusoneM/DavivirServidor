@@ -43,8 +43,9 @@ Desde <b>$571,000.00*</b>
 @section('catalogo-p')
 <p>Davivir tiene un nuevo desarrollo de vivienda para ti. Te presentamos Montecarlo, ubicado en Tecámac, Estado de México, pensado en gente exigente que aprecia los detalles de vivir bien. Conoce Montecarlo y experimenta el placer de Vivir con altura! Al elegir vivir en Montecarlo, podrás estar ubicado muy cerca del centro del municipio de Tecámac, con lo cual contarás con muchos servicios a sólo unos pasos. Adicionalmente, por estar en Tecámac, estarás muy cerca de la ciudad de México y con múltiples vías de acceso a ella como la autopista México Pachuca, la carretera libre o incluso, la nueva línea de Mexibus que está próxima a ser inaugurada. En Montecarlo podrás elegir entre vivir en casas en calles privadas o departamentos en edificios de tres niveles también en calles privadas.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/montecarlo") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
@@ -161,7 +162,7 @@ Desde <b>$571,000.00*</b>
 			      		<p>Construcción de: 83.73 M2</p>
 			      		<p>Precio:$951,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/aleppo') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/imperial/modelo.jpg" alt="slide"></div>
@@ -171,7 +172,7 @@ Desde <b>$571,000.00*</b>
 			      		<p>Construcción de: 94.00 M2</p>
 			      		<p>Precio:$1,164,000.00 *</p>
 		      		</div>
-		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/imperial') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 		      	<div class="swiper-slide z-depth-2">
 			      	<div><img src="/images/modelos/turquia/modelo.jpg" alt="slide"></div>
@@ -181,7 +182,7 @@ Desde <b>$571,000.00*</b>
 			      		<p>Construcción de: 66.81 M2</p>
 			      		<p>Precio:$794,000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/turquia') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

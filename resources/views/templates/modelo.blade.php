@@ -129,11 +129,11 @@
 				<div class="col m7" id="nuevo-desarrollo">
 					<h4><b>TENEMOS UN NUEVO DESARROLLO DE VIVIENDA PARA TI</b></h4>
 					@yield('catalogo-p')
-					<a href="@yield('catalogo-btn1')" class="btn-custom"><b>VER DESARROLLO</b></a>
+					<a href="@yield('catalogo-btn1')" class="scroll btn-custom"><b>@yield('catalogo-titulo')</b></a>
 					<a href="@yield('catalogo-btn2')" class="btn-custom">AGENDA TU VISITA</a>
 				</div>
 				<div class="col m5" id="catalogo-form">
-					<h4>DESCARGA NUESTRO <b>CATÁLOGO</b></h4>
+					<h4>SOLICITA MÁS <b>INFORMACIÓN</b></h4> 
 					<form action="#" method="post">
 						<input type="text" name="names" placeholder="Nombre y Apellido">
 						<input type="email" name="email" placeholder="Email">
@@ -166,8 +166,12 @@
 			<h4 style="@yield('visita-virtual')"><b>VISITA</b>VIRTUAL</h4>
 			<iframe style="@yield('visita-virtual')" width="1349" height="500" src="@yield('video')" frameborder="0" allowfullscreen></iframe>
 			<div style="@yield('visita-virtual')" id="mas-divider"></div>
+		</section>
+
+
+		<section style="@yield('mas-modelo')" id="mas-modelo">
 			<h4 style="@yield('un-modelo')">CONOCE MÁS LOS <b>MODELOS</b> @yield('header-title')</h4>
-	      	<div style="@yield('un-modelo')" class="swiper-container-mas">
+	      	<div style="@yield('un-modelo')" class="swiper-container-mas ">
 
 		      	@yield('mas-model')
 
@@ -180,7 +184,6 @@
 		  	</div>
 		  	<!-- /Swiper mobile -->
 		</section>
-
 		<section id="equipo-section">
 			<h4>CONTACTA A <b>NUESTRO EQUIPO</b> @yield('header-title')</h4>
 			<div class="row">
@@ -321,5 +324,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <!-- CustomJs-->
     <script src="/js/custom.js"></script>
+ 	<!-- Scroll-modelos-->
+    <script src="/js/scroll-efect.js"></script>
 </body>
 </html>

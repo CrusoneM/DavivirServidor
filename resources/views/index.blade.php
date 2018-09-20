@@ -754,7 +754,7 @@
             	if (data.busqueda==false) {
             		var mensaje = document.createElement("div");
 					mensaje.setAttribute("class","col-12 busqueda text-center");
-					mensaje.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>NO SE HAN ENCONTRADO RESULTADOS DE ACUERDO A LA BUSQUEDA </BR> TENEMOS ESTAS OTRAS OPCIONES PARA TI</h4>"
+					mensaje.innerHTML = "<h4 class='text-red weight-bold topmargin-sm bottommargin-sm'>NO HEMOS ENCONTRADO RESULTADOS DE ACUERDO A SU BÚSQUEDA.</br>TE INVITAMOS A CONOCER ESTAS OTRAS PROPIEDADES.</h4>"
 					document.getElementById('modal-body').appendChild(mensaje);
 
             	}

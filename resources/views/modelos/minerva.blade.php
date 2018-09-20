@@ -46,8 +46,9 @@ El fraccionamiento ofrece viviendas con los más amplios espacios, en un entorno
 <p>
 Además, por tener viviendas con eco tecnologías, Villas de las Fuentes te ayuda a ahorrar en gastos de luz y agua, al tiempo que ayudas a cuidar el medio ambiente.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/villafuentes") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER DESARROLLO')
+@section('catalogo-btn1', '/desarrollo/villafuentes')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

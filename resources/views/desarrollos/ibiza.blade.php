@@ -99,7 +99,7 @@
 	<p>Y lo mejor, en Bosques de Ibiza sí te alcanza para comprar tu casa propia!</p>
 @endsection
 @section('catalogo-btn1', '#models-section')
-@section('catalogo-btn2', '#')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}

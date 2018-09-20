@@ -41,8 +41,9 @@ Desde <b>$562,200.00*</b>
 	<p>Ahora con pequeñas privadas, cada una con interfón para que puedas controlar quién entra a visitarte. Jardines de Montebello te brinda un estilo de vida diferente, con la tranquilidad que te brinda vivir con este toque de exclusividad, donde la suma de los pequeños detalles hacen la diferencia.</p>
 	<p>Ubicados en la Zona Norte de la ciudad con seguridad, acceso controlado, área social, cerca de centros comerciales, escuelas y hospitales.</p>
 @endsection
-@section('catalogo-btn1', '{{ url("/desarrollo/montebello") }}')
-@section('catalogo-btn2', '{{ url("/contacto") }}')
+@section('catalogo-titulo', 'VER MODELOS')
+@section('catalogo-btn1', '#mas-modelo')
+@section('catalogo-btn2', '/contactanos')
 {{-- /Catalogo Section --}}
 
 {{-- Beneficio Section --}}
@@ -153,7 +154,7 @@ Desde <b>$562,200.00*</b>
 			      		<p>Construcción de: 69.00 M2</p>
 			      		<p>Precio:$604.000.00 *</p>
 	      			</div>
-		      		<a href="{{ url('/modelo/berlin') }}" class="btn-custom">VER DESARROLLO</a>
+		      		<a href="{{ url('/modelo/berlin') }}" class="btn-custom">VER MODELO</a>
 		      	</div>
 			</div>
 @endsection

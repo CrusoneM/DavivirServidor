@@ -676,26 +676,33 @@ footer > div > a > img{
     margin: 20vh auto 14vh;
 	background-color: rgb(79, 79, 79);
 } 
-#mas-section > .mas-modelo{
+
+#mas-modelo{
+	text-align: center;
+	padding: 0vh 9vw 7vh;
+}
+
+
+#mas-modelo > .mas-modelo{
     border-radius: 5px;
     padding-bottom: 5vh;
     width: 30vw !important;
     min-height: 88vh;
     margin: 6vh auto 2vh;
 }
-#mas-section > .mas-modelo > div > img{
+#mas-modelo > .mas-modelo > div > img{
 	width: 100%;
 	display: block;
 }
-#mas-section > .mas-modelo > div.models-slide-text{
+#mas-modelo > .mas-modelo > div.models-slide-text{
     padding: 0 1vw 4vh;
 }
-#mas-section > .mas-modelo > div.models-slide-text > h5{
+#mas-modelo > .mas-modelo > div.models-slide-text > h5{
 	text-align: left;
 	color: #ED3529;
 	margin-bottom: 5vh;
 }
-#mas-section > .mas-modelo > div.models-slide-text > p{
+#mas-modelo > .mas-modelo > div.models-slide-text > p{
 	text-align: left;
 	margin: 0;
 	font-size: 1.3vw;
