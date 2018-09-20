@@ -358,7 +358,7 @@ nav ul a i.fa-bars{
 	font-size: 1.4vw;
 }
 #catalogo-section > div > #nuevo-desarrollo > .btn-custom{
-    margin: 5vh 2vw 1vh;
+    margin: 5vh 1vw 1vh;
     display: inline-block;
 }
 
@@ -383,7 +383,7 @@ nav ul a i.fa-bars{
 	padding: 0 .4vw !important;
 }
 .beneficio > div > img{
-	width: 100%;
+	width: 80%;
 }
 .beneficio > div > p{
 	margin-top: 0;
@@ -398,15 +398,16 @@ nav ul a i.fa-bars{
 	margin-bottom: 10vh;
 }
 #equipo-section > div > div > div.imagen-equipo > img{
-    width: 100%;
+    width: 80%;
 }
 #equipo-section > div > div > div.description-equipo > h6{
 	color: #ED3529;
-	font-weight: bold;
-	font-size: 1.5vw;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans WGL Bold';
 }
 #equipo-section > div > div > div.description-equipo > p{
-
+    font-family: 'Gill Sans WGL Bold';
+    font-size: 1.1vw;
 }
 #equipo-section > div > div > div.description-equipo > p.equipo-horario{
 	font-weight: bold;
@@ -472,8 +473,12 @@ nav ul a i.fa-bars{
 	margin-top: 0;
 	font-size: 1.3vw;
 }
+#otros-section > div > div > div#otros-info > a{
+	position: absolute;
+}
 #otros-section > div > div > div#otros-info > img#otros-bosques{
-	width: 9vw;
+	width: auto;
+    height: 23vh;
 }
 #otros-section > div > div > div#otros-info > #otros-caracteristicas > div{
 	border-right: 2px solid;
@@ -615,6 +620,69 @@ footer > div > a > img{
 .carousel .carousel-item img{
     width: 100%;
     height: 100%;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 #models-section-models {
     text-align: center;
