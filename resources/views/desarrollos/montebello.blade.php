@@ -152,8 +152,9 @@
 
 {{-- /Equipo Section --}}
 
-
 {{-- Map Section --}}
+
+@section('google-map', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.9016183885783!2d-102.27388308521219!3d21.93833328551278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDU2JzE4LjAiTiAxMDLCsDE2JzE4LjEiVw!5e0!3m2!1ses-419!2sve!4v1537478108705')
 @section('map', '/images/desarrollos/montebello/mapa.png')
 @section('btn-pdf', 'display:none')
 @section('la', '21.938329')

@@ -195,7 +195,7 @@
 
 		<section id="map-section" class="center-align">
 			<h4>VISITA TU <b>PRÓXIMO HOGAR</b></h4>
-			<img src="@yield('map')" alt="mapa">
+			<iframe src="@yield('google-map')" width="1700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			<p><b>LLEGA A @yield('header-title') CON UN SOLO CLIC</b></p>
 			<a href="https://waze.com/ul?ll=@yield('la'),@yield('lg')&navigate=yes&z=10" target="_blank" class="btn-custom">WAZE</a>
 			<a href="@yield('map')" style="@yield('btn-pdf')" class="btn-custom" download>DESCARGAR PDF</a>

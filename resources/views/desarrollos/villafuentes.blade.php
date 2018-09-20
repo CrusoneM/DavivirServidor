@@ -86,6 +86,8 @@
 
 
 {{-- Map Section --}}
+@section('google-map', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d925.3947263764467!2d-102.2394815!3d21.9122855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429f1cf22243261%3A0xe4ede61d02a54d81!2sAv.+Villas+de+las+Fuentes+206%2C+Pozo+Bravo%2C+Aguascalientes%2C+Ags.%2C+M%C3%A9xico!5e0!3m2!1ses-419!2sve!4v1537477682231')
+
 @section('map', '/images/desarrollos/villafuentes/mapa.png')
 @section('btn-pdf', 'display:none')
 @section('la', '21.912111')

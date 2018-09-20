@@ -174,6 +174,8 @@
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
+@section('google-map', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15007.71304647843!2d-98.942477!3d19.8852509!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4fe4770a11f6c5e!2sFraccionamiento+DAVIVIR+Bosques+de+Ibiza+Informes+y+Ventas+INFONAVIT.+CAPREPOL%2C+FOVISSSTE!5e0!3m2!1ses!2sve!4v1537476273577')
+
 @section('map', '/images/desarrollos/ibiza/mapa.jpg')
 @section('la', '19.887854')
 @section('lg', '-98.939859')

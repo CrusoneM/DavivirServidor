@@ -152,6 +152,7 @@
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
+@section('google-map', "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4191.797688669719!2d-102.23988189321015!3d21.882794839453403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDUzJzAyLjIiTiAxMDLCsDE0JzEzLjAiVw!5e0!3m2!1ses-419!2sve!4v1537478516121")
 @section('map', '/images/desarrollos/sanpatricio/mapa.jpg')
 @section('btn-pdf', 'display:none')
 @section('la', '21.883951')

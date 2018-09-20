@@ -157,7 +157,11 @@
 
 {{-- /Equipo Section --}}
 
+
+
 {{-- Map Section --}}
+
+@section('google-map', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3757.6927634677!2d-99.0284963!3d19.6404286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f210458bbc53%3A0xe56a51aac70598b9!2sPunta+Palermo!5e0!3m2!1ses!2sve!4v1537478265290')
 @section('map', '/images/desarrollos/puntapalermo/map.jpg')
 @section('la', '19.640808')
 @section('lg', '-99.026286')

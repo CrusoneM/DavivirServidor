@@ -160,6 +160,9 @@
 {{-- /Equipo Section --}}
 
 {{-- Map Section --}}
+
+@section('google-map', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.073591530334!2d-98.96024488525188!3d19.70949078672758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ecdb316929e7%3A0x5d86a96044d19873!2sDesarrollo+Montecarlo%2C+Davivir!5e0!3m2!1ses-419!2sve!4v1537477967053')
+
 @section('map', '/images/desarrollos/montecarlo/map.jpg')
 @section('la', '19.709784')
 @section('lg', '-98.958067')
