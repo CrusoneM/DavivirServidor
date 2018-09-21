@@ -195,33 +195,7 @@
 					</h2>
 
 						
-					<form >
-						<div class="form-group">
-							<input type="text" class="form-control" id="name" placeholder="Nombre y Apellido">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" id="lastName" placeholder="Email">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" id="phone" placeholder="Teléfono">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="¿En qué podemos ayudarte?"></textarea>
-						</div>
-
-						</form>
-						<div class="col-md-12  text-right nopadding" >
-							<div class="form-check nopadding">
-								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
-									<strong >Acepto</strong> 
-									<a href="aviso"> <strong class="text-yellow">términos y condiciones</strong> </a>
-								</label>
-								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
-							</div>
-						</div>
-						<div class="col-md-12  text-center" style="padding-top: 30px" >
-							<button type="button" class="btn button-yellow weight-bold text-red" style="padding: 15px 80px;">ENVIAR</button>
-						</div>
+					@include('templates.formulario')
 
 				</div>
 

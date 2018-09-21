@@ -664,36 +664,10 @@
 				</div>
 				<div class="col-md-6 topmargin-sm" style="padding-top: 10px">
 						
-					<form >
-						<div class="form-group">
-							<input type="text" class="form-control" id="name" placeholder="Nombre">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" id="lastName" placeholder="Apellido">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" id="phone" placeholder="Teléfono">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="¿En qué podemos ayudarte?"></textarea>
-						</div>
-
-						</form>
-						<div class="col-md-12  text-right nopadding" >
-							<div class="form-check nopadding">
-								<label class="weight-light form-check-label" style="color: white; padding-right: 40px" for="exampleCheck1">	
-									<strong >Acepto</strong> 
-									<a href="aviso" target="_blank"> <strong class="text-yellow">AVISO PRIVACIDAD</strong> </a>
-								</label>
-								<input type="checkbox" class="form-check-input" id="exampleCheck1" style="    margin-top: 8px;">
-							</div>
-						</div>
-						<div class="col-md-12  text-center" style="padding-top: 30px" >
-
-							<button type="button" class="btn button-yellow weight-bold text-red" style="padding: 15px 75px;">ENVIAR</button>
-						</div>
+					<div class="form-group">
+						@include('templates.formulario')
+					</div>
 				</div>
-			</div>
 
 
 <!---------------------------- BUSCADOR----------------------------------- -->

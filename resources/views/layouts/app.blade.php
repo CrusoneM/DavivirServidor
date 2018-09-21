@@ -53,6 +53,10 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+
+	<!-- validaciones formulario
+	============================================= -->
+	<script src="js/formulario.js"></script>
 	@yield('scripts')
 
 </body>

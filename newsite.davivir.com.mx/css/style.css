@@ -11195,15 +11195,14 @@ form .col_five_sixth { margin-bottom: 25px; }
 
 label.error {
 	margin-top: 5px;
-	color: #E42C3E;
+	color: white;
 	font-weight: 400;
 }
 
-label.error { display: none !important; }
+/*label.error { display: none !important; }*/
 
 .show-error-msg + label.error { display: block !important; }
 
-input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .form-control.error,
 .sm-form-control.error { border-color: #E42C3E; }
