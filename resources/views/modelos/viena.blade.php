@@ -24,6 +24,7 @@ Desde <b>$562,200.00*</b>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/viena/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/viena/galeria-3.jpg"></a>
 			   	<a class="carousel-item" href="#cuatro!"><img src="/images/modelos/viena/galeria-4.jpg"></a>
+			   	<a class="carousel-item" href="#cuatro!"><img src="/images/modelos/viena/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')

@@ -25,9 +25,6 @@ Desde <b>$604,000.00*</b>
 			    <a class="carousel-item" href="#three!"><img src="/images/modelos/berlin/galeria-3.jpg"></a>
 			   	<a class="carousel-item" href="#cuatro!"><img src="/images/modelos/berlin/galeria-4.jpg"></a>
 			   	<a class="carousel-item" href="#cuatro!"><img src="/images/modelos/berlin/galeria-4.jpg"></a>
-
-
-
 @endsection
 
 @section('models-info')

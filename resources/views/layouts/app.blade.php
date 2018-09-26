@@ -57,6 +57,8 @@
 	<!-- validaciones formulario
 	============================================= -->
 	<script src="js/formulario.js"></script>
+	<!-- Scroll-->
+    <script src="js/scroll-efect.js"></script>
 	@yield('scripts')
 
 </body>

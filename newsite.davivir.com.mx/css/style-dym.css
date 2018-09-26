@@ -452,6 +452,7 @@ nav ul a i.fa-bars{
 }
 #otros-section > div > div > img{
 	width: 100%;
+    height: 850px!important;/*OMAR*/
 }
 #otros-section > div > div > div#otros-text{
 	width: 50vw;

@@ -20,7 +20,7 @@ Desde <b>$506,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/modelos/corcega/galeria-1.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/corcega/galeria-1.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-2.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-3.jpg"></a>
 			    <a class="carousel-item" href="#two!"><img src="/images/modelos/corcega/galeria-4.jpg"></a>

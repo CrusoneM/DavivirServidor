@@ -30,6 +30,8 @@ Desde <b>$794,000.00*</b>
 @section('models-info')
 {{-- <h3>¡CON <b>BONO DE DESCUENTO</b> DE HASTA <b> $45,000.00 PESOS!</b></h3> --}}
 <p>Tienes una familia con dos hijos o más o tienes más miembros de tu familia extensiva viviendo contigo? Requieres de una vivienda cómoda de tres recámaras? El modelo Turquía te ofrece tres amplias y confortables recámaras para que tu familia y tú vivan a plenitud y con privacidad entre sí.</p>
+@section('models-terreno', '59.73')
+@section('models-construccion', '68.81')
 @endsection
 @section('catalogo-titulo', 'VER MODELOS')
 @section('catalogo-btn1', '#mas-modelo')

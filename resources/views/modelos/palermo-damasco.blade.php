@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/sample-img.jpg')
+@section('header-img', '/images/modelos/palermo-damasco/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/puntapalermo/logo.png')
 @section('header-title', 'PUNTA PALERMO')
@@ -20,9 +20,11 @@ Desde <b>$705.00.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-				<a class="carousel-item" href="#one!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#three!"><img src="/images/sample-img.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/palermo-damasco/galeria-1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/palermo-damasco/galeria-2.jpg"></a>
+			    <a class="carousel-item" href="#three!"><img src="/images/modelos/palermo-damasco/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/palermo-damasco/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/palermo-damasco/galeria-5.jpg"></a>
 
 @endsection
 

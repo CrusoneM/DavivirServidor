@@ -142,7 +142,7 @@
 						<p>
 					      <label>
 					        <input type="checkbox" class="filled-in" required />
-					        <span>Acepto <span>términos y condiciones</span></span>
+					        <span><a style="color: white" href="{{ url('/aviso') }}">ACEPTO <span style="color: #fff799">TÉRMINOS Y CONDICIONES</span></span></a>
 					      </label>
 					    </p>
 						<button class="btn-custom-btn btn">ENVIAR</button>
@@ -298,7 +298,7 @@
 						<p>
 					      <label>
 					        <input type="checkbox" class="filled-in" required />
-					        <span>Acepto <span>términos y condiciones</span></span>
+					        <span><a style="color: white" href="{{ url('/aviso') }}">ACEPTO <span style="color: #fff799">TÉRMINOS Y CONDICIONES</span></span></a>
 					      </label>
 					    </p>
 						<button class="btn-custom-btn btn">ENVIAR</button>

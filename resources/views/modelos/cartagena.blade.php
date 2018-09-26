@@ -6,7 +6,7 @@
 {{--====== /Head ============--}}
 
 {{--====== Header ============--}}
-@section('header-img', '/images/sample-img.jpg')
+@section('header-img', '/images/modelos/cartagena/head.jpg')
 
 @section('header-title-img', '/images/desarrollos/ibiza/logo.png')
 @section('header-title', 'BOSQUES DE IBIZA')
@@ -20,11 +20,11 @@ Desde <b>$553,000.00*</b>
 
 {{-- Models Section --}}
 @section('models-slide')
-<a class="carousel-item" href="#one!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
-			    <a class="carousel-item" href="#two!"><img src="/images/sample-img.jpg"></a>
+				<a class="carousel-item" href="#one!"><img src="/images/modelos/cartagena/galeria-1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="/images/modelos/cartagena/galeria-2.jpg"></a>
+			    <a class="carousel-item" href="#three!"><img src="/images/modelos/cartagena/galeria-3.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="/images/modelos/cartagena/galeria-4.jpg"></a>
+			    <a class="carousel-item" href="#five!"><img src="/images/modelos/cartagena/galeria-5.jpg"></a>
 @endsection
 
 @section('models-info')
@@ -105,8 +105,9 @@ Desde <b>$553,000.00*</b>
 
 {{-- Plano Section --}}
 @section('plano')
-<div class="">
-	<img src="/images/sample-img.jpg" alt="Plano">
+<div class="plano-dos">
+	<img src="/images/modelos/cartagena/plano-pa.png" alt="Plano">
+	<img src="/images/modelos/cartagena/plano-pb.png" alt="Plano">
 </div>
 @endsection
 {{-- /Plano Section --}}

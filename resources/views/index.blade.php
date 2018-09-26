@@ -371,7 +371,7 @@
 				</div>
 
 				<div class="col-12 text-center" style="padding-top: 25px;">
-					<a  style="color: red;padding:5px 3%;; height: 50px" class="enviar-form buscar-todos button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
+					<a href="#slider"  style="color: red;padding:5px 3%;; height: 50px" class="scroll button button-3d button-rounded  button-yellow button-light weight-bold">VER TODOS LOS DESARROLLOS</a>
 					<form method="POST" id="null-form">
 						<input type="hidden" name="null">
 					</form>
@@ -523,10 +523,13 @@
 							</div>
 							<div class="modulo-contactanos">
 								<h6 class="text-color weight-bold ">LUN A VIE | DE 9 AM A 4 PM</h6>
-								<a href=""><img style="max-width: 40px" src="images/Telefono.png"></a>
-								<a href="contactanos"><img style="max-width: 40px" src="images/Mensaje.png"></a>
-								<a href=""><img style="max-width: 40px" src="images/Whatsapp.png"></a>			
-							</div>
+								<a href="tel:5555801213"><img style="max-width: 40px" src="images/Telefono.png"></a>
+								<a href="mailto:ventas@davivir.com.mx:"><img style="max-width: 40px" src="images/Mensaje.png"></a>
+								<a href="https://api.whatsapp.com/send?phone=5215581066175" target="_blank"><img style="max-width: 40px" src="images/Whatsapp.png"></a>			
+		 					</div>
+
+
+
 
 						</div>
 					</div>
@@ -543,9 +546,9 @@
 							</div>
 							<div class="modulo-contactanos">
 								<h6 class="text-color weight-bold ">LUN A VIE | DE 9 AM A 4 PM</h6>
-								<a href=""><img style="max-width: 40px" src="images/Telefono.png"></a>
-								<a href="contactanos"><img style="max-width: 40px" src="images/Mensaje.png"></a>
-								<a href=""><img style="max-width: 40px" src="images/Whatsapp.png"></a>			
+								<a href="tel:5555801213"><img style="max-width: 40px" src="images/Telefono.png"></a>
+								<a href="mailto:ventas@davivir.com.mx:"><img style="max-width: 40px" src="images/Mensaje.png"></a>
+								<a href="https://api.whatsapp.com/send?phone=5215581066175" target="_blank"><img style="max-width: 40px" src="images/Whatsapp.png"></a>				
 							</div>
 								
 							</div>
